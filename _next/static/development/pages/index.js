@@ -1398,31 +1398,33 @@ var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/text-picture.j
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var children = _ref.children,
-      picture = _ref.picture;
+      picture = _ref.picture,
+      _ref$hide = _ref.hide,
+      hide = _ref$hide === void 0 ? false : _ref$hide;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1057535177", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1336451010", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]) + " " + ((hide ? '--hidden' : '') || ""),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1057535177", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]) + " " + "content",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1336451010", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]) + " " + "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("figure", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1057535177", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1336451010", [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, picture), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1057535177",
-    css: "section.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.content.__jsx-style-dynamic-selector{width:40%;-webkit-flex:0 0 40%;-ms-flex:0 0 40%;flex:0 0 40%;padding-top:".concat(Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74), ";}figure.__jsx-style-dynamic-selector{width:60%;-webkit-flex:0 0 60%;-ms-flex:0 0 60%;flex:0 0 60%;text-align:right;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvY29tcG9uZW50cy90ZXh0LXBpY3R1cmUuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVvQixBQUc4QixBQUdILEFBS0EsVUFKRyxBQUtBLG1EQUo0QixBQUt4QixhQVRyQixJQVdBLHdCQU5BIiwiZmlsZSI6Ii9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvY29tcG9uZW50cy90ZXh0LXBpY3R1cmUuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVtIH0gZnJvbSBcIi4vc3R5bGVzXCI7XG5cbmV4cG9ydCBkZWZhdWx0ICh7Y2hpbGRyZW4sIHBpY3R1cmV9KSA9PiAoXG4gICAgPHNlY3Rpb24+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudFwiPlxuICAgICAgICAgICAge2NoaWxkcmVufVxuICAgICAgICA8L2Rpdj4gICAgICAgIFxuICAgICAgICA8ZmlndXJlPlxuICAgICAgICAgICAge3BpY3R1cmV9XG4gICAgICAgIDwvZmlndXJlPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICBzZWN0aW9uIHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLmNvbnRlbnQge1xuICAgICAgICAgICAgICAgIHdpZHRoOiA0MCU7XG4gICAgICAgICAgICAgICAgZmxleDogMCAwIDQwJTtcbiAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogJHtyZW0oNzQpfTtcbiAgICAgICAgICAgIH0gICAgICAgIFxuICAgICAgICAgICAgZmlndXJlIHtcbiAgICAgICAgICAgICAgICB3aWR0aDogNjAlO1xuICAgICAgICAgICAgICAgIGZsZXg6IDAgMCA2MCU7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICB9ICAgICAgICBcbiAgICAgICAgYH08L3N0eWxlPiAgICAgICAgICAgIFxuICAgIDwvc2VjdGlvbj5cbikiXX0= */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/components/text-picture.jsx */"),
+    styleId: "1336451010",
+    css: "section.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.--hidden.__jsx-style-dynamic-selector{display:none;}.content.__jsx-style-dynamic-selector{width:40%;-webkit-flex:0 0 40%;-ms-flex:0 0 40%;flex:0 0 40%;padding-top:".concat(Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74), ";}figure.__jsx-style-dynamic-selector{width:60%;-webkit-flex:0 0 60%;-ms-flex:0 0 60%;flex:0 0 60%;text-align:right;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvY29tcG9uZW50cy90ZXh0LXBpY3R1cmUuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVvQixBQUc4QixBQUdBLEFBR0gsQUFLQSxVQUpHLEFBS0EsR0FSakIsZ0RBSTZDLEFBS3hCLGFBWnJCLElBY0Esd0JBTkEiLCJmaWxlIjoiL1VzZXJzL2tyenlzenRvZi93d3cvbWFnZXN1aXRlLXdlYi9jb21wb25lbnRzL3RleHQtcGljdHVyZS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW0gfSBmcm9tIFwiLi9zdHlsZXNcIjtcblxuZXhwb3J0IGRlZmF1bHQgKHtjaGlsZHJlbiwgcGljdHVyZSwgaGlkZT1mYWxzZX0pID0+IChcbiAgICA8c2VjdGlvbiBjbGFzc05hbWU9e2hpZGUgPyAnLS1oaWRkZW4nIDogJycgfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250ZW50XCI+XG4gICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgIDwvZGl2PiAgICAgICAgXG4gICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICB7cGljdHVyZX1cbiAgICAgICAgPC9maWd1cmU+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAuLS1oaWRkZW4ge1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAuY29udGVudCB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDQwJTtcbiAgICAgICAgICAgICAgICBmbGV4OiAwIDAgNDAlO1xuICAgICAgICAgICAgICAgIHBhZGRpbmctdG9wOiAke3JlbSg3NCl9O1xuICAgICAgICAgICAgfSAgICAgICAgXG4gICAgICAgICAgICBmaWd1cmUge1xuICAgICAgICAgICAgICAgIHdpZHRoOiA2MCU7XG4gICAgICAgICAgICAgICAgZmxleDogMCAwIDYwJTtcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgIH0gICAgICAgIFxuICAgICAgICBgfTwvc3R5bGU+ICAgICAgICAgICAgXG4gICAgPC9zZWN0aW9uPlxuKSJdfQ== */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/components/text-picture.jsx */"),
     dynamic: [Object(_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(74)],
     __self: this
   }));
@@ -15596,7 +15598,7 @@ var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/hero.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: "jsx-1609631853" + " " + "max-width",
+    className: "jsx-1502861833" + " " + "max-width",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -15606,7 +15608,7 @@ var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/hero.jsx";
     autoplay: "true",
     loop: true,
     muted: true,
-    className: "jsx-1609631853",
+    className: "jsx-1502861833",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -15615,14 +15617,14 @@ var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/hero.jsx";
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("source", {
     src: "/static/video/hero-video.mp4",
     type: "video/mp4",
-    className: "jsx-1609631853",
+    className: "jsx-1502861833",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1609631853" + " " + "slogan",
+    className: "jsx-1502861833" + " " + "slogan",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -15647,8 +15649,8 @@ var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/hero.jsx";
     },
     __self: this
   }, "Content Constructor is a CMS module within MageSuite and a free and Open Source alternative to Magento PageBuilder. Check out the demo video.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1609631853",
-    css: "video.jsx-1609631853{width:100%;height:100%;}section.jsx-1609631853{position:relative;width:100%;overflow:hidden;}.slogan.jsx-1609631853{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}@supports (object-fit:cover){video.jsx-1609631853{object-fit:cover;}section.jsx-1609631853{height:100vh;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvaGVyby5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY29CLEFBRzRCLEFBS08sQUFNQSxBQVFHLEFBR0osV0FyQkwsRUFzQlosSUFIQSxDQWRXLEFBTUgsS0FWWixHQVdhLEdBTk8sTUFPZ0IsVUFOcEMsK0ZBT0EiLCJmaWxlIjoiL1VzZXJzL2tyenlzenRvZi93d3cvbWFnZXN1aXRlLXdlYi9zZWN0aW9ucy9oZXJvLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkbGluZSBmcm9tIFwiLi4vY29tcG9uZW50cy9oZWFkbGluZVwiO1xuaW1wb3J0IFBhcmFncmFwaCBmcm9tIFwiLi4vY29tcG9uZW50cy9wYXJhZ3JhcGhcIjtcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm1heC13aWR0aFwiPlxuICAgICAgICA8dmlkZW8gYXV0b3BsYXk9XCJ0cnVlXCIgbG9vcCBtdXRlZD5cbiAgICAgICAgICAgIDxzb3VyY2Ugc3JjPVwiL3N0YXRpYy92aWRlby9oZXJvLXZpZGVvLm1wNFwiIHR5cGU9XCJ2aWRlby9tcDRcIiAvPlxuICAgICAgICA8L3ZpZGVvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNsb2dhblwiPlxuICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJwXCIgbGlnaHQgY2VudGVyZWQ+T3BlbiBTb3VyY2UgQ01TIGZvciBNYWdlbnRvIDI8L0hlYWRsaW5lPlxuICAgICAgICAgICAgPFBhcmFncmFwaCBjZW50ZXJlZCBkaXN0YW5jZSBsaWdodD5cbiAgICAgICAgICAgIENvbnRlbnQgQ29uc3RydWN0b3IgaXMgYSBDTVMgbW9kdWxlIHdpdGhpbiBNYWdlU3VpdGUgYW5kIGEgZnJlZSBhbmQgT3BlbiBTb3VyY2UgYWx0ZXJuYXRpdmUgdG8gTWFnZW50byBQYWdlQnVpbGRlci4gQ2hlY2sgb3V0IHRoZSBkZW1vIHZpZGVvLlxuICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICB2aWRlbyB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBzZWN0aW9uIHtcbiAgICAgICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLnNsb2dhbiB7XG4gICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICAgIHRvcDogNTAlO1xuICAgICAgICAgICAgICAgIGxlZnQ6IDUwJTtcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgQHN1cHBvcnRzIChvYmplY3QtZml0OiBjb3Zlcikge1xuICAgICAgICAgICAgICAgIHZpZGVvIHtcbiAgICAgICAgICAgICAgICAgICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDEwMHZoO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIFxuICAgICAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvc2VjdGlvbj5cbikiXX0= */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/hero.jsx */",
+    styleId: "1502861833",
+    css: "video.jsx-1502861833{width:100%;}section.jsx-1502861833{position:relative;}.slogan.jsx-1502861833{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvaGVyby5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY29CLEFBRzRCLEFBSU8sQUFJQSxXQVB0QixPQUlBLEFBSVksUUFDQyxTQUN1Qix5R0FDcEMiLCJmaWxlIjoiL1VzZXJzL2tyenlzenRvZi93d3cvbWFnZXN1aXRlLXdlYi9zZWN0aW9ucy9oZXJvLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkbGluZSBmcm9tIFwiLi4vY29tcG9uZW50cy9oZWFkbGluZVwiO1xuaW1wb3J0IFBhcmFncmFwaCBmcm9tIFwiLi4vY29tcG9uZW50cy9wYXJhZ3JhcGhcIjtcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm1heC13aWR0aFwiPlxuICAgICAgICA8dmlkZW8gYXV0b3BsYXk9XCJ0cnVlXCIgbG9vcCBtdXRlZD5cbiAgICAgICAgICAgIDxzb3VyY2Ugc3JjPVwiL3N0YXRpYy92aWRlby9oZXJvLXZpZGVvLm1wNFwiIHR5cGU9XCJ2aWRlby9tcDRcIiAvPlxuICAgICAgICA8L3ZpZGVvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNsb2dhblwiPlxuICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJwXCIgbGlnaHQgY2VudGVyZWQ+T3BlbiBTb3VyY2UgQ01TIGZvciBNYWdlbnRvIDI8L0hlYWRsaW5lPlxuICAgICAgICAgICAgPFBhcmFncmFwaCBjZW50ZXJlZCBkaXN0YW5jZSBsaWdodD5cbiAgICAgICAgICAgIENvbnRlbnQgQ29uc3RydWN0b3IgaXMgYSBDTVMgbW9kdWxlIHdpdGhpbiBNYWdlU3VpdGUgYW5kIGEgZnJlZSBhbmQgT3BlbiBTb3VyY2UgYWx0ZXJuYXRpdmUgdG8gTWFnZW50byBQYWdlQnVpbGRlci4gQ2hlY2sgb3V0IHRoZSBkZW1vIHZpZGVvLlxuICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICB2aWRlbyB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLnNsb2dhbiB7XG4gICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICAgIHRvcDogNTAlO1xuICAgICAgICAgICAgICAgIGxlZnQ6IDUwJTtcbiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgXG4gICAgICAgICAgICBcbiAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L3NlY3Rpb24+XG4pIl19 */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/hero.jsx */",
     __self: this
   }));
 });
@@ -15805,12 +15807,12 @@ function (_Component) {
         className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2689573762", [Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(14), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), _components_styles__WEBPACK_IMPORTED_MODULE_4__["colors"].b]]]) + " " + "demo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
         styleId: "2689573762",
-        css: ".nav.__jsx-style-dynamic-selector{box-shadow:0 0 1rem -0.1rem gray;}.inner.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.logo.__jsx-style-dynamic-selector{padding:".concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), ";-webkit-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";-ms-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";}.demo.__jsx-style-dynamic-selector{-webkit-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";-ms-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";}nav.__jsx-style-dynamic-selector{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center;}.menu.__jsx-style-dynamic-selector{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;list-style:none;padding:0;margin:0;}.menu.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{font-size:").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(14), ";font-weight:700;text-transform:uppercase;display:block;}.menu.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{padding:").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), ";-webkit-text-decoration:none;text-decoration:none;color:").concat(_components_styles__WEBPACK_IMPORTED_MODULE_4__["colors"].b, ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvbmF2LmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvQzRCLEFBRzBELEFBR3BCLEFBSXFELEFBSTVCLEFBRzdCLEFBSVcsQUFRbUIsQUFPMkIsaUNBaEN0RSxNQWNzQixBQVlGLGdCQUNTLEVBWjdCLFNBUjBDLEFBMEJqQixRQTlCRixNQXlCTCxjQUNsQixRQVhvQixjQWlCckIsRUFoQmUsUUFSZCxFQVNhLFNBR2IsY0FZQSxnQkEvQkEseUJBSUEiLCJmaWxlIjoiL1VzZXJzL2tyenlzenRvZi93d3cvbWFnZXN1aXRlLXdlYi9zZWN0aW9ucy9uYXYuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExvZ28gZnJvbSBcIi4uL2NvbXBvbmVudHMvbG9nb3MvbWFnZXN1aXRlXCI7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgeyBjb2xvcnMsIG1lZGlhUXVlcmllcywgZGlzdGFuY2VzLCByZW0gfSBmcm9tIFwiLi4vY29tcG9uZW50cy9zdHlsZXNcIjtcbmltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBSb3V0ZXIgZnJvbSAnbmV4dC9yb3V0ZXInXG5pbXBvcnQge2Nvbm5lY3R9IGZyb20gJ3JlYWN0LXJlZHV4JztcbmltcG9ydCB7YWNjZXB0Q29va2llc30gZnJvbSAnLi4vZGF0YS9zdG9yZSdcblxuXG5jbGFzcyBOYXYgZXh0ZW5kcyBDb21wb25lbnQge1xuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcbiAgICAgICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgICAgfSAgICAgICAgXG4gICAgfVxuXG4gICAgcmVuZGVyKCkgeyBcbiAgICAgICAgXG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdlwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5uZXIgbWF4LXdpZHRoXCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nb1wiPjxMb2dvLz48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPG5hdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJtZW51XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvI3doeVwiPjxhPldoeSBNYWdlU3VpdGU/PC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiA8bGk+PExpbmsgaHJlZj1cIlwiPjxhPkZlYXR1cmVzPC9hPjwvTGluaz48L2xpPiAqL31cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogPGxpPjxMaW5rIGhyZWY9XCJcIj48YT5NYWRlIHdpdGg8L2E+PC9MaW5rPjwvbGk+ICovfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL21hZ2VzdWl0ZS9cIj5HaXRIdWI8L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogPGxpPjxMaW5rIGhyZWY9XCJcIj48YT5DbG91ZDwvYT48L0xpbms+PC9saT4gKi99XG4gICAgICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgICAgICA8L25hdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZW1vXCI+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAgICAgLm5hdiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDAgMXJlbSAtMC4xcmVtIGdyYXk7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLmlubmVyIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5sb2dvIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICR7cmVtKDIwKX0gJHtyZW0oMzApfTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXg6IDAgMCAke3JlbSgyNTApfTtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAuZGVtbyB7XG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4OiAwIDAgJHtyZW0oMjUwKX07XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgbmF2IHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXg6IDEgMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAubWVudSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAubWVudSBsaSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6ICR7cmVtKDE0KX07XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLm1lbnUgYSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAke3JlbSgzMCl9ICR7cmVtKDIwKX07XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJHtjb2xvcnMuYn1cbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKVxuICAgIH1cblxufVxuXG5leHBvcnQgZGVmYXVsdCBjb25uZWN0KCkoTmF2KTsiXX0= */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/nav.jsx */"),
+        css: ".nav.__jsx-style-dynamic-selector{box-shadow:0 0 1rem -0.1rem gray;}.inner.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.logo.__jsx-style-dynamic-selector{padding:".concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), ";-webkit-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";-ms-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";}.demo.__jsx-style-dynamic-selector{-webkit-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";-ms-flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";flex:0 0 ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), ";}nav.__jsx-style-dynamic-selector{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center;}.menu.__jsx-style-dynamic-selector{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;list-style:none;padding:0;margin:0;}.menu.__jsx-style-dynamic-selector li.__jsx-style-dynamic-selector{font-size:").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(14), ";font-weight:700;text-transform:uppercase;display:block;}.menu.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{padding:").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), ";-webkit-text-decoration:none;text-decoration:none;color:").concat(_components_styles__WEBPACK_IMPORTED_MODULE_4__["colors"].b, ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvbmF2LmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQzRCLEFBRzBELEFBR3BCLEFBSXFELEFBSTVCLEFBRzdCLEFBSVcsQUFRbUIsQUFPMkIsaUNBaEN0RSxNQWNzQixBQVlGLGdCQUNTLEVBWjdCLFNBUjBDLEFBMEJqQixRQTlCRixNQXlCTCxjQUNsQixRQVhvQixjQWlCckIsRUFoQmUsUUFSZCxFQVNhLFNBR2IsY0FZQSxnQkEvQkEseUJBSUEiLCJmaWxlIjoiL1VzZXJzL2tyenlzenRvZi93d3cvbWFnZXN1aXRlLXdlYi9zZWN0aW9ucy9uYXYuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExvZ28gZnJvbSBcIi4uL2NvbXBvbmVudHMvbG9nb3MvbWFnZXN1aXRlXCI7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgeyBjb2xvcnMsIG1lZGlhUXVlcmllcywgZGlzdGFuY2VzLCByZW0gfSBmcm9tIFwiLi4vY29tcG9uZW50cy9zdHlsZXNcIjtcbmltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBSb3V0ZXIgZnJvbSAnbmV4dC9yb3V0ZXInXG5pbXBvcnQge2Nvbm5lY3R9IGZyb20gJ3JlYWN0LXJlZHV4JztcbmltcG9ydCB7YWNjZXB0Q29va2llc30gZnJvbSAnLi4vZGF0YS9zdG9yZSdcblxuXG5jbGFzcyBOYXYgZXh0ZW5kcyBDb21wb25lbnQge1xuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcbiAgICAgICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgICAgfSAgICAgICAgXG4gICAgfVxuXG4gICAgcmVuZGVyKCkgeyBcbiAgICAgICAgXG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdlwiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5uZXIgbWF4LXdpZHRoXCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nb1wiPjxMb2dvLz48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPG5hdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJtZW51XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvI3doeVwiPjxhPldoeSBNYWdlU3VpdGU/PC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiA8bGk+PExpbmsgaHJlZj1cIlwiPjxhPkZlYXR1cmVzPC9hPjwvTGluaz48L2xpPiAqL31cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogPGxpPjxMaW5rIGhyZWY9XCJcIj48YT5NYWRlIHdpdGg8L2E+PC9MaW5rPjwvbGk+ICovfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL21hZ2VzdWl0ZS9cIj5HaXRIdWI8L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogPGxpPjxMaW5rIGhyZWY9XCJcIj48YT5DbG91ZDwvYT48L0xpbms+PC9saT4gKi99XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIDxsaT48TGluayBocmVmPVwiXCI+PGE+Q29udGlidXRpb248L2E+PC9MaW5rPjwvbGk+ICovfVxuICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgPC9uYXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVtb1wiPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICAgICAgICAgIC5uYXYge1xuICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAwIDFyZW0gLTAuMXJlbSBncmF5O1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5pbm5lciB7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAubG9nbyB7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAke3JlbSgyMCl9ICR7cmVtKDMwKX07XG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4OiAwIDAgJHtyZW0oMjUwKX07XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLmRlbW8ge1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleDogMCAwICR7cmVtKDI1MCl9O1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIG5hdiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4OiAxIDA7XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLm1lbnUge1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICBsaXN0LXN0eWxlOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcblxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLm1lbnUgbGkge1xuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAke3JlbSgxNCl9O1xuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIC5tZW51IGEge1xuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJHtyZW0oMzApfSAke3JlbSgyMCl9O1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICR7Y29sb3JzLmJ9XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIClcbiAgICB9XG5cbn1cblxuZXhwb3J0IGRlZmF1bHQgY29ubmVjdCgpKE5hdik7Il19 */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/nav.jsx */"),
         dynamic: [Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(250), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(14), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(30), Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(20), _components_styles__WEBPACK_IMPORTED_MODULE_4__["colors"].b],
         __self: this
       }));
@@ -15928,20 +15930,21 @@ function (_Component) {
           lineNumber: 26
         },
         __self: this
-      }), this.state.tab == 'cms' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
         picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
           image: "g-feature-cms",
           widthDesktop: "60%",
           marginDesktop: "2rem 9rem 0 0",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30
+            lineNumber: 29
           },
           __self: this
         }),
+        hide: this.state.tab != 'cms',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -15949,7 +15952,7 @@ function (_Component) {
         size: "20",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 31
         },
         __self: this
       }, "Content Constructor"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -15957,23 +15960,24 @@ function (_Component) {
         distance: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 32
         },
         __self: this
-      }, "The MageSuite Content Constructor is an enhancement of the Magento CMS giving you the possibility to build up any CMS page by combining numerous types of components within a few clicks and with no need to develop separate templates. In addition to that, it allows you to use these components also on your category page and product detail page. The Content Constructor is a free and Open Source alternative to the Magento 2 PageBuilder.")), this.state.tab == 'perf' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, "The MageSuite Content Constructor is an enhancement of the Magento CMS giving you the possibility to build up any CMS page by combining numerous types of components within a few clicks and with no need to develop separate templates. In addition to that, it allows you to use these components also on your category page and product detail page. The Content Constructor is a free and Open Source alternative to the Magento 2 PageBuilder.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
         picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
           image: "g-feature-performance",
           widthDesktop: "80%",
           marginDesktop: "2rem 1rem 0 0",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 38
           },
           __self: this
         }),
+        hide: this.state.tab != 'perf',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -15981,7 +15985,7 @@ function (_Component) {
         size: "20",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 40
         },
         __self: this
       }, "High Performance"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -15989,23 +15993,24 @@ function (_Component) {
         distance: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 41
         },
         __self: this
-      }, "To boost loading and rendering times of your Magento webshop, MageSuite provides a couple of performance improvements in the frontend and backend. Furthermore, the Cache Warmer rebuilds your Varnish cache for the most important Magento pages after having flushed the cache. The MageSuite Cloud makes your Magento Open Source even ready for AWS. It increases the availability of your webshop in traffic peaks by providing features like horizontal auto-scaling.")), this.state.tab == 'security' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, "To boost loading and rendering times of your Magento webshop, MageSuite provides a couple of performance improvements in the frontend and backend. Furthermore, the Cache Warmer rebuilds your Varnish cache for the most important Magento pages after having flushed the cache. The MageSuite Cloud makes your Magento Open Source even ready for AWS. It increases the availability of your webshop in traffic peaks by providing features like horizontal auto-scaling.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
         picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
           image: "g-feature-security",
           widthDesktop: "50%",
           marginDesktop: "2rem 11rem 0 0",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 46
           },
           __self: this
         }),
+        hide: this.state.tab != 'security',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -16013,7 +16018,7 @@ function (_Component) {
         size: "20",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 48
         },
         __self: this
       }, "Security & GDPR"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -16021,23 +16026,24 @@ function (_Component) {
         distance: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 49
         },
         __self: this
-      }, "To maximize the security of personal data, MageSuite provides a module, which helps you to meet the requirements of the General Data Protection Regulation (GDPR / DSGVO). It restricts access to customer data and anonymizes personal information in your Magento admin panel so that users without suitable rights for processing data cannot see it.")), this.state.tab == 'search' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, "To maximize the security of personal data, MageSuite provides a module, which helps you to meet the requirements of the General Data Protection Regulation (GDPR / DSGVO). It restricts access to customer data and anonymizes personal information in your Magento admin panel so that users without suitable rights for processing data cannot see it.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
         picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
           image: "g-feature-search",
           widthDesktop: "60%",
           marginDesktop: "2rem 9rem 0 0",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62
+            lineNumber: 55
           },
           __self: this
         }),
+        hide: this.state.tab != 'search',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -16045,7 +16051,7 @@ function (_Component) {
         size: "20",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 57
         },
         __self: this
       }, "Search Engine"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -16053,20 +16059,54 @@ function (_Component) {
         distance: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 58
         },
         __self: this
-      }, "MageSuite integrates the elasticsearch engine by using the OpenSource elasticsuite extension and providing you with a comprehensive feature set for your Magento search such as advanced auto-suggest, improved category filters, optimizing the search result relevance and many more. In addition to that MageSuite enhances the search UX, allows also horizontal layered navigation filters and integrates elasticsuite with the Content Constructor components.")), this.state.tab == 'marketing' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, "MageSuite integrates the elasticsearch engine by using the OpenSource elasticsuite extension and providing you with a comprehensive feature set for your Magento search such as advanced auto-suggest, improved category filters, optimizing the search result relevance and many more. In addition to that MageSuite enhances the search UX, allows also horizontal layered navigation filters and integrates elasticsuite with the Content Constructor components.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
         picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
           image: "g-feature-marketing",
           widthDesktop: "60%",
           marginDesktop: "2rem 9rem 0 0",
           __source: {
             fileName: _jsxFileName,
+            lineNumber: 64
+          },
+          __self: this
+        }),
+        hide: this.state.tab != 'marketing',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        HtmlTag: "h3",
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }, "Marketing"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        size: "20",
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }, "To increase your sales and conversion rate, MageSuite provides you with many marketing features such as Daily Deals, Positive Indicators, Image Teasers inside the product grid, a simple blog functionality, product gifts, brand management, SEO improvements, identification and display of bestsellers and many more. Many of those have been integrated with the Content Constructor, and that allows you to create various marketing campaign landing pages.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          image: "g-feature-ux",
+          widthDesktop: "80%",
+          marginDesktop: "2rem 2rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
             lineNumber: 73
           },
           __self: this
         }),
+        hide: this.state.tab != 'ux',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 72
@@ -16080,7 +16120,7 @@ function (_Component) {
           lineNumber: 75
         },
         __self: this
-      }, "Marketing"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, "User Experience"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
         size: "20",
         distance: true,
         __source: {
@@ -16088,41 +16128,9 @@ function (_Component) {
           lineNumber: 76
         },
         __self: this
-      }, "To increase your sales and conversion rate, MageSuite provides you with many marketing features such as Daily Deals, Positive Indicators, Image Teasers inside the product grid, a simple blog functionality, product gifts, brand management, SEO improvements, identification and display of bestsellers and many more. Many of those have been integrated with the Content Constructor, and that allows you to create various marketing campaign landing pages.")), this.state.tab == 'ux' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_text_picture__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        picture: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          image: "g-feature-ux",
-          widthDesktop: "90%",
-          marginDesktop: "1rem 1rem 0 0",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 84
-          },
-          __self: this
-        }),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        HtmlTag: "h3",
-        size: "20",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }, "User Experience"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        size: "20",
-        distance: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
       }, "MageSuite improves the user experience for customers and administrators.   Beside smaller UX enhancements in the search, layered navigation filters, checkout, content management and mobile optimizations there are also brand new features such a the Product Finder. It allows you to define a product questionnaire within the Content Constructor. By that, you can consult your customers at any place of your Magento webshop which product fits best according to their requirements.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
         styleId: "3893657940",
-        css: "article.__jsx-style-dynamic-selector{padding:".concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(80), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(100), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvd2h5LmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4RjRCLEFBRzJGLGtFQUN0RSIsImZpbGUiOiIvVXNlcnMva3J6eXN6dG9mL3d3dy9tYWdlc3VpdGUtd2ViL3NlY3Rpb25zL3doeS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW0sIGNvbG9ycyB9IGZyb20gXCIuLi9jb21wb25lbnRzL3N0eWxlc1wiO1xuaW1wb3J0IEZlYXR1cmVzVGFicyBmcm9tIFwiLi4vY29tcG9uZW50cy9mZWF0dXJlcy10YWJzXCI7XG5pbXBvcnQgVGV4dFBpY3R1cmUgZnJvbSBcIi4uL2NvbXBvbmVudHMvdGV4dC1waWN0dXJlXCI7XG5pbXBvcnQgUGljdHVyZVZlY3RvcnBuZyBmcm9tIFwiLi4vY29tcG9uZW50cy9waWN0dXJlLXZlY3RvcnBuZ1wiO1xuaW1wb3J0IEhlYWRsaW5lIGZyb20gXCIuLi9jb21wb25lbnRzL2hlYWRsaW5lXCI7XG5pbXBvcnQgUGFyYWdyYXBoIGZyb20gXCIuLi9jb21wb25lbnRzL3BhcmFncmFwaFwiO1xuaW1wb3J0IEJ1dHRvbiBmcm9tIFwiLi4vY29tcG9uZW50cy9idXR0b25cIjtcbmltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgV2h5IGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgICAgICBzdXBlcihwcm9wcyk7XG4gICAgICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICAgICAgICB0YWI6ICdjbXMnXG4gICAgICAgIH1cbiAgICB9XG4gICAgcmVuZGVyKCkge1xuXG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8YXJ0aWNsZSBjbGFzc05hbWU9XCJsaW1pdGVkLXdpZHRoXCIgaWQ9XCJ3aHlcIj5cbiAgICAgICAgICAgICAgICA8SGVhZGxpbmUgSHRtbFRhZz1cImgyXCIgY2VudGVyZWQ+V2hhdCBpcyBNYWdlU3VpdGU/PC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8UGFyYWdyYXBoIGNlbnRlcmVkIGRpc3RhbmNlPlxuICAgICAgICAgICAgICAgIE1hZ2VTdWl0ZSBpcyBhIGNvbGxlY3Rpb24gb2YgT3BlblNvdXJjZSBtb2R1bGVzIGFkZGluZyB2YWx1YWJsZSBmZWF0dXJlcyBhbmQgZW5oYW5jZW1lbnRzIHRoYXQgYXJlIG1pc3NpbmcgaW4geW91ciBuYXRpdmUgTWFnZW50byAyIE9wZW4gU291cmNlIHNob3AuXG4gICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgPEZlYXR1cmVzVGFicyB0YWJDbGlja2VkPXt0aGlzLnRhYkNsaWNrZWQuYmluZCh0aGlzKX0gYWN0aXZlVGFiPXt0aGlzLnN0YXRlLnRhYn0vPlxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIHsgKHRoaXMuc3RhdGUudGFiID09ICdjbXMnKSAmJiAoXG4gICAgICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgICAgICA8UGljdHVyZVZlY3RvcnBuZyBpbWFnZT1cImctZmVhdHVyZS1jbXNcIiB3aWR0aERlc2t0b3A9XCI2MCVcIiBtYXJnaW5EZXNrdG9wPVwiMnJlbSA5cmVtIDAgMFwiLz5cbiAgICAgICAgICAgICAgICAgICAgKX0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8SGVhZGxpbmUgSHRtbFRhZz1cImgzXCIgc2l6ZT1cIjIwXCI+Q29udGVudCBDb25zdHJ1Y3RvcjwvSGVhZGxpbmU+XG4gICAgICAgICAgICAgICAgICAgICAgICA8UGFyYWdyYXBoIHNpemU9XCIyMFwiIGRpc3RhbmNlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRoZSBNYWdlU3VpdGUgQ29udGVudCBDb25zdHJ1Y3RvciBpcyBhbiBlbmhhbmNlbWVudCBvZiB0aGUgTWFnZW50byBDTVMgZ2l2aW5nIHlvdSB0aGUgcG9zc2liaWxpdHkgdG8gYnVpbGQgdXAgYW55IENNUyBwYWdlIGJ5IGNvbWJpbmluZyBudW1lcm91cyB0eXBlcyBvZiBjb21wb25lbnRzIHdpdGhpbiBhIGZldyBjbGlja3MgYW5kIHdpdGggbm8gbmVlZCB0byBkZXZlbG9wIHNlcGFyYXRlIHRlbXBsYXRlcy4gSW4gYWRkaXRpb24gdG8gdGhhdCwgaXQgYWxsb3dzIHlvdSB0byB1c2UgdGhlc2UgY29tcG9uZW50cyBhbHNvIG9uIHlvdXIgY2F0ZWdvcnkgcGFnZSBhbmQgcHJvZHVjdCBkZXRhaWwgcGFnZS4gVGhlIENvbnRlbnQgQ29uc3RydWN0b3IgaXMgYSBmcmVlIGFuZCBPcGVuIFNvdXJjZSBhbHRlcm5hdGl2ZSB0byB0aGUgTWFnZW50byAyIFBhZ2VCdWlsZGVyLlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgICAgICB7LyogPEJ1dHRvbiB0ZXh0PVwiRmluZCBvdXQgbW9yZVwiLz4gKi99XG4gICAgICAgICAgICAgICAgICAgIDwvVGV4dFBpY3R1cmU+XG4gICAgICAgICAgICAgICAgKX1cbiAgICAgICAgICAgICAgICB7ICh0aGlzLnN0YXRlLnRhYiA9PSAncGVyZicpICYmIChcbiAgICAgICAgICAgICAgICAgICAgPFRleHRQaWN0dXJlIHBpY3R1cmU9eyhcbiAgICAgICAgICAgICAgICAgICAgICAgIDxQaWN0dXJlVmVjdG9ycG5nIGltYWdlPVwiZy1mZWF0dXJlLXBlcmZvcm1hbmNlXCIgd2lkdGhEZXNrdG9wPVwiODAlXCIgbWFyZ2luRGVza3RvcD1cIjJyZW0gMXJlbSAwIDBcIi8+XG4gICAgICAgICAgICAgICAgICAgICl9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJoM1wiIHNpemU9XCIyMFwiPkhpZ2ggUGVyZm9ybWFuY2U8L0hlYWRsaW5lPlxuICAgICAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUbyBib29zdCBsb2FkaW5nIGFuZCByZW5kZXJpbmcgdGltZXMgb2YgeW91ciBNYWdlbnRvIHdlYnNob3AsIE1hZ2VTdWl0ZSBwcm92aWRlcyBhIGNvdXBsZSBvZiBwZXJmb3JtYW5jZSBpbXByb3ZlbWVudHMgaW4gdGhlIGZyb250ZW5kIGFuZCBiYWNrZW5kLiBGdXJ0aGVybW9yZSwgdGhlIENhY2hlIFdhcm1lciByZWJ1aWxkcyB5b3VyIFZhcm5pc2ggY2FjaGUgZm9yIHRoZSBtb3N0IGltcG9ydGFudCBNYWdlbnRvIHBhZ2VzIGFmdGVyIGhhdmluZyBmbHVzaGVkIHRoZSBjYWNoZS4gVGhlIE1hZ2VTdWl0ZSBDbG91ZCBtYWtlcyB5b3VyIE1hZ2VudG8gT3BlbiBTb3VyY2UgZXZlbiByZWFkeSBmb3IgQVdTLiBJdCBpbmNyZWFzZXMgdGhlIGF2YWlsYWJpbGl0eSBvZiB5b3VyIHdlYnNob3AgaW4gdHJhZmZpYyBwZWFrcyBieSBwcm92aWRpbmcgZmVhdHVyZXMgbGlrZSBob3Jpem9udGFsIGF1dG8tc2NhbGluZy5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvUGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICA8L1RleHRQaWN0dXJlPlxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgeyAodGhpcy5zdGF0ZS50YWIgPT0gJ3NlY3VyaXR5JykgJiYgKFxuICAgICAgICAgICAgICAgICAgICA8VGV4dFBpY3R1cmUgcGljdHVyZT17KFxuICAgICAgICAgICAgICAgICAgICAgICAgPFBpY3R1cmVWZWN0b3JwbmcgaW1hZ2U9XCJnLWZlYXR1cmUtc2VjdXJpdHlcIiB3aWR0aERlc2t0b3A9XCI1MCVcIiBtYXJnaW5EZXNrdG9wPVwiMnJlbSAxMXJlbSAwIDBcIi8+XG4gICAgICAgICAgICAgICAgICAgICl9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJoM1wiIHNpemU9XCIyMFwiPlNlY3VyaXR5ICZhbXA7IEdEUFI8L0hlYWRsaW5lPlxuICAgICAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUbyBtYXhpbWl6ZSB0aGUgc2VjdXJpdHkgb2YgcGVyc29uYWwgZGF0YSwgTWFnZVN1aXRlIHByb3ZpZGVzIGEgbW9kdWxlLCB3aGljaCBoZWxwcyB5b3UgdG8gbWVldCB0aGUgcmVxdWlyZW1lbnRzIG9mIHRoZSBHZW5lcmFsIERhdGEgUHJvdGVjdGlvbiBSZWd1bGF0aW9uIChHRFBSIC8gRFNHVk8pLiBJdCByZXN0cmljdHMgYWNjZXNzIHRvIGN1c3RvbWVyIGRhdGEgYW5kIGFub255bWl6ZXMgcGVyc29uYWwgaW5mb3JtYXRpb24gaW4geW91ciBNYWdlbnRvIGFkbWluIHBhbmVsIHNvIHRoYXQgdXNlcnMgd2l0aG91dCBzdWl0YWJsZSByaWdodHMgZm9yIHByb2Nlc3NpbmcgZGF0YSBjYW5ub3Qgc2VlIGl0LlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgPC9UZXh0UGljdHVyZT5cbiAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICAgIHsgKHRoaXMuc3RhdGUudGFiID09ICdzZWFyY2gnKSAmJiAoXG4gICAgICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgICAgICA8UGljdHVyZVZlY3RvcnBuZyBpbWFnZT1cImctZmVhdHVyZS1zZWFyY2hcIiB3aWR0aERlc2t0b3A9XCI2MCVcIiBtYXJnaW5EZXNrdG9wPVwiMnJlbSA5cmVtIDAgMFwiLz5cbiAgICAgICAgICAgICAgICAgICAgKX0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8SGVhZGxpbmUgSHRtbFRhZz1cImgzXCIgc2l6ZT1cIjIwXCI+U2VhcmNoIEVuZ2luZTwvSGVhZGxpbmU+XG4gICAgICAgICAgICAgICAgICAgICAgICA8UGFyYWdyYXBoIHNpemU9XCIyMFwiIGRpc3RhbmNlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hZ2VTdWl0ZSBpbnRlZ3JhdGVzIHRoZSBlbGFzdGljc2VhcmNoIGVuZ2luZSBieSB1c2luZyB0aGUgT3BlblNvdXJjZSBlbGFzdGljc3VpdGUgZXh0ZW5zaW9uIGFuZCBwcm92aWRpbmcgeW91IHdpdGggYSBjb21wcmVoZW5zaXZlIGZlYXR1cmUgc2V0IGZvciB5b3VyIE1hZ2VudG8gc2VhcmNoIHN1Y2ggYXMgYWR2YW5jZWQgYXV0by1zdWdnZXN0LCBpbXByb3ZlZCBjYXRlZ29yeSBmaWx0ZXJzLCBvcHRpbWl6aW5nIHRoZSBzZWFyY2ggcmVzdWx0IHJlbGV2YW5jZSBhbmQgbWFueSBtb3JlLiBJbiBhZGRpdGlvbiB0byB0aGF0IE1hZ2VTdWl0ZSBlbmhhbmNlcyB0aGUgc2VhcmNoIFVYLCBhbGxvd3MgYWxzbyBob3Jpem9udGFsIGxheWVyZWQgbmF2aWdhdGlvbiBmaWx0ZXJzIGFuZCBpbnRlZ3JhdGVzIGVsYXN0aWNzdWl0ZSB3aXRoIHRoZSBDb250ZW50IENvbnN0cnVjdG9yIGNvbXBvbmVudHMuXG4gICAgICAgICAgICAgICAgICAgICAgICA8L1BhcmFncmFwaD5cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8L1RleHRQaWN0dXJlPlxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgeyAodGhpcy5zdGF0ZS50YWIgPT0gJ21hcmtldGluZycpICYmIChcbiAgICAgICAgICAgICAgICAgICAgPFRleHRQaWN0dXJlIHBpY3R1cmU9eyhcbiAgICAgICAgICAgICAgICAgICAgICAgIDxQaWN0dXJlVmVjdG9ycG5nIGltYWdlPVwiZy1mZWF0dXJlLW1hcmtldGluZ1wiIHdpZHRoRGVza3RvcD1cIjYwJVwiIG1hcmdpbkRlc2t0b3A9XCIycmVtIDlyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICAgICApfT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxIZWFkbGluZSBIdG1sVGFnPVwiaDNcIiBzaXplPVwiMjBcIj5NYXJrZXRpbmc8L0hlYWRsaW5lPlxuICAgICAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUbyBpbmNyZWFzZSB5b3VyIHNhbGVzIGFuZCBjb252ZXJzaW9uIHJhdGUsIE1hZ2VTdWl0ZSBwcm92aWRlcyB5b3Ugd2l0aCBtYW55IG1hcmtldGluZyBmZWF0dXJlcyBzdWNoIGFzIERhaWx5IERlYWxzLCBQb3NpdGl2ZSBJbmRpY2F0b3JzLCBJbWFnZSBUZWFzZXJzIGluc2lkZSB0aGUgcHJvZHVjdCBncmlkLCBhIHNpbXBsZSBibG9nIGZ1bmN0aW9uYWxpdHksIHByb2R1Y3QgZ2lmdHMsIGJyYW5kIG1hbmFnZW1lbnQsIFNFTyBpbXByb3ZlbWVudHMsIGlkZW50aWZpY2F0aW9uIGFuZCBkaXNwbGF5IG9mIGJlc3RzZWxsZXJzIGFuZCBtYW55IG1vcmUuIE1hbnkgb2YgdGhvc2UgaGF2ZSBiZWVuIGludGVncmF0ZWQgd2l0aCB0aGUgQ29udGVudCBDb25zdHJ1Y3RvciwgYW5kIHRoYXQgYWxsb3dzIHlvdSB0byBjcmVhdGUgdmFyaW91cyBtYXJrZXRpbmcgY2FtcGFpZ24gbGFuZGluZyBwYWdlcy5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvUGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIDwvVGV4dFBpY3R1cmU+XG4gICAgICAgICAgICAgICAgKX1cbiAgICAgICAgICAgICAgICB7ICh0aGlzLnN0YXRlLnRhYiA9PSAndXgnKSAmJiAoXG4gICAgICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgICAgICA8UGljdHVyZVZlY3RvcnBuZyBpbWFnZT1cImctZmVhdHVyZS11eFwiIHdpZHRoRGVza3RvcD1cIjkwJVwiIG1hcmdpbkRlc2t0b3A9XCIxcmVtIDFyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICAgICApfT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxIZWFkbGluZSBIdG1sVGFnPVwiaDNcIiBzaXplPVwiMjBcIj5Vc2VyIEV4cGVyaWVuY2U8L0hlYWRsaW5lPlxuICAgICAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBNYWdlU3VpdGUgaW1wcm92ZXMgdGhlIHVzZXIgZXhwZXJpZW5jZSBmb3IgY3VzdG9tZXJzIGFuZCBhZG1pbmlzdHJhdG9ycy4gICBCZXNpZGUgc21hbGxlciBVWCBlbmhhbmNlbWVudHMgaW4gdGhlIHNlYXJjaCwgbGF5ZXJlZCBuYXZpZ2F0aW9uIGZpbHRlcnMsIGNoZWNrb3V0LCBjb250ZW50IG1hbmFnZW1lbnQgYW5kIG1vYmlsZSBvcHRpbWl6YXRpb25zIHRoZXJlIGFyZSBhbHNvIGJyYW5kIG5ldyBmZWF0dXJlcyBzdWNoIGEgdGhlIFByb2R1Y3QgRmluZGVyLiBJdCBhbGxvd3MgeW91IHRvIGRlZmluZSBhIHByb2R1Y3QgcXVlc3Rpb25uYWlyZSB3aXRoaW4gdGhlIENvbnRlbnQgQ29uc3RydWN0b3IuIEJ5IHRoYXQsIHlvdSBjYW4gY29uc3VsdCB5b3VyIGN1c3RvbWVycyBhdCBhbnkgcGxhY2Ugb2YgeW91ciBNYWdlbnRvIHdlYnNob3Agd2hpY2ggcHJvZHVjdCBmaXRzIGJlc3QgYWNjb3JkaW5nIHRvIHRoZWlyIHJlcXVpcmVtZW50cy5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvUGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIDwvVGV4dFBpY3R1cmU+XG4gICAgICAgICAgICAgICAgKX1cblxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAgICAgYXJ0aWNsZSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAke3JlbSg4MCl9ICR7cmVtKDEwMCl9O1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgYH08L3N0eWxlPlxuXG4gICAgICAgICAgICA8L2FydGljbGU+XG4gICAgICAgIClcbiAgICB9XG4gICAgdGFiQ2xpY2tlZChpZCkge1xuICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgIHRhYjogaWRcbiAgICAgICAgfSlcbiAgICB9XG59XG4iXX0= */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/why.jsx */"),
+        css: "article.__jsx-style-dynamic-selector{padding:".concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(80), " ").concat(Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(100), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rcnp5c3p0b2Yvd3d3L21hZ2VzdWl0ZS13ZWIvc2VjdGlvbnMvd2h5LmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpRjRCLEFBRzJGLGtFQUN0RSIsImZpbGUiOiIvVXNlcnMva3J6eXN6dG9mL3d3dy9tYWdlc3VpdGUtd2ViL3NlY3Rpb25zL3doeS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW0sIGNvbG9ycyB9IGZyb20gXCIuLi9jb21wb25lbnRzL3N0eWxlc1wiO1xuaW1wb3J0IEZlYXR1cmVzVGFicyBmcm9tIFwiLi4vY29tcG9uZW50cy9mZWF0dXJlcy10YWJzXCI7XG5pbXBvcnQgVGV4dFBpY3R1cmUgZnJvbSBcIi4uL2NvbXBvbmVudHMvdGV4dC1waWN0dXJlXCI7XG5pbXBvcnQgUGljdHVyZVZlY3RvcnBuZyBmcm9tIFwiLi4vY29tcG9uZW50cy9waWN0dXJlLXZlY3RvcnBuZ1wiO1xuaW1wb3J0IEhlYWRsaW5lIGZyb20gXCIuLi9jb21wb25lbnRzL2hlYWRsaW5lXCI7XG5pbXBvcnQgUGFyYWdyYXBoIGZyb20gXCIuLi9jb21wb25lbnRzL3BhcmFncmFwaFwiO1xuaW1wb3J0IEJ1dHRvbiBmcm9tIFwiLi4vY29tcG9uZW50cy9idXR0b25cIjtcbmltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgV2h5IGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgICAgICBzdXBlcihwcm9wcyk7XG4gICAgICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICAgICAgICB0YWI6ICdjbXMnXG4gICAgICAgIH1cbiAgICB9XG4gICAgcmVuZGVyKCkge1xuXG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8YXJ0aWNsZSBjbGFzc05hbWU9XCJsaW1pdGVkLXdpZHRoXCIgaWQ9XCJ3aHlcIj5cbiAgICAgICAgICAgICAgICA8SGVhZGxpbmUgSHRtbFRhZz1cImgyXCIgY2VudGVyZWQ+V2hhdCBpcyBNYWdlU3VpdGU/PC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8UGFyYWdyYXBoIGNlbnRlcmVkIGRpc3RhbmNlPlxuICAgICAgICAgICAgICAgIE1hZ2VTdWl0ZSBpcyBhIGNvbGxlY3Rpb24gb2YgT3BlblNvdXJjZSBtb2R1bGVzIGFkZGluZyB2YWx1YWJsZSBmZWF0dXJlcyBhbmQgZW5oYW5jZW1lbnRzIHRoYXQgYXJlIG1pc3NpbmcgaW4geW91ciBuYXRpdmUgTWFnZW50byAyIE9wZW4gU291cmNlIHNob3AuXG4gICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgPEZlYXR1cmVzVGFicyB0YWJDbGlja2VkPXt0aGlzLnRhYkNsaWNrZWQuYmluZCh0aGlzKX0gYWN0aXZlVGFiPXt0aGlzLnN0YXRlLnRhYn0vPlxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgIDxQaWN0dXJlVmVjdG9ycG5nIGltYWdlPVwiZy1mZWF0dXJlLWNtc1wiIHdpZHRoRGVza3RvcD1cIjYwJVwiIG1hcmdpbkRlc2t0b3A9XCIycmVtIDlyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICl9IGhpZGU9e3RoaXMuc3RhdGUudGFiICE9ICdjbXMnfT5cbiAgICAgICAgICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJoM1wiIHNpemU9XCIyMFwiPkNvbnRlbnQgQ29uc3RydWN0b3I8L0hlYWRsaW5lPlxuICAgICAgICAgICAgICAgICAgICA8UGFyYWdyYXBoIHNpemU9XCIyMFwiIGRpc3RhbmNlPlxuICAgICAgICAgICAgICAgICAgICAgICAgVGhlIE1hZ2VTdWl0ZSBDb250ZW50IENvbnN0cnVjdG9yIGlzIGFuIGVuaGFuY2VtZW50IG9mIHRoZSBNYWdlbnRvIENNUyBnaXZpbmcgeW91IHRoZSBwb3NzaWJpbGl0eSB0byBidWlsZCB1cCBhbnkgQ01TIHBhZ2UgYnkgY29tYmluaW5nIG51bWVyb3VzIHR5cGVzIG9mIGNvbXBvbmVudHMgd2l0aGluIGEgZmV3IGNsaWNrcyBhbmQgd2l0aCBubyBuZWVkIHRvIGRldmVsb3Agc2VwYXJhdGUgdGVtcGxhdGVzLiBJbiBhZGRpdGlvbiB0byB0aGF0LCBpdCBhbGxvd3MgeW91IHRvIHVzZSB0aGVzZSBjb21wb25lbnRzIGFsc28gb24geW91ciBjYXRlZ29yeSBwYWdlIGFuZCBwcm9kdWN0IGRldGFpbCBwYWdlLiBUaGUgQ29udGVudCBDb25zdHJ1Y3RvciBpcyBhIGZyZWUgYW5kIE9wZW4gU291cmNlIGFsdGVybmF0aXZlIHRvIHRoZSBNYWdlbnRvIDIgUGFnZUJ1aWxkZXIuXG4gICAgICAgICAgICAgICAgICAgIDwvUGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICB7LyogPEJ1dHRvbiB0ZXh0PVwiRmluZCBvdXQgbW9yZVwiLz4gKi99XG4gICAgICAgICAgICAgICAgPC9UZXh0UGljdHVyZT5cbiAgICAgICAgICAgICAgICA8VGV4dFBpY3R1cmUgcGljdHVyZT17KFxuICAgICAgICAgICAgICAgICAgICA8UGljdHVyZVZlY3RvcnBuZyBpbWFnZT1cImctZmVhdHVyZS1wZXJmb3JtYW5jZVwiIHdpZHRoRGVza3RvcD1cIjgwJVwiIG1hcmdpbkRlc2t0b3A9XCIycmVtIDFyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICl9IGhpZGU9e3RoaXMuc3RhdGUudGFiICE9ICdwZXJmJ30+XG4gICAgICAgICAgICAgICAgICAgIDxIZWFkbGluZSBIdG1sVGFnPVwiaDNcIiBzaXplPVwiMjBcIj5IaWdoIFBlcmZvcm1hbmNlPC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgIFRvIGJvb3N0IGxvYWRpbmcgYW5kIHJlbmRlcmluZyB0aW1lcyBvZiB5b3VyIE1hZ2VudG8gd2Vic2hvcCwgTWFnZVN1aXRlIHByb3ZpZGVzIGEgY291cGxlIG9mIHBlcmZvcm1hbmNlIGltcHJvdmVtZW50cyBpbiB0aGUgZnJvbnRlbmQgYW5kIGJhY2tlbmQuIEZ1cnRoZXJtb3JlLCB0aGUgQ2FjaGUgV2FybWVyIHJlYnVpbGRzIHlvdXIgVmFybmlzaCBjYWNoZSBmb3IgdGhlIG1vc3QgaW1wb3J0YW50IE1hZ2VudG8gcGFnZXMgYWZ0ZXIgaGF2aW5nIGZsdXNoZWQgdGhlIGNhY2hlLiBUaGUgTWFnZVN1aXRlIENsb3VkIG1ha2VzIHlvdXIgTWFnZW50byBPcGVuIFNvdXJjZSBldmVuIHJlYWR5IGZvciBBV1MuIEl0IGluY3JlYXNlcyB0aGUgYXZhaWxhYmlsaXR5IG9mIHlvdXIgd2Vic2hvcCBpbiB0cmFmZmljIHBlYWtzIGJ5IHByb3ZpZGluZyBmZWF0dXJlcyBsaWtlIGhvcml6b250YWwgYXV0by1zY2FsaW5nLlxuICAgICAgICAgICAgICAgICAgICA8L1BhcmFncmFwaD5cbiAgICAgICAgICAgICAgICA8L1RleHRQaWN0dXJlPlxuICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgIDxQaWN0dXJlVmVjdG9ycG5nIGltYWdlPVwiZy1mZWF0dXJlLXNlY3VyaXR5XCIgd2lkdGhEZXNrdG9wPVwiNTAlXCIgbWFyZ2luRGVza3RvcD1cIjJyZW0gMTFyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICl9IGhpZGU9e3RoaXMuc3RhdGUudGFiICE9ICdzZWN1cml0eSd9PlxuICAgICAgICAgICAgICAgICAgICA8SGVhZGxpbmUgSHRtbFRhZz1cImgzXCIgc2l6ZT1cIjIwXCI+U2VjdXJpdHkgJmFtcDsgR0RQUjwvSGVhZGxpbmU+XG4gICAgICAgICAgICAgICAgICAgIDxQYXJhZ3JhcGggc2l6ZT1cIjIwXCIgZGlzdGFuY2U+XG4gICAgICAgICAgICAgICAgICAgICAgICBUbyBtYXhpbWl6ZSB0aGUgc2VjdXJpdHkgb2YgcGVyc29uYWwgZGF0YSwgTWFnZVN1aXRlIHByb3ZpZGVzIGEgbW9kdWxlLCB3aGljaCBoZWxwcyB5b3UgdG8gbWVldCB0aGUgcmVxdWlyZW1lbnRzIG9mIHRoZSBHZW5lcmFsIERhdGEgUHJvdGVjdGlvbiBSZWd1bGF0aW9uIChHRFBSIC8gRFNHVk8pLiBJdCByZXN0cmljdHMgYWNjZXNzIHRvIGN1c3RvbWVyIGRhdGEgYW5kIGFub255bWl6ZXMgcGVyc29uYWwgaW5mb3JtYXRpb24gaW4geW91ciBNYWdlbnRvIGFkbWluIHBhbmVsIHNvIHRoYXQgdXNlcnMgd2l0aG91dCBzdWl0YWJsZSByaWdodHMgZm9yIHByb2Nlc3NpbmcgZGF0YSBjYW5ub3Qgc2VlIGl0LlxuICAgICAgICAgICAgICAgICAgICA8L1BhcmFncmFwaD5cbiAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPC9UZXh0UGljdHVyZT5cbiAgICAgICAgICAgICAgICA8VGV4dFBpY3R1cmUgcGljdHVyZT17KFxuICAgICAgICAgICAgICAgICAgICA8UGljdHVyZVZlY3RvcnBuZyBpbWFnZT1cImctZmVhdHVyZS1zZWFyY2hcIiB3aWR0aERlc2t0b3A9XCI2MCVcIiBtYXJnaW5EZXNrdG9wPVwiMnJlbSA5cmVtIDAgMFwiLz5cbiAgICAgICAgICAgICAgICApfSBoaWRlPXt0aGlzLnN0YXRlLnRhYiAhPSAnc2VhcmNoJ30+XG4gICAgICAgICAgICAgICAgICAgIDxIZWFkbGluZSBIdG1sVGFnPVwiaDNcIiBzaXplPVwiMjBcIj5TZWFyY2ggRW5naW5lPC9IZWFkbGluZT5cbiAgICAgICAgICAgICAgICAgICAgPFBhcmFncmFwaCBzaXplPVwiMjBcIiBkaXN0YW5jZT5cbiAgICAgICAgICAgICAgICAgICAgICAgIE1hZ2VTdWl0ZSBpbnRlZ3JhdGVzIHRoZSBlbGFzdGljc2VhcmNoIGVuZ2luZSBieSB1c2luZyB0aGUgT3BlblNvdXJjZSBlbGFzdGljc3VpdGUgZXh0ZW5zaW9uIGFuZCBwcm92aWRpbmcgeW91IHdpdGggYSBjb21wcmVoZW5zaXZlIGZlYXR1cmUgc2V0IGZvciB5b3VyIE1hZ2VudG8gc2VhcmNoIHN1Y2ggYXMgYWR2YW5jZWQgYXV0by1zdWdnZXN0LCBpbXByb3ZlZCBjYXRlZ29yeSBmaWx0ZXJzLCBvcHRpbWl6aW5nIHRoZSBzZWFyY2ggcmVzdWx0IHJlbGV2YW5jZSBhbmQgbWFueSBtb3JlLiBJbiBhZGRpdGlvbiB0byB0aGF0IE1hZ2VTdWl0ZSBlbmhhbmNlcyB0aGUgc2VhcmNoIFVYLCBhbGxvd3MgYWxzbyBob3Jpem9udGFsIGxheWVyZWQgbmF2aWdhdGlvbiBmaWx0ZXJzIGFuZCBpbnRlZ3JhdGVzIGVsYXN0aWNzdWl0ZSB3aXRoIHRoZSBDb250ZW50IENvbnN0cnVjdG9yIGNvbXBvbmVudHMuXG4gICAgICAgICAgICAgICAgICAgIDwvUGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8L1RleHRQaWN0dXJlPlxuICAgICAgICAgICAgICAgIDxUZXh0UGljdHVyZSBwaWN0dXJlPXsoXG4gICAgICAgICAgICAgICAgICAgIDxQaWN0dXJlVmVjdG9ycG5nIGltYWdlPVwiZy1mZWF0dXJlLW1hcmtldGluZ1wiIHdpZHRoRGVza3RvcD1cIjYwJVwiIG1hcmdpbkRlc2t0b3A9XCIycmVtIDlyZW0gMCAwXCIvPlxuICAgICAgICAgICAgICAgICl9IGhpZGU9e3RoaXMuc3RhdGUudGFiICE9ICdtYXJrZXRpbmcnfT5cbiAgICAgICAgICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJoM1wiIHNpemU9XCIyMFwiPk1hcmtldGluZzwvSGVhZGxpbmU+XG4gICAgICAgICAgICAgICAgICAgIDxQYXJhZ3JhcGggc2l6ZT1cIjIwXCIgZGlzdGFuY2U+XG4gICAgICAgICAgICAgICAgICAgICAgICBUbyBpbmNyZWFzZSB5b3VyIHNhbGVzIGFuZCBjb252ZXJzaW9uIHJhdGUsIE1hZ2VTdWl0ZSBwcm92aWRlcyB5b3Ugd2l0aCBtYW55IG1hcmtldGluZyBmZWF0dXJlcyBzdWNoIGFzIERhaWx5IERlYWxzLCBQb3NpdGl2ZSBJbmRpY2F0b3JzLCBJbWFnZSBUZWFzZXJzIGluc2lkZSB0aGUgcHJvZHVjdCBncmlkLCBhIHNpbXBsZSBibG9nIGZ1bmN0aW9uYWxpdHksIHByb2R1Y3QgZ2lmdHMsIGJyYW5kIG1hbmFnZW1lbnQsIFNFTyBpbXByb3ZlbWVudHMsIGlkZW50aWZpY2F0aW9uIGFuZCBkaXNwbGF5IG9mIGJlc3RzZWxsZXJzIGFuZCBtYW55IG1vcmUuIE1hbnkgb2YgdGhvc2UgaGF2ZSBiZWVuIGludGVncmF0ZWQgd2l0aCB0aGUgQ29udGVudCBDb25zdHJ1Y3RvciwgYW5kIHRoYXQgYWxsb3dzIHlvdSB0byBjcmVhdGUgdmFyaW91cyBtYXJrZXRpbmcgY2FtcGFpZ24gbGFuZGluZyBwYWdlcy5cbiAgICAgICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDwvVGV4dFBpY3R1cmU+XG4gICAgICAgICAgICAgICAgPFRleHRQaWN0dXJlIHBpY3R1cmU9eyhcbiAgICAgICAgICAgICAgICAgICAgPFBpY3R1cmVWZWN0b3JwbmcgaW1hZ2U9XCJnLWZlYXR1cmUtdXhcIiB3aWR0aERlc2t0b3A9XCI4MCVcIiBtYXJnaW5EZXNrdG9wPVwiMnJlbSAycmVtIDAgMFwiLz5cbiAgICAgICAgICAgICAgICApfSBoaWRlPXt0aGlzLnN0YXRlLnRhYiAhPSAndXgnfT5cbiAgICAgICAgICAgICAgICAgICAgPEhlYWRsaW5lIEh0bWxUYWc9XCJoM1wiIHNpemU9XCIyMFwiPlVzZXIgRXhwZXJpZW5jZTwvSGVhZGxpbmU+XG4gICAgICAgICAgICAgICAgICAgIDxQYXJhZ3JhcGggc2l6ZT1cIjIwXCIgZGlzdGFuY2U+XG4gICAgICAgICAgICAgICAgICAgICAgICBNYWdlU3VpdGUgaW1wcm92ZXMgdGhlIHVzZXIgZXhwZXJpZW5jZSBmb3IgY3VzdG9tZXJzIGFuZCBhZG1pbmlzdHJhdG9ycy4gICBCZXNpZGUgc21hbGxlciBVWCBlbmhhbmNlbWVudHMgaW4gdGhlIHNlYXJjaCwgbGF5ZXJlZCBuYXZpZ2F0aW9uIGZpbHRlcnMsIGNoZWNrb3V0LCBjb250ZW50IG1hbmFnZW1lbnQgYW5kIG1vYmlsZSBvcHRpbWl6YXRpb25zIHRoZXJlIGFyZSBhbHNvIGJyYW5kIG5ldyBmZWF0dXJlcyBzdWNoIGEgdGhlIFByb2R1Y3QgRmluZGVyLiBJdCBhbGxvd3MgeW91IHRvIGRlZmluZSBhIHByb2R1Y3QgcXVlc3Rpb25uYWlyZSB3aXRoaW4gdGhlIENvbnRlbnQgQ29uc3RydWN0b3IuIEJ5IHRoYXQsIHlvdSBjYW4gY29uc3VsdCB5b3VyIGN1c3RvbWVycyBhdCBhbnkgcGxhY2Ugb2YgeW91ciBNYWdlbnRvIHdlYnNob3Agd2hpY2ggcHJvZHVjdCBmaXRzIGJlc3QgYWNjb3JkaW5nIHRvIHRoZWlyIHJlcXVpcmVtZW50cy5cbiAgICAgICAgICAgICAgICAgICAgPC9QYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDwvVGV4dFBpY3R1cmU+XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICR7cmVtKDgwKX0gJHtyZW0oMTAwKX07XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICBgfTwvc3R5bGU+XG5cbiAgICAgICAgICAgIDwvYXJ0aWNsZT5cbiAgICAgICAgKVxuICAgIH1cbiAgICB0YWJDbGlja2VkKGlkKSB7XG4gICAgICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgICAgICAgdGFiOiBpZFxuICAgICAgICB9KVxuICAgIH1cbn1cbiJdfQ== */\n/*@ sourceURL=/Users/krzysztof/www/magesuite-web/sections/why.jsx */"),
         dynamic: [Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(80), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(100)],
         __self: this
       }));
