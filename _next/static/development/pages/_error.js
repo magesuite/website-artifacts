@@ -4139,7 +4139,7 @@ var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js"));
 
 var _httpStatus = _interopRequireDefault(__webpack_require__(/*! http-status */ "./node_modules/http-status/lib/index.js"));
 
@@ -4273,7 +4273,7 @@ var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/run
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js"));
 
 var _sideEffect = _interopRequireDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/lib/side-effect.js"));
 
@@ -4708,21 +4708,32 @@ module.exports = __webpack_require__(/*! ./dist/lib/error */ "./node_modules/nex
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/checkPropTypes.js":
-/*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/next/node_modules/object-assign/index.js":
+/*!*********************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/object-assign/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/object-assign/index.js");
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
-/*!************************************************************!*\
-  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
-  \************************************************************/
+/***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
+/*!***************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4736,10 +4747,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4
 
 
 
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/prop-types/node_modules/object-assign/index.js");
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 var printWarning = function() {};
 
@@ -5286,10 +5297,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/prop-types/index.js ***!
-  \******************************************/
+/***/ "./node_modules/next/node_modules/prop-types/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/next/node_modules/prop-types/index.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5315,133 +5326,31 @@ if (true) {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*************************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-
-/***/ }),
-
-/***/ "./node_modules/prop-types/node_modules/object-assign/index.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prop-types/node_modules/object-assign/index.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
-
-/* eslint-disable no-unused-vars */
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-var propIsEnumerable = Object.prototype.propertyIsEnumerable;
-
-function toObject(val) {
-	if (val === null || val === undefined) {
-		throw new TypeError('Object.assign cannot be called with null or undefined');
-	}
-
-	return Object(val);
-}
-
-function shouldUseNative() {
-	try {
-		if (!Object.assign) {
-			return false;
-		}
-
-		// Detect buggy property enumeration order in older V8 versions.
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
-		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
-		test1[5] = 'de';
-		if (Object.getOwnPropertyNames(test1)[0] === '5') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test2 = {};
-		for (var i = 0; i < 10; i++) {
-			test2['_' + String.fromCharCode(i)] = i;
-		}
-		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
-			return test2[n];
-		});
-		if (order2.join('') !== '0123456789') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test3 = {};
-		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
-			test3[letter] = letter;
-		});
-		if (Object.keys(Object.assign({}, test3)).join('') !==
-				'abcdefghijklmnopqrst') {
-			return false;
-		}
-
-		return true;
-	} catch (err) {
-		// We don't expect any of the above to throw, but better to be safe.
-		return false;
-	}
-}
-
-module.exports = shouldUseNative() ? Object.assign : function (target, source) {
-	var from;
-	var to = toObject(target);
-	var symbols;
-
-	for (var s = 1; s < arguments.length; s++) {
-		from = Object(arguments[s]);
-
-		for (var key in from) {
-			if (hasOwnProperty.call(from, key)) {
-				to[key] = from[key];
-			}
-		}
-
-		if (getOwnPropertySymbols) {
-			symbols = getOwnPropertySymbols(from);
-			for (var i = 0; i < symbols.length; i++) {
-				if (propIsEnumerable.call(from, symbols[i])) {
-					to[symbols[i]] = from[symbols[i]];
-				}
-			}
-		}
-	}
-
-	return to;
-};
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -6239,14 +6148,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_eb02e7dfbeacbb2663f4":
+/***/ "dll-reference dll_a4b62e1832b1a74d3177":
 /*!*******************************************!*\
-  !*** external "dll_eb02e7dfbeacbb2663f4" ***!
+  !*** external "dll_a4b62e1832b1a74d3177" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_eb02e7dfbeacbb2663f4;
+module.exports = dll_a4b62e1832b1a74d3177;
 
 /***/ })
 

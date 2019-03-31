@@ -4817,7 +4817,7 @@ var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/run
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js"));
 
 var _utils = __webpack_require__(/*! ./utils */ "./node_modules/next/dist/lib/utils.js");
 
@@ -4890,9 +4890,11 @@ function (_Component) {
         }, _callee, this);
       }));
 
-      return function getInitialProps(_x) {
+      function getInitialProps(_x) {
         return _getInitialProps.apply(this, arguments);
-      };
+      }
+
+      return getInitialProps;
     }()
   }]);
   return App;
@@ -5605,9 +5607,11 @@ function () {
         }, _callee, this);
       }));
 
-      return function reload(_x) {
+      function reload(_x) {
         return _reload.apply(this, arguments);
-      };
+      }
+
+      return reload;
     }()
   }, {
     key: "back",
@@ -5736,9 +5740,11 @@ function () {
         }, _callee2, this);
       }));
 
-      return function change(_x2, _x3, _x4, _x5) {
+      function change(_x2, _x3, _x4, _x5) {
         return _change.apply(this, arguments);
-      };
+      }
+
+      return change;
     }()
   }, {
     key: "changeState",
@@ -5892,9 +5898,11 @@ function () {
         }, _callee3, this, [[1, 18], [29, 35]]);
       }));
 
-      return function getRouteInfo(_x6, _x7, _x8, _x9) {
+      function getRouteInfo(_x6, _x7, _x8, _x9) {
         return _getRouteInfo.apply(this, arguments);
-      };
+      }
+
+      return getRouteInfo;
     }()
   }, {
     key: "set",
@@ -6016,9 +6024,11 @@ function () {
         }, _callee4, this);
       }));
 
-      return function prefetch(_x10) {
+      function prefetch(_x10) {
         return _prefetch.apply(this, arguments);
-      };
+      }
+
+      return prefetch;
     }()
   }, {
     key: "fetchComponent",
@@ -6067,9 +6077,11 @@ function () {
         }, _callee5, this);
       }));
 
-      return function fetchComponent(_x11, _x12) {
+      function fetchComponent(_x11, _x12) {
         return _fetchComponent.apply(this, arguments);
-      };
+      }
+
+      return fetchComponent;
     }()
   }, {
     key: "getInitialProps",
@@ -6124,9 +6136,11 @@ function () {
         }, _callee6, this);
       }));
 
-      return function getInitialProps(_x13, _x14) {
+      function getInitialProps(_x13, _x14) {
         return _getInitialProps.apply(this, arguments);
-      };
+      }
+
+      return getInitialProps;
     }()
   }, {
     key: "fetchRoute",
@@ -6148,9 +6162,11 @@ function () {
         }, _callee7, this);
       }));
 
-      return function fetchRoute(_x15) {
+      function fetchRoute(_x15) {
         return _fetchRoute.apply(this, arguments);
-      };
+      }
+
+      return fetchRoute;
     }()
   }, {
     key: "abortComponentLoad",
@@ -6229,7 +6245,7 @@ var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/run
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js"));
 
 var _hoistNonReactStatics = _interopRequireDefault(__webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"));
 
@@ -6439,564 +6455,32 @@ function getURL() {
 
 /***/ }),
 
-/***/ "./node_modules/next/router.js":
-/*!*************************************!*\
-  !*** ./node_modules/next/router.js ***!
-  \*************************************/
+/***/ "./node_modules/next/node_modules/object-assign/index.js":
+/*!*********************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/object-assign/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/next/dist/lib/router/index.js")
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/object-assign/index.js");
 
 /***/ }),
 
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
+/*!***************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
-;(function(root) {
-
-	/** Detect free variables */
-	var freeExports = typeof exports == 'object' && exports &&
-		!exports.nodeType && exports;
-	var freeModule = typeof module == 'object' && module &&
-		!module.nodeType && module;
-	var freeGlobal = typeof global == 'object' && global;
-	if (
-		freeGlobal.global === freeGlobal ||
-		freeGlobal.window === freeGlobal ||
-		freeGlobal.self === freeGlobal
-	) {
-		root = freeGlobal;
-	}
-
-	/**
-	 * The `punycode` object.
-	 * @name punycode
-	 * @type Object
-	 */
-	var punycode,
-
-	/** Highest positive signed 32-bit float value */
-	maxInt = 2147483647, // aka. 0x7FFFFFFF or 2^31-1
-
-	/** Bootstring parameters */
-	base = 36,
-	tMin = 1,
-	tMax = 26,
-	skew = 38,
-	damp = 700,
-	initialBias = 72,
-	initialN = 128, // 0x80
-	delimiter = '-', // '\x2D'
-
-	/** Regular expressions */
-	regexPunycode = /^xn--/,
-	regexNonASCII = /[^\x20-\x7E]/, // unprintable ASCII chars + non-ASCII chars
-	regexSeparators = /[\x2E\u3002\uFF0E\uFF61]/g, // RFC 3490 separators
-
-	/** Error messages */
-	errors = {
-		'overflow': 'Overflow: input needs wider integers to process',
-		'not-basic': 'Illegal input >= 0x80 (not a basic code point)',
-		'invalid-input': 'Invalid input'
-	},
-
-	/** Convenience shortcuts */
-	baseMinusTMin = base - tMin,
-	floor = Math.floor,
-	stringFromCharCode = String.fromCharCode,
-
-	/** Temporary variable */
-	key;
-
-	/*--------------------------------------------------------------------------*/
-
-	/**
-	 * A generic error utility function.
-	 * @private
-	 * @param {String} type The error type.
-	 * @returns {Error} Throws a `RangeError` with the applicable error message.
-	 */
-	function error(type) {
-		throw new RangeError(errors[type]);
-	}
-
-	/**
-	 * A generic `Array#map` utility function.
-	 * @private
-	 * @param {Array} array The array to iterate over.
-	 * @param {Function} callback The function that gets called for every array
-	 * item.
-	 * @returns {Array} A new array of values returned by the callback function.
-	 */
-	function map(array, fn) {
-		var length = array.length;
-		var result = [];
-		while (length--) {
-			result[length] = fn(array[length]);
-		}
-		return result;
-	}
-
-	/**
-	 * A simple `Array#map`-like wrapper to work with domain name strings or email
-	 * addresses.
-	 * @private
-	 * @param {String} domain The domain name or email address.
-	 * @param {Function} callback The function that gets called for every
-	 * character.
-	 * @returns {Array} A new string of characters returned by the callback
-	 * function.
-	 */
-	function mapDomain(string, fn) {
-		var parts = string.split('@');
-		var result = '';
-		if (parts.length > 1) {
-			// In email addresses, only the domain name should be punycoded. Leave
-			// the local part (i.e. everything up to `@`) intact.
-			result = parts[0] + '@';
-			string = parts[1];
-		}
-		// Avoid `split(regex)` for IE8 compatibility. See #17.
-		string = string.replace(regexSeparators, '\x2E');
-		var labels = string.split('.');
-		var encoded = map(labels, fn).join('.');
-		return result + encoded;
-	}
-
-	/**
-	 * Creates an array containing the numeric code points of each Unicode
-	 * character in the string. While JavaScript uses UCS-2 internally,
-	 * this function will convert a pair of surrogate halves (each of which
-	 * UCS-2 exposes as separate characters) into a single code point,
-	 * matching UTF-16.
-	 * @see `punycode.ucs2.encode`
-	 * @see <https://mathiasbynens.be/notes/javascript-encoding>
-	 * @memberOf punycode.ucs2
-	 * @name decode
-	 * @param {String} string The Unicode input string (UCS-2).
-	 * @returns {Array} The new array of code points.
-	 */
-	function ucs2decode(string) {
-		var output = [],
-		    counter = 0,
-		    length = string.length,
-		    value,
-		    extra;
-		while (counter < length) {
-			value = string.charCodeAt(counter++);
-			if (value >= 0xD800 && value <= 0xDBFF && counter < length) {
-				// high surrogate, and there is a next character
-				extra = string.charCodeAt(counter++);
-				if ((extra & 0xFC00) == 0xDC00) { // low surrogate
-					output.push(((value & 0x3FF) << 10) + (extra & 0x3FF) + 0x10000);
-				} else {
-					// unmatched surrogate; only append this code unit, in case the next
-					// code unit is the high surrogate of a surrogate pair
-					output.push(value);
-					counter--;
-				}
-			} else {
-				output.push(value);
-			}
-		}
-		return output;
-	}
-
-	/**
-	 * Creates a string based on an array of numeric code points.
-	 * @see `punycode.ucs2.decode`
-	 * @memberOf punycode.ucs2
-	 * @name encode
-	 * @param {Array} codePoints The array of numeric code points.
-	 * @returns {String} The new Unicode string (UCS-2).
-	 */
-	function ucs2encode(array) {
-		return map(array, function(value) {
-			var output = '';
-			if (value > 0xFFFF) {
-				value -= 0x10000;
-				output += stringFromCharCode(value >>> 10 & 0x3FF | 0xD800);
-				value = 0xDC00 | value & 0x3FF;
-			}
-			output += stringFromCharCode(value);
-			return output;
-		}).join('');
-	}
-
-	/**
-	 * Converts a basic code point into a digit/integer.
-	 * @see `digitToBasic()`
-	 * @private
-	 * @param {Number} codePoint The basic numeric code point value.
-	 * @returns {Number} The numeric value of a basic code point (for use in
-	 * representing integers) in the range `0` to `base - 1`, or `base` if
-	 * the code point does not represent a value.
-	 */
-	function basicToDigit(codePoint) {
-		if (codePoint - 48 < 10) {
-			return codePoint - 22;
-		}
-		if (codePoint - 65 < 26) {
-			return codePoint - 65;
-		}
-		if (codePoint - 97 < 26) {
-			return codePoint - 97;
-		}
-		return base;
-	}
-
-	/**
-	 * Converts a digit/integer into a basic code point.
-	 * @see `basicToDigit()`
-	 * @private
-	 * @param {Number} digit The numeric value of a basic code point.
-	 * @returns {Number} The basic code point whose value (when used for
-	 * representing integers) is `digit`, which needs to be in the range
-	 * `0` to `base - 1`. If `flag` is non-zero, the uppercase form is
-	 * used; else, the lowercase form is used. The behavior is undefined
-	 * if `flag` is non-zero and `digit` has no uppercase form.
-	 */
-	function digitToBasic(digit, flag) {
-		//  0..25 map to ASCII a..z or A..Z
-		// 26..35 map to ASCII 0..9
-		return digit + 22 + 75 * (digit < 26) - ((flag != 0) << 5);
-	}
-
-	/**
-	 * Bias adaptation function as per section 3.4 of RFC 3492.
-	 * https://tools.ietf.org/html/rfc3492#section-3.4
-	 * @private
-	 */
-	function adapt(delta, numPoints, firstTime) {
-		var k = 0;
-		delta = firstTime ? floor(delta / damp) : delta >> 1;
-		delta += floor(delta / numPoints);
-		for (/* no initialization */; delta > baseMinusTMin * tMax >> 1; k += base) {
-			delta = floor(delta / baseMinusTMin);
-		}
-		return floor(k + (baseMinusTMin + 1) * delta / (delta + skew));
-	}
-
-	/**
-	 * Converts a Punycode string of ASCII-only symbols to a string of Unicode
-	 * symbols.
-	 * @memberOf punycode
-	 * @param {String} input The Punycode string of ASCII-only symbols.
-	 * @returns {String} The resulting string of Unicode symbols.
-	 */
-	function decode(input) {
-		// Don't use UCS-2
-		var output = [],
-		    inputLength = input.length,
-		    out,
-		    i = 0,
-		    n = initialN,
-		    bias = initialBias,
-		    basic,
-		    j,
-		    index,
-		    oldi,
-		    w,
-		    k,
-		    digit,
-		    t,
-		    /** Cached calculation results */
-		    baseMinusT;
-
-		// Handle the basic code points: let `basic` be the number of input code
-		// points before the last delimiter, or `0` if there is none, then copy
-		// the first basic code points to the output.
-
-		basic = input.lastIndexOf(delimiter);
-		if (basic < 0) {
-			basic = 0;
-		}
-
-		for (j = 0; j < basic; ++j) {
-			// if it's not a basic code point
-			if (input.charCodeAt(j) >= 0x80) {
-				error('not-basic');
-			}
-			output.push(input.charCodeAt(j));
-		}
-
-		// Main decoding loop: start just after the last delimiter if any basic code
-		// points were copied; start at the beginning otherwise.
-
-		for (index = basic > 0 ? basic + 1 : 0; index < inputLength; /* no final expression */) {
-
-			// `index` is the index of the next character to be consumed.
-			// Decode a generalized variable-length integer into `delta`,
-			// which gets added to `i`. The overflow checking is easier
-			// if we increase `i` as we go, then subtract off its starting
-			// value at the end to obtain `delta`.
-			for (oldi = i, w = 1, k = base; /* no condition */; k += base) {
-
-				if (index >= inputLength) {
-					error('invalid-input');
-				}
-
-				digit = basicToDigit(input.charCodeAt(index++));
-
-				if (digit >= base || digit > floor((maxInt - i) / w)) {
-					error('overflow');
-				}
-
-				i += digit * w;
-				t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
-
-				if (digit < t) {
-					break;
-				}
-
-				baseMinusT = base - t;
-				if (w > floor(maxInt / baseMinusT)) {
-					error('overflow');
-				}
-
-				w *= baseMinusT;
-
-			}
-
-			out = output.length + 1;
-			bias = adapt(i - oldi, out, oldi == 0);
-
-			// `i` was supposed to wrap around from `out` to `0`,
-			// incrementing `n` each time, so we'll fix that now:
-			if (floor(i / out) > maxInt - n) {
-				error('overflow');
-			}
-
-			n += floor(i / out);
-			i %= out;
-
-			// Insert `n` at position `i` of the output
-			output.splice(i++, 0, n);
-
-		}
-
-		return ucs2encode(output);
-	}
-
-	/**
-	 * Converts a string of Unicode symbols (e.g. a domain name label) to a
-	 * Punycode string of ASCII-only symbols.
-	 * @memberOf punycode
-	 * @param {String} input The string of Unicode symbols.
-	 * @returns {String} The resulting Punycode string of ASCII-only symbols.
-	 */
-	function encode(input) {
-		var n,
-		    delta,
-		    handledCPCount,
-		    basicLength,
-		    bias,
-		    j,
-		    m,
-		    q,
-		    k,
-		    t,
-		    currentValue,
-		    output = [],
-		    /** `inputLength` will hold the number of code points in `input`. */
-		    inputLength,
-		    /** Cached calculation results */
-		    handledCPCountPlusOne,
-		    baseMinusT,
-		    qMinusT;
-
-		// Convert the input in UCS-2 to Unicode
-		input = ucs2decode(input);
-
-		// Cache the length
-		inputLength = input.length;
-
-		// Initialize the state
-		n = initialN;
-		delta = 0;
-		bias = initialBias;
-
-		// Handle the basic code points
-		for (j = 0; j < inputLength; ++j) {
-			currentValue = input[j];
-			if (currentValue < 0x80) {
-				output.push(stringFromCharCode(currentValue));
-			}
-		}
-
-		handledCPCount = basicLength = output.length;
-
-		// `handledCPCount` is the number of code points that have been handled;
-		// `basicLength` is the number of basic code points.
-
-		// Finish the basic string - if it is not empty - with a delimiter
-		if (basicLength) {
-			output.push(delimiter);
-		}
-
-		// Main encoding loop:
-		while (handledCPCount < inputLength) {
-
-			// All non-basic code points < n have been handled already. Find the next
-			// larger one:
-			for (m = maxInt, j = 0; j < inputLength; ++j) {
-				currentValue = input[j];
-				if (currentValue >= n && currentValue < m) {
-					m = currentValue;
-				}
-			}
-
-			// Increase `delta` enough to advance the decoder's <n,i> state to <m,0>,
-			// but guard against overflow
-			handledCPCountPlusOne = handledCPCount + 1;
-			if (m - n > floor((maxInt - delta) / handledCPCountPlusOne)) {
-				error('overflow');
-			}
-
-			delta += (m - n) * handledCPCountPlusOne;
-			n = m;
-
-			for (j = 0; j < inputLength; ++j) {
-				currentValue = input[j];
-
-				if (currentValue < n && ++delta > maxInt) {
-					error('overflow');
-				}
-
-				if (currentValue == n) {
-					// Represent delta as a generalized variable-length integer
-					for (q = delta, k = base; /* no condition */; k += base) {
-						t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
-						if (q < t) {
-							break;
-						}
-						qMinusT = q - t;
-						baseMinusT = base - t;
-						output.push(
-							stringFromCharCode(digitToBasic(t + qMinusT % baseMinusT, 0))
-						);
-						q = floor(qMinusT / baseMinusT);
-					}
-
-					output.push(stringFromCharCode(digitToBasic(q, 0)));
-					bias = adapt(delta, handledCPCountPlusOne, handledCPCount == basicLength);
-					delta = 0;
-					++handledCPCount;
-				}
-			}
-
-			++delta;
-			++n;
-
-		}
-		return output.join('');
-	}
-
-	/**
-	 * Converts a Punycode string representing a domain name or an email address
-	 * to Unicode. Only the Punycoded parts of the input will be converted, i.e.
-	 * it doesn't matter if you call it on a string that has already been
-	 * converted to Unicode.
-	 * @memberOf punycode
-	 * @param {String} input The Punycoded domain name or email address to
-	 * convert to Unicode.
-	 * @returns {String} The Unicode representation of the given Punycode
-	 * string.
-	 */
-	function toUnicode(input) {
-		return mapDomain(input, function(string) {
-			return regexPunycode.test(string)
-				? decode(string.slice(4).toLowerCase())
-				: string;
-		});
-	}
-
-	/**
-	 * Converts a Unicode string representing a domain name or an email address to
-	 * Punycode. Only the non-ASCII parts of the domain name will be converted,
-	 * i.e. it doesn't matter if you call it with a domain that's already in
-	 * ASCII.
-	 * @memberOf punycode
-	 * @param {String} input The domain name or email address to convert, as a
-	 * Unicode string.
-	 * @returns {String} The Punycode representation of the given domain name or
-	 * email address.
-	 */
-	function toASCII(input) {
-		return mapDomain(input, function(string) {
-			return regexNonASCII.test(string)
-				? 'xn--' + encode(string)
-				: string;
-		});
-	}
-
-	/*--------------------------------------------------------------------------*/
-
-	/** Define the public API */
-	punycode = {
-		/**
-		 * A string representing the current Punycode.js version number.
-		 * @memberOf punycode
-		 * @type String
-		 */
-		'version': '1.4.1',
-		/**
-		 * An object of methods to convert from JavaScript's internal character
-		 * representation (UCS-2) to Unicode code points, and back.
-		 * @see <https://mathiasbynens.be/notes/javascript-encoding>
-		 * @memberOf punycode
-		 * @type Object
-		 */
-		'ucs2': {
-			'decode': ucs2decode,
-			'encode': ucs2encode
-		},
-		'decode': decode,
-		'encode': encode,
-		'toASCII': toASCII,
-		'toUnicode': toUnicode
-	};
-
-	/** Expose `punycode` */
-	// Some AMD build optimizers, like r.js, check for specific condition patterns
-	// like the following:
-	if (
-		true
-	) {
-		!(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
-			return punycode;
-		}).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else {}
-
-}(this));
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/checkPropTypes.js":
-/*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
-  \*********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/prop-types/checkPropTypes.js");
-
-/***/ }),
-
-/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
-/*!************************************************************!*\
-  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
-  \************************************************************/
+/***/ "./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7010,10 +6494,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4
 
 
 
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/prop-types/node_modules/object-assign/index.js");
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/node_modules/object-assign/index.js");
 
-var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 var printWarning = function() {};
 
@@ -7560,10 +7044,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/prop-types/index.js ***!
-  \******************************************/
+/***/ "./node_modules/next/node_modules/prop-types/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/next/node_modules/prop-types/index.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7589,122 +7073,563 @@ if (true) {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/next/node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
 } else {}
 
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!*************************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
-/***/ "./node_modules/prop-types/node_modules/object-assign/index.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prop-types/node_modules/object-assign/index.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/next/router.js":
+/*!*************************************!*\
+  !*** ./node_modules/next/router.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
+module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/next/dist/lib/router/index.js")
 
 
-/* eslint-disable no-unused-vars */
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-var propIsEnumerable = Object.prototype.propertyIsEnumerable;
+/***/ }),
 
-function toObject(val) {
-	if (val === null || val === undefined) {
-		throw new TypeError('Object.assign cannot be called with null or undefined');
+/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
+;(function(root) {
+
+	/** Detect free variables */
+	var freeExports = typeof exports == 'object' && exports &&
+		!exports.nodeType && exports;
+	var freeModule = typeof module == 'object' && module &&
+		!module.nodeType && module;
+	var freeGlobal = typeof global == 'object' && global;
+	if (
+		freeGlobal.global === freeGlobal ||
+		freeGlobal.window === freeGlobal ||
+		freeGlobal.self === freeGlobal
+	) {
+		root = freeGlobal;
 	}
 
-	return Object(val);
-}
+	/**
+	 * The `punycode` object.
+	 * @name punycode
+	 * @type Object
+	 */
+	var punycode,
 
-function shouldUseNative() {
-	try {
-		if (!Object.assign) {
-			return false;
-		}
+	/** Highest positive signed 32-bit float value */
+	maxInt = 2147483647, // aka. 0x7FFFFFFF or 2^31-1
 
-		// Detect buggy property enumeration order in older V8 versions.
+	/** Bootstring parameters */
+	base = 36,
+	tMin = 1,
+	tMax = 26,
+	skew = 38,
+	damp = 700,
+	initialBias = 72,
+	initialN = 128, // 0x80
+	delimiter = '-', // '\x2D'
 
-		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
-		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
-		test1[5] = 'de';
-		if (Object.getOwnPropertyNames(test1)[0] === '5') {
-			return false;
-		}
+	/** Regular expressions */
+	regexPunycode = /^xn--/,
+	regexNonASCII = /[^\x20-\x7E]/, // unprintable ASCII chars + non-ASCII chars
+	regexSeparators = /[\x2E\u3002\uFF0E\uFF61]/g, // RFC 3490 separators
 
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test2 = {};
-		for (var i = 0; i < 10; i++) {
-			test2['_' + String.fromCharCode(i)] = i;
-		}
-		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
-			return test2[n];
-		});
-		if (order2.join('') !== '0123456789') {
-			return false;
-		}
+	/** Error messages */
+	errors = {
+		'overflow': 'Overflow: input needs wider integers to process',
+		'not-basic': 'Illegal input >= 0x80 (not a basic code point)',
+		'invalid-input': 'Invalid input'
+	},
 
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test3 = {};
-		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
-			test3[letter] = letter;
-		});
-		if (Object.keys(Object.assign({}, test3)).join('') !==
-				'abcdefghijklmnopqrst') {
-			return false;
-		}
+	/** Convenience shortcuts */
+	baseMinusTMin = base - tMin,
+	floor = Math.floor,
+	stringFromCharCode = String.fromCharCode,
 
-		return true;
-	} catch (err) {
-		// We don't expect any of the above to throw, but better to be safe.
-		return false;
+	/** Temporary variable */
+	key;
+
+	/*--------------------------------------------------------------------------*/
+
+	/**
+	 * A generic error utility function.
+	 * @private
+	 * @param {String} type The error type.
+	 * @returns {Error} Throws a `RangeError` with the applicable error message.
+	 */
+	function error(type) {
+		throw new RangeError(errors[type]);
 	}
-}
 
-module.exports = shouldUseNative() ? Object.assign : function (target, source) {
-	var from;
-	var to = toObject(target);
-	var symbols;
+	/**
+	 * A generic `Array#map` utility function.
+	 * @private
+	 * @param {Array} array The array to iterate over.
+	 * @param {Function} callback The function that gets called for every array
+	 * item.
+	 * @returns {Array} A new array of values returned by the callback function.
+	 */
+	function map(array, fn) {
+		var length = array.length;
+		var result = [];
+		while (length--) {
+			result[length] = fn(array[length]);
+		}
+		return result;
+	}
 
-	for (var s = 1; s < arguments.length; s++) {
-		from = Object(arguments[s]);
+	/**
+	 * A simple `Array#map`-like wrapper to work with domain name strings or email
+	 * addresses.
+	 * @private
+	 * @param {String} domain The domain name or email address.
+	 * @param {Function} callback The function that gets called for every
+	 * character.
+	 * @returns {Array} A new string of characters returned by the callback
+	 * function.
+	 */
+	function mapDomain(string, fn) {
+		var parts = string.split('@');
+		var result = '';
+		if (parts.length > 1) {
+			// In email addresses, only the domain name should be punycoded. Leave
+			// the local part (i.e. everything up to `@`) intact.
+			result = parts[0] + '@';
+			string = parts[1];
+		}
+		// Avoid `split(regex)` for IE8 compatibility. See #17.
+		string = string.replace(regexSeparators, '\x2E');
+		var labels = string.split('.');
+		var encoded = map(labels, fn).join('.');
+		return result + encoded;
+	}
 
-		for (var key in from) {
-			if (hasOwnProperty.call(from, key)) {
-				to[key] = from[key];
+	/**
+	 * Creates an array containing the numeric code points of each Unicode
+	 * character in the string. While JavaScript uses UCS-2 internally,
+	 * this function will convert a pair of surrogate halves (each of which
+	 * UCS-2 exposes as separate characters) into a single code point,
+	 * matching UTF-16.
+	 * @see `punycode.ucs2.encode`
+	 * @see <https://mathiasbynens.be/notes/javascript-encoding>
+	 * @memberOf punycode.ucs2
+	 * @name decode
+	 * @param {String} string The Unicode input string (UCS-2).
+	 * @returns {Array} The new array of code points.
+	 */
+	function ucs2decode(string) {
+		var output = [],
+		    counter = 0,
+		    length = string.length,
+		    value,
+		    extra;
+		while (counter < length) {
+			value = string.charCodeAt(counter++);
+			if (value >= 0xD800 && value <= 0xDBFF && counter < length) {
+				// high surrogate, and there is a next character
+				extra = string.charCodeAt(counter++);
+				if ((extra & 0xFC00) == 0xDC00) { // low surrogate
+					output.push(((value & 0x3FF) << 10) + (extra & 0x3FF) + 0x10000);
+				} else {
+					// unmatched surrogate; only append this code unit, in case the next
+					// code unit is the high surrogate of a surrogate pair
+					output.push(value);
+					counter--;
+				}
+			} else {
+				output.push(value);
+			}
+		}
+		return output;
+	}
+
+	/**
+	 * Creates a string based on an array of numeric code points.
+	 * @see `punycode.ucs2.decode`
+	 * @memberOf punycode.ucs2
+	 * @name encode
+	 * @param {Array} codePoints The array of numeric code points.
+	 * @returns {String} The new Unicode string (UCS-2).
+	 */
+	function ucs2encode(array) {
+		return map(array, function(value) {
+			var output = '';
+			if (value > 0xFFFF) {
+				value -= 0x10000;
+				output += stringFromCharCode(value >>> 10 & 0x3FF | 0xD800);
+				value = 0xDC00 | value & 0x3FF;
+			}
+			output += stringFromCharCode(value);
+			return output;
+		}).join('');
+	}
+
+	/**
+	 * Converts a basic code point into a digit/integer.
+	 * @see `digitToBasic()`
+	 * @private
+	 * @param {Number} codePoint The basic numeric code point value.
+	 * @returns {Number} The numeric value of a basic code point (for use in
+	 * representing integers) in the range `0` to `base - 1`, or `base` if
+	 * the code point does not represent a value.
+	 */
+	function basicToDigit(codePoint) {
+		if (codePoint - 48 < 10) {
+			return codePoint - 22;
+		}
+		if (codePoint - 65 < 26) {
+			return codePoint - 65;
+		}
+		if (codePoint - 97 < 26) {
+			return codePoint - 97;
+		}
+		return base;
+	}
+
+	/**
+	 * Converts a digit/integer into a basic code point.
+	 * @see `basicToDigit()`
+	 * @private
+	 * @param {Number} digit The numeric value of a basic code point.
+	 * @returns {Number} The basic code point whose value (when used for
+	 * representing integers) is `digit`, which needs to be in the range
+	 * `0` to `base - 1`. If `flag` is non-zero, the uppercase form is
+	 * used; else, the lowercase form is used. The behavior is undefined
+	 * if `flag` is non-zero and `digit` has no uppercase form.
+	 */
+	function digitToBasic(digit, flag) {
+		//  0..25 map to ASCII a..z or A..Z
+		// 26..35 map to ASCII 0..9
+		return digit + 22 + 75 * (digit < 26) - ((flag != 0) << 5);
+	}
+
+	/**
+	 * Bias adaptation function as per section 3.4 of RFC 3492.
+	 * https://tools.ietf.org/html/rfc3492#section-3.4
+	 * @private
+	 */
+	function adapt(delta, numPoints, firstTime) {
+		var k = 0;
+		delta = firstTime ? floor(delta / damp) : delta >> 1;
+		delta += floor(delta / numPoints);
+		for (/* no initialization */; delta > baseMinusTMin * tMax >> 1; k += base) {
+			delta = floor(delta / baseMinusTMin);
+		}
+		return floor(k + (baseMinusTMin + 1) * delta / (delta + skew));
+	}
+
+	/**
+	 * Converts a Punycode string of ASCII-only symbols to a string of Unicode
+	 * symbols.
+	 * @memberOf punycode
+	 * @param {String} input The Punycode string of ASCII-only symbols.
+	 * @returns {String} The resulting string of Unicode symbols.
+	 */
+	function decode(input) {
+		// Don't use UCS-2
+		var output = [],
+		    inputLength = input.length,
+		    out,
+		    i = 0,
+		    n = initialN,
+		    bias = initialBias,
+		    basic,
+		    j,
+		    index,
+		    oldi,
+		    w,
+		    k,
+		    digit,
+		    t,
+		    /** Cached calculation results */
+		    baseMinusT;
+
+		// Handle the basic code points: let `basic` be the number of input code
+		// points before the last delimiter, or `0` if there is none, then copy
+		// the first basic code points to the output.
+
+		basic = input.lastIndexOf(delimiter);
+		if (basic < 0) {
+			basic = 0;
+		}
+
+		for (j = 0; j < basic; ++j) {
+			// if it's not a basic code point
+			if (input.charCodeAt(j) >= 0x80) {
+				error('not-basic');
+			}
+			output.push(input.charCodeAt(j));
+		}
+
+		// Main decoding loop: start just after the last delimiter if any basic code
+		// points were copied; start at the beginning otherwise.
+
+		for (index = basic > 0 ? basic + 1 : 0; index < inputLength; /* no final expression */) {
+
+			// `index` is the index of the next character to be consumed.
+			// Decode a generalized variable-length integer into `delta`,
+			// which gets added to `i`. The overflow checking is easier
+			// if we increase `i` as we go, then subtract off its starting
+			// value at the end to obtain `delta`.
+			for (oldi = i, w = 1, k = base; /* no condition */; k += base) {
+
+				if (index >= inputLength) {
+					error('invalid-input');
+				}
+
+				digit = basicToDigit(input.charCodeAt(index++));
+
+				if (digit >= base || digit > floor((maxInt - i) / w)) {
+					error('overflow');
+				}
+
+				i += digit * w;
+				t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
+
+				if (digit < t) {
+					break;
+				}
+
+				baseMinusT = base - t;
+				if (w > floor(maxInt / baseMinusT)) {
+					error('overflow');
+				}
+
+				w *= baseMinusT;
+
+			}
+
+			out = output.length + 1;
+			bias = adapt(i - oldi, out, oldi == 0);
+
+			// `i` was supposed to wrap around from `out` to `0`,
+			// incrementing `n` each time, so we'll fix that now:
+			if (floor(i / out) > maxInt - n) {
+				error('overflow');
+			}
+
+			n += floor(i / out);
+			i %= out;
+
+			// Insert `n` at position `i` of the output
+			output.splice(i++, 0, n);
+
+		}
+
+		return ucs2encode(output);
+	}
+
+	/**
+	 * Converts a string of Unicode symbols (e.g. a domain name label) to a
+	 * Punycode string of ASCII-only symbols.
+	 * @memberOf punycode
+	 * @param {String} input The string of Unicode symbols.
+	 * @returns {String} The resulting Punycode string of ASCII-only symbols.
+	 */
+	function encode(input) {
+		var n,
+		    delta,
+		    handledCPCount,
+		    basicLength,
+		    bias,
+		    j,
+		    m,
+		    q,
+		    k,
+		    t,
+		    currentValue,
+		    output = [],
+		    /** `inputLength` will hold the number of code points in `input`. */
+		    inputLength,
+		    /** Cached calculation results */
+		    handledCPCountPlusOne,
+		    baseMinusT,
+		    qMinusT;
+
+		// Convert the input in UCS-2 to Unicode
+		input = ucs2decode(input);
+
+		// Cache the length
+		inputLength = input.length;
+
+		// Initialize the state
+		n = initialN;
+		delta = 0;
+		bias = initialBias;
+
+		// Handle the basic code points
+		for (j = 0; j < inputLength; ++j) {
+			currentValue = input[j];
+			if (currentValue < 0x80) {
+				output.push(stringFromCharCode(currentValue));
 			}
 		}
 
-		if (getOwnPropertySymbols) {
-			symbols = getOwnPropertySymbols(from);
-			for (var i = 0; i < symbols.length; i++) {
-				if (propIsEnumerable.call(from, symbols[i])) {
-					to[symbols[i]] = from[symbols[i]];
+		handledCPCount = basicLength = output.length;
+
+		// `handledCPCount` is the number of code points that have been handled;
+		// `basicLength` is the number of basic code points.
+
+		// Finish the basic string - if it is not empty - with a delimiter
+		if (basicLength) {
+			output.push(delimiter);
+		}
+
+		// Main encoding loop:
+		while (handledCPCount < inputLength) {
+
+			// All non-basic code points < n have been handled already. Find the next
+			// larger one:
+			for (m = maxInt, j = 0; j < inputLength; ++j) {
+				currentValue = input[j];
+				if (currentValue >= n && currentValue < m) {
+					m = currentValue;
 				}
 			}
+
+			// Increase `delta` enough to advance the decoder's <n,i> state to <m,0>,
+			// but guard against overflow
+			handledCPCountPlusOne = handledCPCount + 1;
+			if (m - n > floor((maxInt - delta) / handledCPCountPlusOne)) {
+				error('overflow');
+			}
+
+			delta += (m - n) * handledCPCountPlusOne;
+			n = m;
+
+			for (j = 0; j < inputLength; ++j) {
+				currentValue = input[j];
+
+				if (currentValue < n && ++delta > maxInt) {
+					error('overflow');
+				}
+
+				if (currentValue == n) {
+					// Represent delta as a generalized variable-length integer
+					for (q = delta, k = base; /* no condition */; k += base) {
+						t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
+						if (q < t) {
+							break;
+						}
+						qMinusT = q - t;
+						baseMinusT = base - t;
+						output.push(
+							stringFromCharCode(digitToBasic(t + qMinusT % baseMinusT, 0))
+						);
+						q = floor(qMinusT / baseMinusT);
+					}
+
+					output.push(stringFromCharCode(digitToBasic(q, 0)));
+					bias = adapt(delta, handledCPCountPlusOne, handledCPCount == basicLength);
+					delta = 0;
+					++handledCPCount;
+				}
+			}
+
+			++delta;
+			++n;
+
 		}
+		return output.join('');
 	}
 
-	return to;
-};
+	/**
+	 * Converts a Punycode string representing a domain name or an email address
+	 * to Unicode. Only the Punycoded parts of the input will be converted, i.e.
+	 * it doesn't matter if you call it on a string that has already been
+	 * converted to Unicode.
+	 * @memberOf punycode
+	 * @param {String} input The Punycoded domain name or email address to
+	 * convert to Unicode.
+	 * @returns {String} The Unicode representation of the given Punycode
+	 * string.
+	 */
+	function toUnicode(input) {
+		return mapDomain(input, function(string) {
+			return regexPunycode.test(string)
+				? decode(string.slice(4).toLowerCase())
+				: string;
+		});
+	}
 
+	/**
+	 * Converts a Unicode string representing a domain name or an email address to
+	 * Punycode. Only the non-ASCII parts of the domain name will be converted,
+	 * i.e. it doesn't matter if you call it with a domain that's already in
+	 * ASCII.
+	 * @memberOf punycode
+	 * @param {String} input The domain name or email address to convert, as a
+	 * Unicode string.
+	 * @returns {String} The Punycode representation of the given domain name or
+	 * email address.
+	 */
+	function toASCII(input) {
+		return mapDomain(input, function(string) {
+			return regexNonASCII.test(string)
+				? 'xn--' + encode(string)
+				: string;
+		});
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/** Define the public API */
+	punycode = {
+		/**
+		 * A string representing the current Punycode.js version number.
+		 * @memberOf punycode
+		 * @type String
+		 */
+		'version': '1.4.1',
+		/**
+		 * An object of methods to convert from JavaScript's internal character
+		 * representation (UCS-2) to Unicode code points, and back.
+		 * @see <https://mathiasbynens.be/notes/javascript-encoding>
+		 * @memberOf punycode
+		 * @type Object
+		 */
+		'ucs2': {
+			'decode': ucs2decode,
+			'encode': ucs2encode
+		},
+		'decode': decode,
+		'encode': encode,
+		'toASCII': toASCII,
+		'toUnicode': toUnicode
+	};
+
+	/** Expose `punycode` */
+	// Some AMD build optimizers, like r.js, check for specific condition patterns
+	// like the following:
+	if (
+		true
+	) {
+		!(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
+			return punycode;
+		}).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {}
+
+}(this));
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -7917,190 +7842,210 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
-/***/ "./node_modules/react-ga/dist/react-ga.js":
-/*!************************************************!*\
-  !*** ./node_modules/react-ga/dist/react-ga.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(true)
-		module.exports = factory(__webpack_require__(/*! react */ "./node_modules/react/index.js"), __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-	else { var i, a; }
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_11__, __WEBPACK_EXTERNAL_MODULE_12__) {
-return /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
-/******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/react-ga/dist/esm/components/OutboundLink.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/components/OutboundLink.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return OutboundLink; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_console_warn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/console/warn */ "./node_modules/react-ga/dist/esm/utils/console/warn.js");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+
+
+var NEWTAB = '_blank';
+var MIDDLECLICK = 1;
+
+var OutboundLink =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(OutboundLink, _Component);
+
+  function OutboundLink() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, OutboundLink);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(OutboundLink)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleClick", function (event) {
+      var _this$props = _this.props,
+          target = _this$props.target,
+          eventLabel = _this$props.eventLabel,
+          to = _this$props.to,
+          onClick = _this$props.onClick;
+      var eventMeta = {
+        label: eventLabel
+      };
+      var sameTarget = target !== NEWTAB;
+      var normalClick = !(event.ctrlKey || event.shiftKey || event.metaKey || event.button === MIDDLECLICK);
+
+      if (sameTarget && normalClick) {
+        event.preventDefault();
+        OutboundLink.trackLink(eventMeta, function () {
+          window.location.href = to;
+        });
+      } else {
+        OutboundLink.trackLink(eventMeta, function () {});
+      }
+
+      if (onClick) {
+        onClick(event);
+      }
+    });
+
+    return _this;
+  }
+
+  _createClass(OutboundLink, [{
+    key: "render",
+    value: function render() {
+      var _this$props2 = this.props,
+          href = _this$props2.to,
+          oldProps = _objectWithoutProperties(_this$props2, ["to"]);
+
+      var props = _objectSpread({}, oldProps, {
+        href: href,
+        onClick: this.handleClick
+      });
+
+      if (this.props.target === NEWTAB) {
+        props.rel = 'noopener noreferrer';
+      }
+
+      delete props.eventLabel;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('a', props);
+    }
+  }]);
+
+  return OutboundLink;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+_defineProperty(OutboundLink, "trackLink", function () {
+  Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_2__["default"])('ga tracking not enabled');
 });
-exports.default = warn;
-function warn(s) {
-  console.warn('[react-ga]', s);
-}
+
+_defineProperty(OutboundLink, "propTypes", {
+  eventLabel: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  target: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  to: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  onClick: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+});
+
+_defineProperty(OutboundLink, "defaultProps", {
+  target: null,
+  to: null,
+  onClick: null
+});
+
+
 
 /***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+
+/***/ "./node_modules/react-ga/dist/esm/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/index.js ***!
+  \*************************************************/
+/*! exports provided: initialize, ga, set, send, pageview, modalview, timing, event, exception, plugin, outboundLink, OutboundLink, testModeAPI, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initialize", function() { return initialize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ga", function() { return ga; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "set", function() { return set; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "send", function() { return send; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageview", function() { return pageview; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "modalview", function() { return modalview; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timing", function() { return timing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "event", function() { return event; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "exception", function() { return exception; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "plugin", function() { return plugin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "outboundLink", function() { return outboundLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OutboundLink", function() { return OutboundLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "testModeAPI", function() { return testModeAPI; });
+/* harmony import */ var _utils_format__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/format */ "./node_modules/react-ga/dist/esm/utils/format.js");
+/* harmony import */ var _utils_removeLeadingSlash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils/removeLeadingSlash */ "./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js");
+/* harmony import */ var _utils_trim__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils/trim */ "./node_modules/react-ga/dist/esm/utils/trim.js");
+/* harmony import */ var _utils_loadGA__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils/loadGA */ "./node_modules/react-ga/dist/esm/utils/loadGA.js");
+/* harmony import */ var _utils_console_warn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/console/warn */ "./node_modules/react-ga/dist/esm/utils/console/warn.js");
+/* harmony import */ var _utils_console_log__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/console/log */ "./node_modules/react-ga/dist/esm/utils/console/log.js");
+/* harmony import */ var _utils_testModeAPI__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils/testModeAPI */ "./node_modules/react-ga/dist/esm/utils/testModeAPI.js");
+/* harmony import */ var _components_OutboundLink__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/OutboundLink */ "./node_modules/react-ga/dist/esm/components/OutboundLink.js");
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = trim;
-// GA strings need to have leading/trailing whitespace trimmed, and not all
-// browsers have String.prototoype.trim().
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
-function trim(s) {
-  return s.replace(/^\s+|\s+$/g, '');
-}
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-"use strict";
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
 
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.testModeAPI = exports.OutboundLink = exports.plugin = undefined;
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-exports.initialize = initialize;
-exports.ga = ga;
-exports.set = set;
-exports.send = send;
-exports.pageview = pageview;
-exports.modalview = modalview;
-exports.timing = timing;
-exports.event = event;
-exports.exception = exception;
-exports.outboundLink = outboundLink;
-
-var _format2 = __webpack_require__(3);
-
-var _format3 = _interopRequireDefault(_format2);
-
-var _removeLeadingSlash = __webpack_require__(6);
-
-var _removeLeadingSlash2 = _interopRequireDefault(_removeLeadingSlash);
-
-var _trim = __webpack_require__(1);
-
-var _trim2 = _interopRequireDefault(_trim);
-
-var _loadGA = __webpack_require__(7);
-
-var _loadGA2 = _interopRequireDefault(_loadGA);
-
-var _warn = __webpack_require__(0);
-
-var _warn2 = _interopRequireDefault(_warn);
-
-var _log = __webpack_require__(8);
-
-var _log2 = _interopRequireDefault(_log);
-
-var _testModeAPI = __webpack_require__(9);
-
-var _testModeAPI2 = _interopRequireDefault(_testModeAPI);
-
-var _OutboundLink = __webpack_require__(10);
-
-var _OutboundLink2 = _interopRequireDefault(_OutboundLink);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } } /**
-                                                                                                                                                                                                     * React Google Analytics Module
-                                                                                                                                                                                                     *
-                                                                                                                                                                                                     * @package react-ga
-                                                                                                                                                                                                     * @author  Adam Lofting <adam@mozillafoundation.org>
-                                                                                                                                                                                                     *          Atul Varma <atul@mozillafoundation.org>
-                                                                                                                                                                                                     */
+/**
+ * React Google Analytics Module
+ *
+ * @package react-ga
+ * @author  Adam Lofting <adam@mozillafoundation.org>
+ *          Atul Varma <atul@mozillafoundation.org>
+ */
 
 /**
  * Utilities
  */
+
+
+
+
+
+
 
 
 var _debug = false;
@@ -8111,31 +8056,34 @@ var _alwaysSendToDefaultTracker = true;
 var internalGa = function internalGa() {
   var _window;
 
-  if (_testMode) return _testModeAPI2.default.ga.apply(_testModeAPI2.default, arguments);
-  if (!window.ga) return (0, _warn2.default)('ReactGA.initialize must be called first or GoogleAnalytics should be loaded manually');
+  if (_testMode) return _utils_testModeAPI__WEBPACK_IMPORTED_MODULE_6__["default"].ga.apply(_utils_testModeAPI__WEBPACK_IMPORTED_MODULE_6__["default"], arguments);
+  if (typeof window === 'undefined') return false;
+  if (!window.ga) return Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('ReactGA.initialize must be called first or GoogleAnalytics should be loaded manually');
   return (_window = window).ga.apply(_window, arguments);
 };
 
 function _format(s) {
-  return (0, _format3.default)(s, _titleCase);
+  return Object(_utils_format__WEBPACK_IMPORTED_MODULE_0__["default"])(s, _titleCase);
 }
 
 function _gaCommand(trackerNames) {
-  for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+  for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
     args[_key - 1] = arguments[_key];
   }
 
   var command = args[0];
+
   if (typeof internalGa === 'function') {
     if (typeof command !== 'string') {
-      (0, _warn2.default)('ga command must be a string');
+      Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('ga command must be a string');
       return;
     }
 
-    if (_alwaysSendToDefaultTracker || !Array.isArray(trackerNames)) internalGa.apply(undefined, args);
+    if (_alwaysSendToDefaultTracker || !Array.isArray(trackerNames)) internalGa.apply(void 0, args);
+
     if (Array.isArray(trackerNames)) {
       trackerNames.forEach(function (name) {
-        internalGa.apply(undefined, _toConsumableArray([name + '.' + command].concat(args.slice(1))));
+        internalGa.apply(void 0, _toConsumableArray(["".concat(name, ".").concat(command)].concat(args.slice(1))));
       });
     }
   }
@@ -8143,7 +8091,7 @@ function _gaCommand(trackerNames) {
 
 function _initialize(gaTrackingID, options) {
   if (!gaTrackingID) {
-    (0, _warn2.default)('gaTrackingID is required in initialize()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('gaTrackingID is required in initialize()');
     return;
   }
 
@@ -8172,74 +8120,76 @@ function initialize(configsOrTrackingId, options) {
       return false;
     }
 
-    (0, _loadGA2.default)(options);
+    if (!options || options.standardImplementation !== true) Object(_utils_loadGA__WEBPACK_IMPORTED_MODULE_3__["default"])(options);
   }
 
   _alwaysSendToDefaultTracker = options && typeof options.alwaysSendToDefaultTracker === 'boolean' ? options.alwaysSendToDefaultTracker : true;
 
   if (Array.isArray(configsOrTrackingId)) {
     configsOrTrackingId.forEach(function (config) {
-      if ((typeof config === 'undefined' ? 'undefined' : _typeof(config)) !== 'object') {
-        (0, _warn2.default)('All configs must be an object');
+      if (_typeof(config) !== 'object') {
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('All configs must be an object');
         return;
       }
+
       _initialize(config.trackingId, config);
     });
   } else {
     _initialize(configsOrTrackingId, options);
   }
+
   return true;
 }
-
 /**
  * ga:
  * Returns the original GA object.
  */
+
 function ga() {
-  for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+  for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
     args[_key2] = arguments[_key2];
   }
 
   if (args.length > 0) {
-    internalGa.apply(undefined, args);
+    internalGa.apply(void 0, args);
+
     if (_debug) {
-      (0, _log2.default)('called ga(\'arguments\');');
-      (0, _log2.default)('with arguments: ' + JSON.stringify(args));
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])('called ga(\'arguments\');');
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with arguments: ".concat(JSON.stringify(args)));
     }
   }
 
   return window.ga;
 }
-
 /**
  * set:
  * GA tracker set method
  * @param {Object} fieldsObject - a field/value pair or a group of field/value pairs on the tracker
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function set(fieldsObject, trackerNames) {
   if (!fieldsObject) {
-    (0, _warn2.default)('`fieldsObject` is required in .set()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`fieldsObject` is required in .set()');
     return;
   }
 
-  if ((typeof fieldsObject === 'undefined' ? 'undefined' : _typeof(fieldsObject)) !== 'object') {
-    (0, _warn2.default)('Expected `fieldsObject` arg to be an Object');
+  if (_typeof(fieldsObject) !== 'object') {
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Expected `fieldsObject` arg to be an Object');
     return;
   }
 
   if (Object.keys(fieldsObject).length === 0) {
-    (0, _warn2.default)('empty `fieldsObject` given to .set()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('empty `fieldsObject` given to .set()');
   }
 
   _gaCommand(trackerNames, 'set', fieldsObject);
 
   if (_debug) {
-    (0, _log2.default)('called ga(\'set\', fieldsObject);');
-    (0, _log2.default)('with fieldsObject: ' + JSON.stringify(fieldsObject));
+    Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])('called ga(\'set\', fieldsObject);');
+    Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with fieldsObject: ".concat(JSON.stringify(fieldsObject)));
   }
 }
-
 /**
  * send:
  * Clone of the low level `ga.send` method
@@ -8248,15 +8198,16 @@ function set(fieldsObject, trackerNames) {
  * @param  {Array} trackerNames - trackers to send the command to
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function send(fieldObject, trackerNames) {
   _gaCommand(trackerNames, 'send', fieldObject);
+
   if (_debug) {
-    (0, _log2.default)('called ga(\'send\', fieldObject);');
-    (0, _log2.default)('with fieldObject: ' + JSON.stringify(fieldObject));
-    (0, _log2.default)('with trackers: ' + JSON.stringify(trackerNames));
+    Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])('called ga(\'send\', fieldObject);');
+    Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with fieldObject: ".concat(JSON.stringify(fieldObject)));
+    Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with trackers: ".concat(JSON.stringify(trackerNames)));
   }
 }
-
 /**
  * pageview:
  * Basic GA pageview tracking
@@ -8264,40 +8215,44 @@ function send(fieldObject, trackerNames) {
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  * @param {String} title - (optional) the page title e. g. 'My Website'
  */
+
 function pageview(rawPath, trackerNames, title) {
   if (!rawPath) {
-    (0, _warn2.default)('path is required in .pageview()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('path is required in .pageview()');
     return;
   }
 
-  var path = (0, _trim2.default)(rawPath);
+  var path = Object(_utils_trim__WEBPACK_IMPORTED_MODULE_2__["default"])(rawPath);
+
   if (path === '') {
-    (0, _warn2.default)('path cannot be an empty string in .pageview()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('path cannot be an empty string in .pageview()');
     return;
   }
 
   var extraFields = {};
+
   if (title) {
     extraFields.title = title;
   }
 
   if (typeof ga === 'function') {
-    _gaCommand(trackerNames, 'send', _extends({
+    _gaCommand(trackerNames, 'send', _objectSpread({
       hitType: 'pageview',
       page: path
     }, extraFields));
 
     if (_debug) {
-      (0, _log2.default)('called ga(\'send\', \'pageview\', path);');
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])('called ga(\'send\', \'pageview\', path);');
       var extraLog = '';
+
       if (title) {
-        extraLog = ' and title: ' + title;
+        extraLog = " and title: ".concat(title);
       }
-      (0, _log2.default)('with path: ' + path + extraLog);
+
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with path: ".concat(path).concat(extraLog));
     }
   }
 }
-
 /**
  * modalview:
  * a proxy to basic GA pageview tracking to consistently track
@@ -8305,30 +8260,31 @@ function pageview(rawPath, trackerNames, title) {
  * @param  {String} modalName e.g. 'add-or-edit-club'
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function modalview(rawModalName, trackerNames) {
   if (!rawModalName) {
-    (0, _warn2.default)('modalName is required in .modalview(modalName)');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('modalName is required in .modalview(modalName)');
     return;
   }
 
-  var modalName = (0, _removeLeadingSlash2.default)((0, _trim2.default)(rawModalName));
+  var modalName = Object(_utils_removeLeadingSlash__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_utils_trim__WEBPACK_IMPORTED_MODULE_2__["default"])(rawModalName));
 
   if (modalName === '') {
-    (0, _warn2.default)('modalName cannot be an empty string or a single / in .modalview()');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('modalName cannot be an empty string or a single / in .modalview()');
     return;
   }
 
   if (typeof ga === 'function') {
-    var path = '/modal/' + modalName;
+    var path = "/modal/".concat(modalName);
+
     _gaCommand(trackerNames, 'send', 'pageview', path);
 
     if (_debug) {
-      (0, _log2.default)('called ga(\'send\', \'pageview\', path);');
-      (0, _log2.default)('with path: ' + path);
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])('called ga(\'send\', \'pageview\', path);');
+      Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with path: ".concat(path));
     }
   }
 }
-
 /**
  * timing:
  * GA timing
@@ -8338,6 +8294,7 @@ function modalview(rawModalName, trackerNames) {
  * @param args.label  {String} required
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function timing() {
   var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
       category = _ref.category,
@@ -8345,15 +8302,15 @@ function timing() {
       value = _ref.value,
       label = _ref.label;
 
-  var trackerNames = arguments[1];
+  var trackerNames = arguments.length > 1 ? arguments[1] : undefined;
 
   if (typeof ga === 'function') {
     if (!category || !variable || !value || typeof value !== 'number') {
-      (0, _warn2.default)('args.category, args.variable ' + 'AND args.value are required in timing() ' + 'AND args.value has to be a number');
+      Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('args.category, args.variable ' + 'AND args.value are required in timing() ' + 'AND args.value has to be a number');
       return;
-    }
+    } // Required Fields
 
-    // Required Fields
+
     var fieldObject = {
       hitType: 'timing',
       timingCategory: _format(category),
@@ -8368,7 +8325,6 @@ function timing() {
     send(fieldObject, trackerNames);
   }
 }
-
 /**
  * event:
  * GA event tracking
@@ -8380,41 +8336,40 @@ function timing() {
  * @param args.transport {string} optional
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function event() {
-  var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-  var trackerNames = arguments[1];
-
-  var category = _ref2.category,
+  var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      category = _ref2.category,
       action = _ref2.action,
       label = _ref2.label,
       value = _ref2.value,
       nonInteraction = _ref2.nonInteraction,
       transport = _ref2.transport,
-      args = _objectWithoutProperties(_ref2, ['category', 'action', 'label', 'value', 'nonInteraction', 'transport']);
+      args = _objectWithoutProperties(_ref2, ["category", "action", "label", "value", "nonInteraction", "transport"]);
+
+  var trackerNames = arguments.length > 1 ? arguments[1] : undefined;
 
   if (typeof ga === 'function') {
     // Simple Validation
     if (!category || !action) {
-      (0, _warn2.default)('args.category AND args.action are required in event()');
+      Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('args.category AND args.action are required in event()');
       return;
-    }
+    } // Required Fields
 
-    // Required Fields
+
     var fieldObject = {
       hitType: 'event',
       eventCategory: _format(category),
       eventAction: _format(action)
-    };
+    }; // Optional Fields
 
-    // Optional Fields
     if (label) {
       fieldObject.eventLabel = _format(label);
     }
 
     if (typeof value !== 'undefined') {
       if (typeof value !== 'number') {
-        (0, _warn2.default)('Expected `args.value` arg to be a Number.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Expected `args.value` arg to be a Number.');
       } else {
         fieldObject.eventValue = value;
       }
@@ -8422,7 +8377,7 @@ function event() {
 
     if (typeof nonInteraction !== 'undefined') {
       if (typeof nonInteraction !== 'boolean') {
-        (0, _warn2.default)('`args.nonInteraction` must be a boolean.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`args.nonInteraction` must be a boolean.');
       } else {
         fieldObject.nonInteraction = nonInteraction;
       }
@@ -8430,10 +8385,10 @@ function event() {
 
     if (typeof transport !== 'undefined') {
       if (typeof transport !== 'string') {
-        (0, _warn2.default)('`args.transport` must be a string.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`args.transport` must be a string.');
       } else {
         if (['beacon', 'xhr', 'image'].indexOf(transport) === -1) {
-          (0, _warn2.default)('`args.transport` must be either one of these values: `beacon`, `xhr` or `image`');
+          Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`args.transport` must be either one of these values: `beacon`, `xhr` or `image`');
         }
 
         fieldObject.transport = transport;
@@ -8445,18 +8400,15 @@ function event() {
     }).forEach(function (key) {
       fieldObject[key] = args[key];
     });
-
     Object.keys(args).filter(function (key) {
       return key.substr(0, 'metric'.length) === 'metric';
     }).forEach(function (key) {
       fieldObject[key] = args[key];
-    });
+    }); // Send to GA
 
-    // Send to GA
     send(fieldObject, trackerNames);
   }
 }
-
 /**
  * exception:
  * GA exception tracking
@@ -8464,6 +8416,7 @@ function event() {
  * @param args.fatal {boolean} optional
  * @param {Array} trackerNames - (optional) a list of extra trackers to run the command on
  */
+
 function exception(_ref3, trackerNames) {
   var description = _ref3.description,
       fatal = _ref3.fatal;
@@ -8472,27 +8425,25 @@ function exception(_ref3, trackerNames) {
     // Required Fields
     var fieldObject = {
       hitType: 'exception'
-    };
+    }; // Optional Fields
 
-    // Optional Fields
     if (description) {
       fieldObject.exDescription = _format(description);
     }
 
     if (typeof fatal !== 'undefined') {
       if (typeof fatal !== 'boolean') {
-        (0, _warn2.default)('`args.fatal` must be a boolean.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`args.fatal` must be a boolean.');
       } else {
         fieldObject.exFatal = fatal;
       }
-    }
+    } // Send to GA
 
-    // Send to GA
+
     send(fieldObject, trackerNames);
   }
 }
-
-var plugin = exports.plugin = {
+var plugin = {
   /**
    * require:
    * GA requires a plugin
@@ -8503,37 +8454,38 @@ var plugin = exports.plugin = {
     if (typeof ga === 'function') {
       // Required Fields
       if (!rawName) {
-        (0, _warn2.default)('`name` is required in .require()');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`name` is required in .require()');
         return;
       }
 
-      var name = (0, _trim2.default)(rawName);
+      var name = Object(_utils_trim__WEBPACK_IMPORTED_MODULE_2__["default"])(rawName);
+
       if (name === '') {
-        (0, _warn2.default)('`name` cannot be an empty string in .require()');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('`name` cannot be an empty string in .require()');
         return;
-      }
+      } // Optional Fields
 
-      // Optional Fields
+
       if (options) {
-        if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) !== 'object') {
-          (0, _warn2.default)('Expected `options` arg to be an Object');
+        if (_typeof(options) !== 'object') {
+          Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Expected `options` arg to be an Object');
           return;
         }
 
         if (Object.keys(options).length === 0) {
-          (0, _warn2.default)('Empty `options` given to .require()');
+          Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Empty `options` given to .require()');
         }
 
         ga('require', name, options);
 
         if (_debug) {
-          (0, _log2.default)('called ga(\'require\', \'' + name + '\', ' + JSON.stringify(options));
+          Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("called ga('require', '".concat(name, "', ").concat(JSON.stringify(options)));
         }
       } else {
         ga('require', name);
 
         if (_debug) {
-          (0, _log2.default)('called ga(\'require\', \'' + name + '\');');
+          Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("called ga('require', '".concat(name, "');"));
         }
       }
     }
@@ -8549,8 +8501,8 @@ var plugin = exports.plugin = {
    * @param payload {Object} optional e.g { id: '1x5e', name : 'My product to track' }
    */
   execute: function execute(pluginName, action) {
-    var payload = void 0;
-    var actionType = void 0;
+    var payload;
+    var actionType;
 
     if ((arguments.length <= 2 ? 0 : arguments.length - 2) === 1) {
       payload = arguments.length <= 2 ? undefined : arguments[2];
@@ -8561,88 +8513,90 @@ var plugin = exports.plugin = {
 
     if (typeof ga === 'function') {
       if (typeof pluginName !== 'string') {
-        (0, _warn2.default)('Expected `pluginName` arg to be a String.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Expected `pluginName` arg to be a String.');
       } else if (typeof action !== 'string') {
-        (0, _warn2.default)('Expected `action` arg to be a String.');
+        Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('Expected `action` arg to be a String.');
       } else {
-        var command = pluginName + ':' + action;
+        var command = "".concat(pluginName, ":").concat(action);
         payload = payload || null;
+
         if (actionType && payload) {
           ga(command, actionType, payload);
+
           if (_debug) {
-            (0, _log2.default)('called ga(\'' + command + '\');');
-            (0, _log2.default)('actionType: "' + actionType + '" with payload: ' + JSON.stringify(payload));
+            Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("called ga('".concat(command, "');"));
+            Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("actionType: \"".concat(actionType, "\" with payload: ").concat(JSON.stringify(payload)));
           }
         } else if (payload) {
           ga(command, payload);
+
           if (_debug) {
-            (0, _log2.default)('called ga(\'' + command + '\');');
-            (0, _log2.default)('with payload: ' + JSON.stringify(payload));
+            Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("called ga('".concat(command, "');"));
+            Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("with payload: ".concat(JSON.stringify(payload)));
           }
         } else {
           ga(command);
+
           if (_debug) {
-            (0, _log2.default)('called ga(\'' + command + '\');');
+            Object(_utils_console_log__WEBPACK_IMPORTED_MODULE_5__["default"])("called ga('".concat(command, "');"));
           }
         }
       }
     }
   }
 };
-
 /**
  * outboundLink:
  * GA outboundLink tracking
  * @param args.label {String} e.g. url, or 'Create an Account'
  * @param {function} hitCallback - Called after processing a hit.
  */
+
 function outboundLink(args, hitCallback, trackerNames) {
   if (typeof hitCallback !== 'function') {
-    (0, _warn2.default)('hitCallback function is required');
+    Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('hitCallback function is required');
     return;
   }
 
   if (typeof ga === 'function') {
     // Simple Validation
     if (!args || !args.label) {
-      (0, _warn2.default)('args.label is required in outboundLink()');
+      Object(_utils_console_warn__WEBPACK_IMPORTED_MODULE_4__["default"])('args.label is required in outboundLink()');
       return;
-    }
+    } // Required Fields
 
-    // Required Fields
+
     var fieldObject = {
       hitType: 'event',
       eventCategory: 'Outbound',
       eventAction: 'Click',
       eventLabel: _format(args.label)
     };
-
     var safetyCallbackCalled = false;
+
     var safetyCallback = function safetyCallback() {
       // This prevents a delayed response from GA
       // causing hitCallback from being fired twice
       safetyCallbackCalled = true;
-
       hitCallback();
-    };
-
-    // Using a timeout to ensure the execution of critical application code
+    }; // Using a timeout to ensure the execution of critical application code
     // in the case when the GA server might be down
     // or an ad blocker prevents sending the data
-
     // register safety net timeout:
+
+
     var t = setTimeout(safetyCallback, 250);
 
     var clearableCallbackForGA = function clearableCallbackForGA() {
       clearTimeout(t);
+
       if (!safetyCallbackCalled) {
         hitCallback();
       }
     };
 
-    fieldObject.hitCallback = clearableCallbackForGA;
+    fieldObject.hitCallback = clearableCallbackForGA; // Send to GA
 
-    // Send to GA
     send(fieldObject, trackerNames);
   } else {
     // if ga is not defined, return the callback so the application
@@ -8650,13 +8604,11 @@ function outboundLink(args, hitCallback, trackerNames) {
     setTimeout(hitCallback, 0);
   }
 }
-
-_OutboundLink2.default.origTrackLink = _OutboundLink2.default.trackLink;
-_OutboundLink2.default.trackLink = outboundLink;
-var OutboundLink = exports.OutboundLink = _OutboundLink2.default;
-var testModeAPI = exports.testModeAPI = _testModeAPI2.default;
-
-exports.default = {
+_components_OutboundLink__WEBPACK_IMPORTED_MODULE_7__["default"].origTrackLink = _components_OutboundLink__WEBPACK_IMPORTED_MODULE_7__["default"].trackLink;
+_components_OutboundLink__WEBPACK_IMPORTED_MODULE_7__["default"].trackLink = outboundLink;
+var OutboundLink = _components_OutboundLink__WEBPACK_IMPORTED_MODULE_7__["default"];
+var testModeAPI = _utils_testModeAPI__WEBPACK_IMPORTED_MODULE_6__["default"];
+/* harmony default export */ __webpack_exports__["default"] = ({
   initialize: initialize,
   ga: ga,
   set: set,
@@ -8669,95 +8621,198 @@ exports.default = {
   plugin: plugin,
   outboundLink: outboundLink,
   OutboundLink: OutboundLink,
-  testModeAPI: _testModeAPI2.default
-};
+  testModeAPI: _utils_testModeAPI__WEBPACK_IMPORTED_MODULE_6__["default"]
+});
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
+
+/***/ "./node_modules/react-ga/dist/esm/utils/console/log.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/console/log.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return log; });
+function log(s) {
+  console.info('[react-ga]', s);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-ga/dist/esm/utils/console/warn.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/console/warn.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return warn; });
+function warn(s) {
+  console.warn('[react-ga]', s);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-ga/dist/esm/utils/format.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/format.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return format; });
+/* harmony import */ var _mightBeEmail__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mightBeEmail */ "./node_modules/react-ga/dist/esm/utils/mightBeEmail.js");
+/* harmony import */ var _toTitleCase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toTitleCase */ "./node_modules/react-ga/dist/esm/utils/toTitleCase.js");
+/* harmony import */ var _console_warn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./console/warn */ "./node_modules/react-ga/dist/esm/utils/console/warn.js");
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = format;
-
-var _mightBeEmail = __webpack_require__(4);
-
-var _mightBeEmail2 = _interopRequireDefault(_mightBeEmail);
-
-var _toTitleCase = __webpack_require__(5);
-
-var _toTitleCase2 = _interopRequireDefault(_toTitleCase);
-
-var _warn = __webpack_require__(0);
-
-var _warn2 = _interopRequireDefault(_warn);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var redacted = 'REDACTED (Potential Email Address)';
-
 function format(s, titleCase) {
-  if ((0, _mightBeEmail2.default)(s)) {
-    (0, _warn2.default)('This arg looks like an email address, redacting.');
+  if (Object(_mightBeEmail__WEBPACK_IMPORTED_MODULE_0__["default"])(s)) {
+    Object(_console_warn__WEBPACK_IMPORTED_MODULE_2__["default"])('This arg looks like an email address, redacting.');
     return redacted;
   }
 
   if (titleCase) {
-    return (0, _toTitleCase2.default)(s);
+    return Object(_toTitleCase__WEBPACK_IMPORTED_MODULE_1__["default"])(s);
   }
 
   return s;
 }
 
 /***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
+
+/***/ "./node_modules/react-ga/dist/esm/utils/loadGA.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/loadGA.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (function (options) {
+  var gaAddress = 'https://www.google-analytics.com/analytics.js';
+
+  if (options && options.gaAddress) {
+    gaAddress = options.gaAddress;
+  } else if (options && options.debug) {
+    gaAddress = 'https://www.google-analytics.com/analytics_debug.js';
+  } // https://developers.google.com/analytics/devguides/collection/analyticsjs/
+
+  /* eslint-disable */
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments);
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(window, document, 'script', gaAddress, 'ga');
+  /* eslint-enable */
+
 });
-exports.default = mightBeEmail;
+
+/***/ }),
+
+/***/ "./node_modules/react-ga/dist/esm/utils/mightBeEmail.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/mightBeEmail.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return mightBeEmail; });
 // See if s could be an email address. We don't want to send personal data like email.
 // https://support.google.com/analytics/answer/2795983?hl=en
 function mightBeEmail(s) {
   // There's no point trying to validate rfc822 fully, just look for ...@...
-  return (/[^@]+@[^@]+/.test(s)
-  );
+  return /[^@]+@[^@]+/.test(s);
 }
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
+
+/***/ "./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return removeLeadingSlash; });
+function removeLeadingSlash(string) {
+  if (string.substring(0, 1) === '/') {
+    return string.substring(1);
+  }
 
+  return string;
+}
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+/***/ }),
+
+/***/ "./node_modules/react-ga/dist/esm/utils/testModeAPI.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/testModeAPI.js ***!
+  \*************************************************************/
+/*! exports provided: gaCalls, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gaCalls", function() { return gaCalls; });
+var gaCalls = [];
+/* harmony default export */ __webpack_exports__["default"] = ({
+  calls: gaCalls,
+  ga: function ga() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    gaCalls.push(args.concat());
+  },
+  resetCalls: function resetCalls() {
+    gaCalls.length = 0;
+  }
 });
-exports.default = toTitleCase;
 
-var _trim = __webpack_require__(1);
+/***/ }),
 
-var _trim2 = _interopRequireDefault(_trim);
+/***/ "./node_modules/react-ga/dist/esm/utils/toTitleCase.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/toTitleCase.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return toTitleCase; });
+/* harmony import */ var _trim__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./trim */ "./node_modules/react-ga/dist/esm/utils/trim.js");
+/**
+ * To Title Case 2.1 - http://individed.com/code/to-title-case/
+ * Copyright 2008-2013 David Gouch. Licensed under the MIT License.
+ * https://github.com/gouch/to-title-case
+ */
 
-var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i; /**
-                                                                                                * To Title Case 2.1 - http://individed.com/code/to-title-case/
-                                                                                                * Copyright 2008-2013 David Gouch. Licensed under the MIT License.
-                                                                                                * https://github.com/gouch/to-title-case
-                                                                                                */
-
+var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i;
 function toTitleCase(string) {
-  return (0, _trim2.default)(string).replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function (match, index, title) {
+  return Object(_trim__WEBPACK_IMPORTED_MODULE_0__["default"])(string).replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function (match, index, title) {
     if (index > 0 && index + match.length !== title.length && match.search(smallWords) > -1 && title.charAt(index - 2) !== ':' && (title.charAt(index + match.length) !== '-' || title.charAt(index - 1) === '-') && title.charAt(index - 1).search(/[^\s-]/) < 0) {
       return match.toLowerCase();
     }
@@ -8771,215 +8826,22 @@ function toTitleCase(string) {
 }
 
 /***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
+
+/***/ "./node_modules/react-ga/dist/esm/utils/trim.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-ga/dist/esm/utils/trim.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = removeLeadingSlash;
-function removeLeadingSlash(string) {
-  if (string.substring(0, 1) === '/') {
-    return string.substring(1);
-  }
-
-  return string;
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return trim; });
+// GA strings need to have leading/trailing whitespace trimmed, and not all
+// browsers have String.prototoype.trim().
+function trim(s) {
+  return s.replace(/^\s+|\s+$/g, '');
 }
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (options) {
-  // https://developers.google.com/analytics/devguides/collection/analyticsjs/
-  /* eslint-disable */
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments);
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m);
-  })(window, document, 'script', options && options.gaAddress ? options.gaAddress : 'https://www.google-analytics.com/analytics.js', 'ga');
-  /* eslint-enable */
-};
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = log;
-function log(s) {
-  console.info('[react-ga]', s);
-}
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var gaCalls = exports.gaCalls = [];
-
-exports.default = {
-  calls: gaCalls,
-  ga: function ga() {
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    gaCalls.push([].concat(args));
-  }
-};
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(11);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(12);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _warn = __webpack_require__(0);
-
-var _warn2 = _interopRequireDefault(_warn);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var NEWTAB = '_blank';
-var MIDDLECLICK = 1;
-
-var OutboundLink = function (_Component) {
-  _inherits(OutboundLink, _Component);
-
-  function OutboundLink() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, OutboundLink);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = OutboundLink.__proto__ || Object.getPrototypeOf(OutboundLink)).call.apply(_ref, [this].concat(args))), _this), _this.handleClick = function (event) {
-      var _this$props = _this.props,
-          target = _this$props.target,
-          eventLabel = _this$props.eventLabel,
-          to = _this$props.to,
-          onClick = _this$props.onClick;
-
-      var eventMeta = { label: eventLabel };
-      var sameTarget = target !== NEWTAB;
-      var normalClick = !(event.ctrlKey || event.shiftKey || event.metaKey || event.button === MIDDLECLICK);
-
-      if (sameTarget && normalClick) {
-        event.preventDefault();
-        OutboundLink.trackLink(eventMeta, function () {
-          window.location.href = to;
-        });
-      } else {
-        OutboundLink.trackLink(eventMeta, function () {});
-      }
-
-      if (onClick) {
-        onClick(event);
-      }
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(OutboundLink, [{
-    key: 'render',
-    value: function render() {
-      var props = _extends({}, this.props, {
-        href: this.props.to,
-        onClick: this.handleClick
-      });
-      delete props.eventLabel;
-      return _react2.default.createElement('a', props);
-    }
-  }]);
-
-  return OutboundLink;
-}(_react.Component);
-
-OutboundLink.propTypes = {
-  eventLabel: _propTypes2.default.string.isRequired,
-  target: _propTypes2.default.string,
-  to: _propTypes2.default.string,
-  onClick: _propTypes2.default.func
-};
-OutboundLink.defaultProps = {
-  target: null,
-  to: null,
-  onClick: null
-};
-
-OutboundLink.trackLink = function () {
-  (0, _warn2.default)('ga tracking not enabled');
-};
-
-exports.default = OutboundLink;
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE_11__;
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
-
-/***/ })
-/******/ ]);
-});
 
 /***/ }),
 
@@ -8991,7 +8853,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.6.0
+/** @license React v16.8.4
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -9021,6 +8883,7 @@ var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeac
 var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
 var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
 var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
 var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
 var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
 var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
@@ -9089,16 +8952,17 @@ var lowPriorityWarning$1 = lowPriorityWarning;
 function typeOf(object) {
   if (typeof object === 'object' && object !== null) {
     var $$typeof = object.$$typeof;
-
     switch ($$typeof) {
       case REACT_ELEMENT_TYPE:
         var type = object.type;
 
         switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
           case REACT_CONCURRENT_MODE_TYPE:
           case REACT_FRAGMENT_TYPE:
           case REACT_PROFILER_TYPE:
           case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
             return type;
           default:
             var $$typeofType = type && type.$$typeof;
@@ -9112,6 +8976,8 @@ function typeOf(object) {
                 return $$typeof;
             }
         }
+      case REACT_LAZY_TYPE:
+      case REACT_MEMO_TYPE:
       case REACT_PORTAL_TYPE:
         return $$typeof;
     }
@@ -9120,17 +8986,20 @@ function typeOf(object) {
   return undefined;
 }
 
-// AsyncMode alias is deprecated along with isAsyncMode
-var AsyncMode = REACT_CONCURRENT_MODE_TYPE;
+// AsyncMode is deprecated along with isAsyncMode
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
 var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
 var ContextConsumer = REACT_CONTEXT_TYPE;
 var ContextProvider = REACT_PROVIDER_TYPE;
 var Element = REACT_ELEMENT_TYPE;
 var ForwardRef = REACT_FORWARD_REF_TYPE;
 var Fragment = REACT_FRAGMENT_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
 var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
 var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
 
 var hasWarnedAboutDeprecatedIsAsyncMode = false;
 
@@ -9142,7 +9011,7 @@ function isAsyncMode(object) {
       lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
     }
   }
-  return isConcurrentMode(object);
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
 }
 function isConcurrentMode(object) {
   return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
@@ -9162,14 +9031,23 @@ function isForwardRef(object) {
 function isFragment(object) {
   return typeOf(object) === REACT_FRAGMENT_TYPE;
 }
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
 }
 function isPortal(object) {
   return typeOf(object) === REACT_PORTAL_TYPE;
 }
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
 function isStrictMode(object) {
   return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
 }
 
 exports.typeOf = typeOf;
@@ -9180,9 +9058,12 @@ exports.ContextProvider = ContextProvider;
 exports.Element = Element;
 exports.ForwardRef = ForwardRef;
 exports.Fragment = Fragment;
-exports.Profiler = Profiler;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
 exports.Portal = Portal;
+exports.Profiler = Profiler;
 exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
 exports.isValidElementType = isValidElementType;
 exports.isAsyncMode = isAsyncMode;
 exports.isConcurrentMode = isConcurrentMode;
@@ -9191,9 +9072,12 @@ exports.isContextProvider = isContextProvider;
 exports.isElement = isElement;
 exports.isForwardRef = isForwardRef;
 exports.isFragment = isFragment;
-exports.isProfiler = isProfiler;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
 exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
 exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
   })();
 }
 
@@ -9230,7 +9114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _utils_PropTypes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/PropTypes */ "./node_modules/react-redux/es/utils/PropTypes.js");
 /* harmony import */ var _utils_warning__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/warning */ "./node_modules/react-redux/es/utils/warning.js");
@@ -10112,7 +9996,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "subscriptionShape", function() { return subscriptionShape; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "storeShape", function() { return storeShape; });
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
 
 var subscriptionShape = prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
@@ -10246,13 +10130,15 @@ __webpack_require__.r(__webpack_exports__);
  */
 function isPlainObject(obj) {
   if (typeof obj !== 'object' || obj === null) return false;
-  var proto = obj;
+  var proto = Object.getPrototypeOf(obj);
+  if (proto === null) return true;
+  var baseProto = proto;
 
-  while (Object.getPrototypeOf(proto) !== null) {
-    proto = Object.getPrototypeOf(proto);
+  while (Object.getPrototypeOf(baseProto) !== null) {
+    baseProto = Object.getPrototypeOf(baseProto);
   }
 
-  return Object.getPrototypeOf(obj) === proto;
+  return proto === baseProto;
 }
 
 /***/ }),
@@ -10463,22 +10349,19 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 "use strict";
 
 
-var _ReactIs$ForwardRef;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 /**
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
  */
 var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var REACT_STATICS = {
     childContextTypes: true,
+    contextType: true,
     contextTypes: true,
     defaultProps: true,
     displayName: true,
     getDefaultProps: true,
+    getDerivedStateFromError: true,
     getDerivedStateFromProps: true,
     mixins: true,
     propTypes: true,
@@ -10495,7 +10378,32 @@ var KNOWN_STATICS = {
     arity: true
 };
 
-var TYPE_STATICS = _defineProperty({}, ReactIs.ForwardRef, (_ReactIs$ForwardRef = {}, _defineProperty(_ReactIs$ForwardRef, '$$typeof', true), _defineProperty(_ReactIs$ForwardRef, 'render', true), _ReactIs$ForwardRef));
+var FORWARD_REF_STATICS = {
+    '$$typeof': true,
+    render: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true
+};
+
+var MEMO_STATICS = {
+    '$$typeof': true,
+    compare: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true,
+    type: true
+};
+
+var TYPE_STATICS = {};
+TYPE_STATICS[ReactIs.ForwardRef] = FORWARD_REF_STATICS;
+
+function getStatics(component) {
+    if (ReactIs.isMemo(component)) {
+        return MEMO_STATICS;
+    }
+    return TYPE_STATICS[component['$$typeof']] || REACT_STATICS;
+}
 
 var defineProperty = Object.defineProperty;
 var getOwnPropertyNames = Object.getOwnPropertyNames;
@@ -10521,8 +10429,8 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
             keys = keys.concat(getOwnPropertySymbols(sourceComponent));
         }
 
-        var targetStatics = TYPE_STATICS[targetComponent['$$typeof']] || REACT_STATICS;
-        var sourceStatics = TYPE_STATICS[sourceComponent['$$typeof']] || REACT_STATICS;
+        var targetStatics = getStatics(targetComponent);
+        var sourceStatics = getStatics(sourceComponent);
 
         for (var i = 0; i < keys.length; ++i) {
             var key = keys[i];
@@ -10548,12 +10456,12 @@ module.exports = hoistNonReactStatics;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -12861,33 +12769,13 @@ module.exports = {
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
+/*!******************************************************************************************************!*\
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \******************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1, eval)("this");
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -12976,8 +12864,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/react-ga.js");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 /* harmony import */ var _etc_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../etc/config */ "./etc/config.js");
 var _jsxFileName = "/Users/krzysztof/www/magesuite-web/pages/_app.jsx";
 
@@ -13052,7 +12939,7 @@ function (_App) {
     key: "componentDidMount",
     value: function componentDidMount() {
       if (_etc_config__WEBPACK_IMPORTED_MODULE_6__["GA_ID"]) {
-        react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.initialize(_etc_config__WEBPACK_IMPORTED_MODULE_6__["GA_ID"]);
+        react_ga__WEBPACK_IMPORTED_MODULE_5__["default"].initialize(_etc_config__WEBPACK_IMPORTED_MODULE_6__["GA_ID"]);
         this.logPageview();
         next_router__WEBPACK_IMPORTED_MODULE_4___default.a.router.events.on('routeChangeComplete', this.logPageview);
       }
@@ -13060,10 +12947,10 @@ function (_App) {
   }, {
     key: "logPageview",
     value: function logPageview() {
-      react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.set({
+      react_ga__WEBPACK_IMPORTED_MODULE_5__["default"].set({
         page: window.location.pathname
       });
-      react_ga__WEBPACK_IMPORTED_MODULE_5___default.a.pageview(window.location.pathname + window.location.search);
+      react_ga__WEBPACK_IMPORTED_MODULE_5__["default"].pageview(window.location.pathname + window.location.search);
     }
   }]);
 
@@ -13107,14 +12994,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_eb02e7dfbeacbb2663f4":
+/***/ "dll-reference dll_a4b62e1832b1a74d3177":
 /*!*******************************************!*\
-  !*** external "dll_eb02e7dfbeacbb2663f4" ***!
+  !*** external "dll_a4b62e1832b1a74d3177" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_eb02e7dfbeacbb2663f4;
+module.exports = dll_a4b62e1832b1a74d3177;
 
 /***/ })
 
