@@ -14,6 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout */ "./components/layout.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/banner-box.jsx";
 
 
 function _templateObject2() {
@@ -46,8 +47,19 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
       children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
     as: "section",
-    image: image
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, null, children));
+    image: image,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, children));
 });
 var Section = Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["default"])(_layout__WEBPACK_IMPORTED_MODULE_2__["MaxWidth"])(_templateObject(), function (p) {
   return p.image;
@@ -69,6 +81,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/button.jsx";
 
 
 function _templateObject4() {
@@ -113,6 +126,8 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
@@ -123,13 +138,41 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ["children"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, props, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Caption, null, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Caption, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
     viewBox: "0 0 12 19",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M9.4 11.621l-6.9 6.9-2.121-2.122 6.9-6.899-6.9-6.9L2.5.48l9.02 9.02-2.12 2.121z",
     fill: "#FFF",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
   }))));
 });
 var Button = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].button(_templateObject(), _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].w, _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].p, Object(_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(64));
@@ -154,6 +197,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var _data_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/store */ "./data/store.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/cookies.jsx";
 
 
 function _templateObject3() {
@@ -229,11 +273,21 @@ function (_Component) {
       var _this = this;
 
       return !this.props.acceptCookies && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
-        className: this.props.className
+        className: this.props.className,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Accept, {
         onClick: function onClick(e) {
           _this.props.dispatch(Object(_data_store__WEBPACK_IMPORTED_MODULE_3__["acceptCookies"])());
-        }
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
       }, "Our website uses cookies. By continuing to use our website, you consent to the use of tracking cookies."));
     }
   }]);
@@ -267,6 +321,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/feature-icon.jsx";
 
 
 function _templateObject3() {
@@ -319,8 +374,25 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
     className: wrapperClasses.join(' '),
     onClick: function onClick(e) {
       return clickedHandler(id);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, null, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Caption, null, text));
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconWrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Caption, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, text));
 });
 var Link = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject(), _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].l2, _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].l, Object(_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(30), _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].l, _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].d, _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].p, _styles__WEBPACK_IMPORTED_MODULE_1__["colors"].p);
 var Caption = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject2(), Object(_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(14), Object(_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(16));
@@ -350,6 +422,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_icon_search__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/icon-search */ "./components/icons/icon-search.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/features-tabs.jsx";
 
 
 function _templateObject2() {
@@ -387,42 +460,150 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var tabClicked = _ref.tabClicked,
       activeTab = _ref.activeTab;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tabs, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tabs, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "Content Constructor",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_cms__WEBPACK_IMPORTED_MODULE_7__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_cms__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }),
     id: "cms",
     clickedHandler: tabClicked,
-    active: activeTab == 'cms'
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    active: activeTab == 'cms',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "High Performance",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_performance__WEBPACK_IMPORTED_MODULE_3__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_performance__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }),
     id: "perf",
     clickedHandler: tabClicked,
-    active: activeTab == 'perf'
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    active: activeTab == 'perf',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "Security and\xA0GDPR",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_security__WEBPACK_IMPORTED_MODULE_4__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_security__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }),
     id: "security",
     clickedHandler: tabClicked,
-    active: activeTab == 'security'
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    active: activeTab == 'security',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "Search Engine",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_search__WEBPACK_IMPORTED_MODULE_8__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_search__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }),
     id: "search",
     clickedHandler: tabClicked,
-    active: activeTab == 'search'
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    active: activeTab == 'search',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "Marketing",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_news__WEBPACK_IMPORTED_MODULE_6__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_news__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }),
     id: "marketing",
     clickedHandler: tabClicked,
-    active: activeTab == 'marketing'
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    active: activeTab == 'marketing',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tab, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_feature_icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "UX",
-    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_design__WEBPACK_IMPORTED_MODULE_5__["default"], null),
+    icon: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_design__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }),
     id: "ux",
     clickedHandler: tabClicked,
-    active: activeTab == 'ux'
+    active: activeTab == 'ux',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
   })));
 });
 var Tabs = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].ul(_templateObject(), _styles__WEBPACK_IMPORTED_MODULE_10__["mediaQueries"].mobile);
@@ -458,7 +639,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 /* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2(_templateObject(), _styles__WEBPACK_IMPORTED_MODULE_0__["mediaQueries"].mobile, function (props) {
-  return props.size == 20 ? Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(30) : Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(50);
+  return props.size == 20 ? Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(30) : Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(46);
 }, _styles__WEBPACK_IMPORTED_MODULE_0__["mediaQueries"].tabletUp, function (props) {
   return props.size == 20 ? Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(36) : Object(_styles__WEBPACK_IMPORTED_MODULE_0__["rem"])(64);
 }, function (props) {
@@ -480,14 +661,25 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-cms.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 71 70",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M63.996.355C67.858.355 71 3.502 71 7.371v44.4c0 3.869-3.298 7.217-7.159 7.217H43.554v5.982l9.57.003v4.784H17.875v-4.784l8.972-.003v-5.982H7.16C3.298 58.988 0 55.64 0 51.772V7.37C0 3.502 3.143.355 7.003.355h56.994zM4.773 41.637h61.454l-.004-34.266a2.23 2.23 0 0 0-2.227-2.23H7.002a2.23 2.23 0 0 0-2.226 2.23l-.003 34.266zm22.075-22.136v-1.795l4.219 4.147-4.219 4.23v-1.796h-4.176v4.188h1.79l-4.198 4.2-4.155-4.2h1.79v-4.188h-4.177v1.795l-4.261-4.23 4.261-4.146V19.5H17.9v-4.188h-1.79l4.155-4.282 4.198 4.282h-1.79V19.5h4.176zm39.375 32.27l.004-5.347H4.773l.003 5.348c0 1.23 1.155 2.43 2.383 2.43H63.84c1.228 0 2.383-1.2 2.383-2.43zm-34.601 13.2h7.16v-5.983h-7.16v5.982z",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -504,14 +696,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-design.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 67 67",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M51.482 58.413l6.934-6.933 3.215 10.147-10.149-3.214zm-14.56-12.512l8.987-8.986 10.12 10.12-8.99 8.991-10.117-10.125zM13.79 62.161l-8.952-8.95c-.006-.007 1.79-1.814 5.386-5.422l5.114 5.114 3.415-3.415-5.113-5.112 5.126-5.12 5.11 5.11 3.416-3.416-5.11-5.109 5.125-5.12 5.107 5.107 3.415-3.415-5.105-5.105 5.125-5.121 5.104 5.103 3.414-3.414-5.102-5.102 5.125-5.121 5.1 5.1 3.415-3.415-5.098-5.1 5.406-5.4 8.952 8.991L13.79 62.162zm-.594-40.007l8.976-8.975 7.915 7.914-8.98 8.98-7.911-7.919zm.634-17.316l4.927 4.925-8.974 8.975-4.945-4.95 8.992-8.95zm48.393 42.664a6.956 6.956 0 0 0-1.709-2.812L49.324 33.5 65.58 17.244a4.865 4.865 0 0 0 0-6.87l-8.952-8.951A4.824 4.824 0 0 0 53.193 0a4.826 4.826 0 0 0-3.436 1.423L33.502 17.678 17.245 1.422A4.828 4.828 0 0 0 13.81 0a4.823 4.823 0 0 0-3.436 1.423l-8.951 8.95A4.829 4.829 0 0 0 0 13.809c0 1.298.505 2.518 1.423 3.435L17.679 33.5 1.423 49.755A4.826 4.826 0 0 0 0 53.19c0 1.299.505 2.518 1.423 3.435l8.95 8.951A4.827 4.827 0 0 0 13.81 67a4.827 4.827 0 0 0 3.435-1.423L33.502 49.32l11.19 11.19a6.974 6.974 0 0 0 2.811 1.71l13.301 4.21a4.472 4.472 0 0 0 4.526-1.105 4.47 4.47 0 0 0 1.105-4.526l-4.212-13.298z",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -528,14 +731,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-news.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 65 65",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M10.72 47.115a2.38 2.38 0 0 0-2.37 2.39 2.38 2.38 0 0 0 2.37 2.391h27.47a2.381 2.381 0 0 0 2.37-2.39 2.38 2.38 0 0 0-2.37-2.391H10.72zm.034-9.53a2.393 2.393 0 0 0-2.403 2.382 2.392 2.392 0 0 0 2.403 2.381h43.499a2.392 2.392 0 0 0 2.403-2.381 2.393 2.393 0 0 0-2.403-2.381H10.754zm43.467-4.778c1.345 0 2.435-1.067 2.435-2.381 0-1.316-1.09-2.382-2.435-2.382H39.996c-1.345 0-2.434 1.066-2.434 2.382 0 1.314 1.09 2.38 2.434 2.38H54.22zM39.96 18.502a2.39 2.39 0 0 0-2.398 2.382 2.39 2.39 0 0 0 2.398 2.38h14.298a2.39 2.39 0 0 0 2.398-2.38 2.39 2.39 0 0 0-2.398-2.382H39.96zm0-9.544a2.39 2.39 0 0 0-2.398 2.381 2.39 2.39 0 0 0 2.398 2.381h14.298a2.39 2.39 0 0 0 2.398-2.381 2.39 2.39 0 0 0-2.398-2.38H39.96zm20.258 38.225h-9.086a4.028 4.028 0 0 0-4.023 4.023v9.013H7.01c-1.23 0-2.229-1-2.229-2.23V7.01c0-1.229 1-2.228 2.23-2.228H57.99c1.23 0 2.228.999 2.228 2.228v40.173zM51.89 59.222v-7.258h7.154l-7.154 7.258zM12 9h18a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H12a3 3 0 0 1-3-3V12a3 3 0 0 1 3-3zm2 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V14a1 1 0 0 0-1-1H14zM7.01 0A7.018 7.018 0 0 0 0 7.01v50.98A7.018 7.018 0 0 0 7.01 65h44.897c.64 0 1.254-.256 1.703-.713L64.312 53.43c.441-.447.688-1.05.688-1.679V7.011A7.018 7.018 0 0 0 57.99 0H7.01z",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -552,15 +766,26 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-performance.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var color = _ref.color;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 73 64",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M34.048 36.277a2.46 2.46 0 0 0 4.904.38 2.458 2.458 0 0 0-4.904-.38zm5.977 4.306c-1.1.94-2.5 1.396-3.945 1.285a5.392 5.392 0 0 1-3.7-1.878 5.381 5.381 0 0 1-1.286-3.942 5.428 5.428 0 0 1 5.826-4.981 5.426 5.426 0 0 1 4.986 5.82 5.381 5.381 0 0 1-1.881 3.696zm6.723-4.326c-.104-5.202-4.157-9.59-9.454-10.001-5.628-.437-10.576 3.787-11.015 9.418a10.172 10.172 0 0 0 2.432 7.453 10.19 10.19 0 0 0 6.995 3.552 10.169 10.169 0 0 0 7.276-2.286l20.276 4.428-16.51-12.564zM0 36.467c0 9.63 3.727 18.716 10.468 25.554L12.357 64l8.572-8.564-3.414-3.412-5.05 5.044A31.362 31.362 0 0 1 4.928 38.88h7.139v-4.825H4.93A31.485 31.485 0 0 1 12.48 15.88l5.036 5.03 3.414-3.412-5.035-5.03a31.546 31.546 0 0 1 18.191-7.542v7.128h4.83V4.927a31.544 31.544 0 0 1 18.19 7.541L52.07 17.5l3.415 3.412 5.036-5.03a31.48 31.48 0 0 1 7.548 18.174h-7.135v4.825h7.14a31.392 31.392 0 0 1-7.541 18.187l-5.048-5.043-3.415 3.412L60.642 64l1.862-1.95C69.273 55.182 73 46.097 73 36.467 73 16.358 56.626 0 36.5 0 16.373 0 0 16.359 0 36.468z",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -577,6 +802,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-play.jsx";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -586,10 +812,21 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     xmlns: "http://www.w3.org/2000/svg",
     width: "127",
     height: "127"
-  }, props), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#FFF",
     fillRule: "evenodd",
-    d: "M63.5 127a63.5 63.5 0 1 1 0-127 63.5 63.5 0 0 1 0 127zm27.52-63.5L47 39v49l44.02-24.5z"
+    d: "M63.5 127a63.5 63.5 0 1 1 0-127 63.5 63.5 0 0 1 0 127zm27.52-63.5L47 39v49l44.02-24.5z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -606,17 +843,38 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-search.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 54 54",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M27 50.233a23.08 23.08 0 0 1-16.428-6.805A23.08 23.08 0 0 1 3.767 27a23.08 23.08 0 0 1 6.805-16.428A23.081 23.081 0 0 1 27 3.767a23.108 23.108 0 0 1 16.42 6.813A23.108 23.108 0 0 1 50.233 27a23.08 23.08 0 0 1-6.805 16.428A23.08 23.08 0 0 1 27 50.233M46.092 7.908C40.992 2.808 34.212 0 27 0 19.788 0 13.008 2.808 7.908 7.908 2.808 13.008 0 19.788 0 27c0 7.212 2.808 13.992 7.908 19.092C13.008 51.192 19.788 54 27 54c7.209-.009 13.986-2.82 19.083-7.917C51.18 40.986 53.99 34.209 54 27c0-7.212-2.809-13.992-7.908-19.092"
+    d: "M27 50.233a23.08 23.08 0 0 1-16.428-6.805A23.08 23.08 0 0 1 3.767 27a23.08 23.08 0 0 1 6.805-16.428A23.081 23.081 0 0 1 27 3.767a23.108 23.108 0 0 1 16.42 6.813A23.108 23.108 0 0 1 50.233 27a23.08 23.08 0 0 1-6.805 16.428A23.08 23.08 0 0 1 27 50.233M46.092 7.908C40.992 2.808 34.212 0 27 0 19.788 0 13.008 2.808 7.908 7.908 2.808 13.008 0 19.788 0 27c0 7.212 2.808 13.992 7.908 19.092C13.008 51.192 19.788 54 27 54c7.209-.009 13.986-2.82 19.083-7.917C51.18 40.986 53.99 34.209 54 27c0-7.212-2.809-13.992-7.908-19.092",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M23.356 13.699c5.32.005 9.652 4.338 9.657 9.657 0 5.325-4.332 9.658-9.657 9.658s-9.657-4.333-9.657-9.658c0-5.325 4.332-9.657 9.657-9.657zm10.65 17.693a13.298 13.298 0 0 0 2.706-8.036C36.712 15.992 30.72 10 23.356 10S10 15.992 10 23.356c0 7.365 5.991 13.356 13.356 13.356a13.298 13.298 0 0 0 8.036-2.705l5.45 5.451c.345.345.822.542 1.308.542.751 0 1.422-.448 1.708-1.142a1.844 1.844 0 0 0-.4-2.015l-5.451-5.45z"
+    d: "M23.356 13.699c5.32.005 9.652 4.338 9.657 9.657 0 5.325-4.332 9.658-9.657 9.658s-9.657-4.333-9.657-9.658c0-5.325 4.332-9.657 9.657-9.657zm10.65 17.693a13.298 13.298 0 0 0 2.706-8.036C36.712 15.992 30.72 10 23.356 10S10 15.992 10 23.356c0 7.365 5.991 13.356 13.356 13.356a13.298 13.298 0 0 0 8.036-2.705l5.45 5.451c.345.345.822.542 1.308.542.751 0 1.422-.448 1.708-1.142a1.844 1.844 0 0 0-.4-2.015l-5.451-5.45z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M18.929 26a1.93 1.93 0 0 0 1.928-1.929 3.218 3.218 0 0 1 3.214-3.214A1.93 1.93 0 0 0 26 18.93 1.93 1.93 0 0 0 24.071 17 7.08 7.08 0 0 0 17 24.071 1.93 1.93 0 0 0 18.929 26"
+    d: "M18.929 26a1.93 1.93 0 0 0 1.928-1.929 3.218 3.218 0 0 1 3.214-3.214A1.93 1.93 0 0 0 26 18.93 1.93 1.93 0 0 0 24.071 17 7.08 7.08 0 0 0 17 24.071 1.93 1.93 0 0 0 18.929 26",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
   }));
 });
 
@@ -633,14 +891,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/icons/icon-security.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 64 72",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M59.21 33.05c-.284 10.771-4.997 19.764-14.01 26.73-5.629 4.352-11.293 6.54-13.2 7.203-1.91-.664-7.572-2.852-13.201-7.202C9.787 52.814 5.073 43.82 4.791 33.05V15.589c6.33-1.941 11.24-5.842 13.598-10.798H45.61C47.97 9.747 52.88 13.648 59.21 15.59v17.46zm2.947-21.624C55.936 9.953 51.075 6.19 49.472 1.605L48.911 0H15.089l-.561 1.605c-1.603 4.585-6.464 8.348-12.685 9.82L0 11.863v21.219c.312 12.241 5.847 22.8 16.007 30.597 7.58 5.816 15.007 8.033 15.32 8.125L32 72l.674-.197c.312-.092 7.738-2.309 15.318-8.125 10.16-7.797 15.695-18.356 16.007-30.536L64 11.862l-1.843-.436zM32 28.966L17.16 14.124a27.052 27.052 0 0 1-3.893 2.884l15.346 15.349-14.886 14.89a30.17 30.17 0 0 0 2.856 3.92L32 35.744l15.417 15.422a30.203 30.203 0 0 0 2.856-3.92l-14.886-14.89 15.345-15.35a27.071 27.071 0 0 1-3.892-2.884L32 28.967z",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }));
 });
 
@@ -668,6 +937,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _data_store__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/store */ "./data/store.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _video_player__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./video-player */ "./components/video-player.jsx");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/layout.jsx";
 
 
 function _templateObject6() {
@@ -771,28 +1041,104 @@ function (_Component) {
       var title = this.props.title || 'MageSuite';
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Root, {
         className: this.props.className,
-        as: this.props.as
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        as: this.props.as,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "description",
-        content: this.props.description
+        content: this.props.description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width, initial-scale=1"
+        content: "width=device-width, initial-scale=1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "robots",
-        content: "index, follow"
+        content: "index, follow",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "icon",
-        href: "/static/images/favicon.png"
+        href: "/static/images/favicon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:type",
-        content: "website"
+        content: "website",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         property: "og:locale",
-        content: "en_US"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GlobalStyle, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_video_player__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        as: "header"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, null, this.props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+        content: "en_US",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GlobalStyle, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_video_player__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        as: "header",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, this.props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }));
     }
   }]);
 
@@ -866,42 +1212,93 @@ var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_7__["createG
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/logos/magesuite-cloud.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 501 124",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     fill: "none",
-    fillRule: "evenodd"
+    fillRule: "evenodd",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#FFF",
-    d: "M398.15 80.46c-2.2 0-4.13-.41-5.79-1.1a11.57 11.57 0 0 1-4.28-3.03 15.32 15.32 0 0 1-2.61-4.68c-.56-1.8-.83-3.86-.83-6.07 0-2.2.27-4.27.96-6.06a12.96 12.96 0 0 1 2.62-4.68 10.1 10.1 0 0 1 4.14-3.03 14.07 14.07 0 0 1 5.52-1.1c1.51 0 3.03.13 4.27.4 1.38.28 2.35.56 3.17.97l-.96 3.03a6.58 6.58 0 0 0-2.48-.83c-.97-.27-2.21-.27-3.73-.27-3.17 0-5.51.96-7.17 3.03-1.65 2.07-2.48 4.96-2.48 8.68 0 1.65.14 3.17.55 4.68a9.76 9.76 0 0 0 1.8 3.59 9.06 9.06 0 0 0 3.17 2.34c1.24.55 2.9.83 4.82.83 1.52 0 2.9-.14 3.86-.56 1.1-.41 1.8-.69 2.35-.96l.83 3.03c-.7.41-1.66.69-3.18 1.1-1.51.42-3.03.7-4.55.7m17.93-.15c-1.24 0-2.2-.13-3.17-.4a4.9 4.9 0 0 1-2.2-1.25 5.05 5.05 0 0 1-1.39-2.2c-.27-.97-.41-2.07-.41-3.45V37.75l3.58-.69v35.69c0 .82.14 1.65.28 2.06.14.55.41.97.7 1.24.27.28.82.55 1.23.7.55.13 1.1.27 1.93.4l-.55 3.17zm24.55-14.74c0-3.58-.83-6.34-2.48-8.54a8.19 8.19 0 0 0-6.76-3.17c-2.76 0-5.1 1.1-6.76 3.17-1.65 2.07-2.48 4.96-2.48 8.54 0 3.58.83 6.34 2.48 8.4a8.19 8.19 0 0 0 6.76 3.17c2.76 0 5.1-1.1 6.76-3.16 1.65-1.93 2.48-4.82 2.48-8.4m3.86 0c0 2.2-.27 4.26-.96 6.05a13.19 13.19 0 0 1-2.76 4.69 11.52 11.52 0 0 1-4.14 3.03c-1.52.69-3.31 1.1-5.24 1.1-1.93 0-3.59-.41-5.24-1.1a12.33 12.33 0 0 1-4.14-3.03 15.58 15.58 0 0 1-2.76-4.69 16.93 16.93 0 0 1-.96-6.06c0-2.2.27-4.27.96-6.06.7-1.8 1.52-3.45 2.76-4.69a11.52 11.52 0 0 1 4.14-3.03c1.65-.69 3.3-1.1 5.24-1.1 1.93 0 3.59.41 5.24 1.1 1.66.7 2.9 1.8 4.14 3.03 1.1 1.24 2.07 2.9 2.76 4.69.55 1.79.96 3.86.96 6.06m26.9 13.23c-1.11.27-2.49.69-4.28.96-1.8.42-4 .56-6.62.56-2.07 0-3.86-.28-5.38-.97a9.54 9.54 0 0 1-3.45-2.62 11.57 11.57 0 0 1-1.93-4.13 22.16 22.16 0 0 1-.55-5.37V51.39h3.59v14.74c0 2.07.14 3.72.4 5.1.29 1.38.84 2.48 1.39 3.45a6.19 6.19 0 0 0 2.62 1.92c1.1.42 2.34.56 3.86.56 1.66 0 3.17-.14 4.41-.28a7.96 7.96 0 0 0 2.35-.55V51.39h3.58v27.42z"
+    d: "M398.15 80.46c-2.2 0-4.13-.41-5.79-1.1a11.57 11.57 0 0 1-4.28-3.03 15.32 15.32 0 0 1-2.61-4.68c-.56-1.8-.83-3.86-.83-6.07 0-2.2.27-4.27.96-6.06a12.96 12.96 0 0 1 2.62-4.68 10.1 10.1 0 0 1 4.14-3.03 14.07 14.07 0 0 1 5.52-1.1c1.51 0 3.03.13 4.27.4 1.38.28 2.35.56 3.17.97l-.96 3.03a6.58 6.58 0 0 0-2.48-.83c-.97-.27-2.21-.27-3.73-.27-3.17 0-5.51.96-7.17 3.03-1.65 2.07-2.48 4.96-2.48 8.68 0 1.65.14 3.17.55 4.68a9.76 9.76 0 0 0 1.8 3.59 9.06 9.06 0 0 0 3.17 2.34c1.24.55 2.9.83 4.82.83 1.52 0 2.9-.14 3.86-.56 1.1-.41 1.8-.69 2.35-.96l.83 3.03c-.7.41-1.66.69-3.18 1.1-1.51.42-3.03.7-4.55.7m17.93-.15c-1.24 0-2.2-.13-3.17-.4a4.9 4.9 0 0 1-2.2-1.25 5.05 5.05 0 0 1-1.39-2.2c-.27-.97-.41-2.07-.41-3.45V37.75l3.58-.69v35.69c0 .82.14 1.65.28 2.06.14.55.41.97.7 1.24.27.28.82.55 1.23.7.55.13 1.1.27 1.93.4l-.55 3.17zm24.55-14.74c0-3.58-.83-6.34-2.48-8.54a8.19 8.19 0 0 0-6.76-3.17c-2.76 0-5.1 1.1-6.76 3.17-1.65 2.07-2.48 4.96-2.48 8.54 0 3.58.83 6.34 2.48 8.4a8.19 8.19 0 0 0 6.76 3.17c2.76 0 5.1-1.1 6.76-3.16 1.65-1.93 2.48-4.82 2.48-8.4m3.86 0c0 2.2-.27 4.26-.96 6.05a13.19 13.19 0 0 1-2.76 4.69 11.52 11.52 0 0 1-4.14 3.03c-1.52.69-3.31 1.1-5.24 1.1-1.93 0-3.59-.41-5.24-1.1a12.33 12.33 0 0 1-4.14-3.03 15.58 15.58 0 0 1-2.76-4.69 16.93 16.93 0 0 1-.96-6.06c0-2.2.27-4.27.96-6.06.7-1.8 1.52-3.45 2.76-4.69a11.52 11.52 0 0 1 4.14-3.03c1.65-.69 3.3-1.1 5.24-1.1 1.93 0 3.59.41 5.24 1.1 1.66.7 2.9 1.8 4.14 3.03 1.1 1.24 2.07 2.9 2.76 4.69.55 1.79.96 3.86.96 6.06m26.9 13.23c-1.11.27-2.49.69-4.28.96-1.8.42-4 .56-6.62.56-2.07 0-3.86-.28-5.38-.97a9.54 9.54 0 0 1-3.45-2.62 11.57 11.57 0 0 1-1.93-4.13 22.16 22.16 0 0 1-.55-5.37V51.39h3.59v14.74c0 2.07.14 3.72.4 5.1.29 1.38.84 2.48 1.39 3.45a6.19 6.19 0 0 0 2.62 1.92c1.1.42 2.34.56 3.86.56 1.66 0 3.17-.14 4.41-.28a7.96 7.96 0 0 0 2.35-.55V51.39h3.58v27.42z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
-    transform: "translate(475.8 36.37)"
+    transform: "translate(475.8 36.37)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#FFF",
     d: "M21.24 20.12a4.83 4.83 0 0 0-1.24-.83c-.55-.28-1.1-.55-1.8-.83-.68-.27-1.37-.41-2.2-.69-.83-.27-1.52-.27-2.48-.27-1.8 0-3.18.27-4.42.96a8.63 8.63 0 0 0-2.9 2.48c-.68 1.1-1.24 2.2-1.65 3.72A16.5 16.5 0 0 0 4 29.21c0 3.72.96 6.61 2.76 8.54 1.93 2.07 4.41 3.03 7.44 3.03 1.8 0 3.18-.14 4.28-.27a8.3 8.3 0 0 0 2.48-.55V20.12h.28zm3.59 22.45c-1.1.42-2.49.7-4.14 1.1-1.66.28-3.73.56-6.2.56-2.08 0-4-.28-5.66-.97a13.61 13.61 0 0 1-4.42-2.9 13.44 13.44 0 0 1-2.9-4.67c-.68-1.8-.96-3.86-.96-6.2 0-2.21.28-4.14.83-5.93.55-1.8 1.38-3.44 2.48-4.68a10.64 10.64 0 0 1 4-3.03 14.07 14.07 0 0 1 5.52-1.1c1.93 0 3.45.27 4.82.82a20.3 20.3 0 0 1 3.04 1.52V1.38l3.58-.55v41.74z",
-    mask: "url(#a)"
+    mask: "url(#a)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#FFF",
-    d: "M142.05 41.75c.69 1.24 1.38 2.75 2.34 4.4.97 1.66 1.8 3.73 2.62 5.8.83 2.06 1.8 4.12 2.76 6.33a841.16 841.16 0 0 1 2.62 6.06c.83-1.93 1.66-4 2.62-6.06.97-2.07 1.8-4.27 2.76-6.34.97-2.06 1.8-4 2.76-5.78.96-1.8 1.66-3.31 2.34-4.41h7.86c.42 2.48.7 5.37.97 8.4.28 3.03.55 6.34.83 9.78.27 3.45.41 6.75.69 10.2.27 3.44.41 6.61.55 9.64h-8.28c-.13-3.72-.27-7.71-.4-12.12a201.95 201.95 0 0 0-.84-13.1c-.69 1.53-1.38 3.18-2.2 5.1-.83 1.94-1.66 3.73-2.35 5.66a48.65 48.65 0 0 1-2.34 5.37l-1.93 4.4h-5.93a92.55 92.55 0 0 1-1.8-4.4c-.69-1.8-1.51-3.44-2.34-5.37-.83-1.93-1.66-3.72-2.35-5.65l-2.2-5.1c-.42 4.4-.7 8.82-.83 13.09-.14 4.4-.27 8.4-.41 11.99h-8.28c.14-3.03.28-6.2.55-9.65s.42-6.75.7-10.2c.27-3.44.54-6.6.82-9.78.28-3.17.7-5.92.97-8.4l7.72.14zm46.89 32.37h2.34c.83 0 1.38-.13 1.8-.13v-6.2c-.28 0-.83-.14-1.52-.28a12.98 12.98 0 0 0-4 .14c-.69.14-1.24.27-1.8.55-.54.27-.96.55-1.23 1.1a3.39 3.39 0 0 0 .82 4.27c1.1.28 2.35.55 3.59.55m-.69-23.97c2.07 0 4.14.28 6.07.83a8.62 8.62 0 0 1 3.86 2.34 9.92 9.92 0 0 1 2.07 3.72c.41 1.65.69 3.17.55 4.82v16.95c-1.24.28-2.76.55-4.96.96-2.49.42-5.1.56-7.59.56a31.86 31.86 0 0 1-5.1-.42 9.69 9.69 0 0 1-3.86-1.65 7.17 7.17 0 0 1-2.49-2.9 9.68 9.68 0 0 1-.82-4.4c0-1.52.27-2.9.96-4.27a8.77 8.77 0 0 1 2.76-2.76 13.26 13.26 0 0 1 3.86-1.52 25.42 25.42 0 0 1 4.55-.4c.97 0 1.93 0 2.9.13.69.14 1.38.14 2.07.41v-.69a4.7 4.7 0 0 0-1.24-3.3 6.2 6.2 0 0 0-4.42-1.24c-1.38 0-2.76.13-4.14.27-1.24.14-2.34.41-3.58.83l-1.1-6.62c.41-.13 1.1-.27 1.79-.4a75.7 75.7 0 0 1 2.34-.42c.83-.14 1.8-.28 2.62-.28.83 0 1.93-.55 2.9-.55m24.27 14.33c0 4.55 1.8 6.89 5.52 6.89.83 0 1.65-.14 2.34-.28a5.85 5.85 0 0 0 1.93-.82v-13.1c-.4 0-.82-.13-1.38-.13-.55 0-1.24-.14-1.93-.14a5.66 5.66 0 0 0-4.82 2.07 8.68 8.68 0 0 0-1.66 5.5zm17.93 11.71c0 4.68-1.24 8.27-3.58 10.47-2.35 2.34-6.07 3.45-11.18 3.45-1.79 0-3.58-.14-5.24-.42a27.5 27.5 0 0 1-4.82-1.24l1.38-6.89c1.37.55 2.62.97 4 1.24a27.37 27.37 0 0 0 4.82.42 7.12 7.12 0 0 0 4.97-1.52 6 6 0 0 0 1.51-4v-1.1c-.82.42-1.79.7-2.76.97-.96.14-2.06.27-3.03.27a11.3 11.3 0 0 1-9.1-3.58 15.01 15.01 0 0 1-3.17-9.92c0-1.93.27-4 .96-5.79a13.62 13.62 0 0 1 2.9-4.4 14.89 14.89 0 0 1 10.9-3.86c.96 0 1.92 0 3.03.14 1.1.13 2.07.27 3.03.4.97.15 1.93.28 2.9.56.96.28 1.8.41 2.48.69v24.11zm22.76-13.78c0-.69-.14-1.37-.28-2.06-.14-.7-.55-1.24-.96-1.8a3.78 3.78 0 0 0-1.66-1.24 4.54 4.54 0 0 0-2.35-.55c-.82 0-1.65.14-2.34.42-.69.27-1.24.69-1.65 1.24a4.5 4.5 0 0 0-.97 1.79c-.28.69-.41 1.38-.55 2.06l10.76.14zm-19.17 3.17c0-2.34.41-4.54 1.24-6.75.69-1.79 1.79-3.44 3.03-4.82a13.64 13.64 0 0 1 4.41-2.9c1.66-.68 3.31-.96 5.1-.96a13.1 13.1 0 0 1 9.66 3.72c2.35 2.48 3.59 6.2 3.59 11.02v1.52c0 .55-.14 1.1-.14 1.51h-18.48a5.3 5.3 0 0 0 2.34 4 9.82 9.82 0 0 0 5.52 1.51c1.52 0 3.04-.13 4.41-.4 1.24-.15 2.35-.56 3.59-.97l1.1 6.61a6.9 6.9 0 0 1-1.79.69c-.83.28-1.66.41-2.48.55-.83.14-1.93.28-2.9.41-.96.14-2.07.14-3.03.14a18.8 18.8 0 0 1-6.76-1.1 14 14 0 0 1-4.83-3.17 13.58 13.58 0 0 1-2.76-4.68 21.93 21.93 0 0 1-.82-5.93zm40 11.71c2.34.14 4.82-.41 6.89-1.65a6.04 6.04 0 0 0 2.48-5.24 6.86 6.86 0 0 0-2.9-5.79 12.94 12.94 0 0 0-3.03-1.65l-3.59-1.37a58.38 58.38 0 0 1-4.27-1.93c-1.1-.55-2.2-1.38-3.17-2.2a10.27 10.27 0 0 1-2.07-2.76 11.8 11.8 0 0 1-.7-3.72 8.9 8.9 0 0 1 3.18-7.44 13.9 13.9 0 0 1 8.96-2.48c.97 0 2.07.13 3.04.27.96.14 1.8.28 2.76.55.82.28 1.65.42 2.34.83.7.28 1.24.55 1.8.96l-1.38 3.17a14 14 0 0 0-3.87-1.79 20.54 20.54 0 0 0-4.96-.69c-1.1 0-2.2.14-3.31.42-.97.13-1.8.55-2.62 1.1a4.8 4.8 0 0 0-1.66 2.07 7.42 7.42 0 0 0-.69 2.89c0 .96.14 2.07.7 3.03.4.83 1.1 1.52 1.78 2.07.83.69 1.8 1.1 2.76 1.65l3.45 1.52c1.52.69 2.9 1.24 4.28 1.79 1.24.55 2.48 1.24 3.44 2.2.97.83 1.8 1.93 2.35 3.03a8.17 8.17 0 0 1 .83 4.41 8.87 8.87 0 0 1-3.59 7.72 16.42 16.42 0 0 1-9.79 2.62c-1.38 0-2.62-.14-4-.28a21.2 21.2 0 0 1-3.17-.69l-2.48-.83c-.56-.27-1.1-.55-1.52-.82l1.24-3.17c.41.28.83.41 1.52.69.69.27 1.38.55 2.2.82.97.28 1.93.56 2.9.7 1.38.13 2.62.13 3.86 0m39.03 1.51c-1.1.27-2.48.69-4.28.96-2.2.42-4.4.56-6.61.56-1.8 0-3.59-.28-5.38-.97a9.17 9.17 0 0 1-3.45-2.62 11.36 11.36 0 0 1-1.93-4.13 23.7 23.7 0 0 1-.55-5.37V51.39h3.58v14.74c0 1.66.14 3.45.42 5.1a8.26 8.26 0 0 0 1.38 3.45 5 5 0 0 0 2.62 1.79c1.24.41 2.48.55 3.86.55 1.51 0 2.9-.14 4.41-.28.83-.14 1.66-.27 2.35-.55V51.4h3.58v27.42z"
+    d: "M142.05 41.75c.69 1.24 1.38 2.75 2.34 4.4.97 1.66 1.8 3.73 2.62 5.8.83 2.06 1.8 4.12 2.76 6.33a841.16 841.16 0 0 1 2.62 6.06c.83-1.93 1.66-4 2.62-6.06.97-2.07 1.8-4.27 2.76-6.34.97-2.06 1.8-4 2.76-5.78.96-1.8 1.66-3.31 2.34-4.41h7.86c.42 2.48.7 5.37.97 8.4.28 3.03.55 6.34.83 9.78.27 3.45.41 6.75.69 10.2.27 3.44.41 6.61.55 9.64h-8.28c-.13-3.72-.27-7.71-.4-12.12a201.95 201.95 0 0 0-.84-13.1c-.69 1.53-1.38 3.18-2.2 5.1-.83 1.94-1.66 3.73-2.35 5.66a48.65 48.65 0 0 1-2.34 5.37l-1.93 4.4h-5.93a92.55 92.55 0 0 1-1.8-4.4c-.69-1.8-1.51-3.44-2.34-5.37-.83-1.93-1.66-3.72-2.35-5.65l-2.2-5.1c-.42 4.4-.7 8.82-.83 13.09-.14 4.4-.27 8.4-.41 11.99h-8.28c.14-3.03.28-6.2.55-9.65s.42-6.75.7-10.2c.27-3.44.54-6.6.82-9.78.28-3.17.7-5.92.97-8.4l7.72.14zm46.89 32.37h2.34c.83 0 1.38-.13 1.8-.13v-6.2c-.28 0-.83-.14-1.52-.28a12.98 12.98 0 0 0-4 .14c-.69.14-1.24.27-1.8.55-.54.27-.96.55-1.23 1.1a3.39 3.39 0 0 0 .82 4.27c1.1.28 2.35.55 3.59.55m-.69-23.97c2.07 0 4.14.28 6.07.83a8.62 8.62 0 0 1 3.86 2.34 9.92 9.92 0 0 1 2.07 3.72c.41 1.65.69 3.17.55 4.82v16.95c-1.24.28-2.76.55-4.96.96-2.49.42-5.1.56-7.59.56a31.86 31.86 0 0 1-5.1-.42 9.69 9.69 0 0 1-3.86-1.65 7.17 7.17 0 0 1-2.49-2.9 9.68 9.68 0 0 1-.82-4.4c0-1.52.27-2.9.96-4.27a8.77 8.77 0 0 1 2.76-2.76 13.26 13.26 0 0 1 3.86-1.52 25.42 25.42 0 0 1 4.55-.4c.97 0 1.93 0 2.9.13.69.14 1.38.14 2.07.41v-.69a4.7 4.7 0 0 0-1.24-3.3 6.2 6.2 0 0 0-4.42-1.24c-1.38 0-2.76.13-4.14.27-1.24.14-2.34.41-3.58.83l-1.1-6.62c.41-.13 1.1-.27 1.79-.4a75.7 75.7 0 0 1 2.34-.42c.83-.14 1.8-.28 2.62-.28.83 0 1.93-.55 2.9-.55m24.27 14.33c0 4.55 1.8 6.89 5.52 6.89.83 0 1.65-.14 2.34-.28a5.85 5.85 0 0 0 1.93-.82v-13.1c-.4 0-.82-.13-1.38-.13-.55 0-1.24-.14-1.93-.14a5.66 5.66 0 0 0-4.82 2.07 8.68 8.68 0 0 0-1.66 5.5zm17.93 11.71c0 4.68-1.24 8.27-3.58 10.47-2.35 2.34-6.07 3.45-11.18 3.45-1.79 0-3.58-.14-5.24-.42a27.5 27.5 0 0 1-4.82-1.24l1.38-6.89c1.37.55 2.62.97 4 1.24a27.37 27.37 0 0 0 4.82.42 7.12 7.12 0 0 0 4.97-1.52 6 6 0 0 0 1.51-4v-1.1c-.82.42-1.79.7-2.76.97-.96.14-2.06.27-3.03.27a11.3 11.3 0 0 1-9.1-3.58 15.01 15.01 0 0 1-3.17-9.92c0-1.93.27-4 .96-5.79a13.62 13.62 0 0 1 2.9-4.4 14.89 14.89 0 0 1 10.9-3.86c.96 0 1.92 0 3.03.14 1.1.13 2.07.27 3.03.4.97.15 1.93.28 2.9.56.96.28 1.8.41 2.48.69v24.11zm22.76-13.78c0-.69-.14-1.37-.28-2.06-.14-.7-.55-1.24-.96-1.8a3.78 3.78 0 0 0-1.66-1.24 4.54 4.54 0 0 0-2.35-.55c-.82 0-1.65.14-2.34.42-.69.27-1.24.69-1.65 1.24a4.5 4.5 0 0 0-.97 1.79c-.28.69-.41 1.38-.55 2.06l10.76.14zm-19.17 3.17c0-2.34.41-4.54 1.24-6.75.69-1.79 1.79-3.44 3.03-4.82a13.64 13.64 0 0 1 4.41-2.9c1.66-.68 3.31-.96 5.1-.96a13.1 13.1 0 0 1 9.66 3.72c2.35 2.48 3.59 6.2 3.59 11.02v1.52c0 .55-.14 1.1-.14 1.51h-18.48a5.3 5.3 0 0 0 2.34 4 9.82 9.82 0 0 0 5.52 1.51c1.52 0 3.04-.13 4.41-.4 1.24-.15 2.35-.56 3.59-.97l1.1 6.61a6.9 6.9 0 0 1-1.79.69c-.83.28-1.66.41-2.48.55-.83.14-1.93.28-2.9.41-.96.14-2.07.14-3.03.14a18.8 18.8 0 0 1-6.76-1.1 14 14 0 0 1-4.83-3.17 13.58 13.58 0 0 1-2.76-4.68 21.93 21.93 0 0 1-.82-5.93zm40 11.71c2.34.14 4.82-.41 6.89-1.65a6.04 6.04 0 0 0 2.48-5.24 6.86 6.86 0 0 0-2.9-5.79 12.94 12.94 0 0 0-3.03-1.65l-3.59-1.37a58.38 58.38 0 0 1-4.27-1.93c-1.1-.55-2.2-1.38-3.17-2.2a10.27 10.27 0 0 1-2.07-2.76 11.8 11.8 0 0 1-.7-3.72 8.9 8.9 0 0 1 3.18-7.44 13.9 13.9 0 0 1 8.96-2.48c.97 0 2.07.13 3.04.27.96.14 1.8.28 2.76.55.82.28 1.65.42 2.34.83.7.28 1.24.55 1.8.96l-1.38 3.17a14 14 0 0 0-3.87-1.79 20.54 20.54 0 0 0-4.96-.69c-1.1 0-2.2.14-3.31.42-.97.13-1.8.55-2.62 1.1a4.8 4.8 0 0 0-1.66 2.07 7.42 7.42 0 0 0-.69 2.89c0 .96.14 2.07.7 3.03.4.83 1.1 1.52 1.78 2.07.83.69 1.8 1.1 2.76 1.65l3.45 1.52c1.52.69 2.9 1.24 4.28 1.79 1.24.55 2.48 1.24 3.44 2.2.97.83 1.8 1.93 2.35 3.03a8.17 8.17 0 0 1 .83 4.41 8.87 8.87 0 0 1-3.59 7.72 16.42 16.42 0 0 1-9.79 2.62c-1.38 0-2.62-.14-4-.28a21.2 21.2 0 0 1-3.17-.69l-2.48-.83c-.56-.27-1.1-.55-1.52-.82l1.24-3.17c.41.28.83.41 1.52.69.69.27 1.38.55 2.2.82.97.28 1.93.56 2.9.7 1.38.13 2.62.13 3.86 0m39.03 1.51c-1.1.27-2.48.69-4.28.96-2.2.42-4.4.56-6.61.56-1.8 0-3.59-.28-5.38-.97a9.17 9.17 0 0 1-3.45-2.62 11.36 11.36 0 0 1-1.93-4.13 23.7 23.7 0 0 1-.55-5.37V51.39h3.58v14.74c0 1.66.14 3.45.42 5.1a8.26 8.26 0 0 0 1.38 3.45 5 5 0 0 0 2.62 1.79c1.24.41 2.48.55 3.86.55 1.51 0 2.9-.14 4.41-.28.83-.14 1.66-.27 2.35-.55V51.4h3.58v27.42z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#FFF",
     d: "M319.68 79.77h3.59V51.4h-3.6v28.38zm4.41-36.92a2.6 2.6 0 0 1-2.34 2.75h-.28a3.3 3.3 0 0 1-1.93-.68 2.8 2.8 0 0 1-.83-2.07c0-.69.28-1.52.83-2.07.55-.55 1.1-.82 1.93-.69 1.38 0 2.62 1.1 2.62 2.48v.28zm9.24 8.54h11.31v3.03h-11.3v15.16c0 1.38.13 2.62.4 3.86.14.82.56 1.65 1.25 2.34.55.55 1.1.96 1.93 1.1.83.14 1.65.28 2.48.28 1.24 0 2.48-.14 3.59-.55.69-.28 1.52-.56 2.2-.97l.83 3.03a21.32 21.32 0 0 1-2.62 1.1c-1.38.42-2.76.7-4.14.7-1.51 0-3.03-.15-4.4-.7a7.04 7.04 0 0 1-2.9-2.06 7.77 7.77 0 0 1-1.52-3.45 30.24 30.24 0 0 1-.42-4.96V43.12l3.59-.68-.28 8.95zm33.52 11.99c.13-2.48-.7-4.82-2.07-6.9a6.72 6.72 0 0 0-5.52-2.47c-1.24 0-2.34.28-3.45.83a9.66 9.66 0 0 0-2.62 2.06 8.42 8.42 0 0 0-1.79 3.03c-.41 1.1-.69 2.35-.69 3.59l16.14-.14zm-20.14 2.2c0-2.2.28-4.4 1.1-6.47.56-1.66 1.52-3.31 2.76-4.69a9.95 9.95 0 0 1 4-2.75c1.52-.55 3.04-.97 4.55-.97 3.18-.14 6.2 1.1 8.28 3.45 2.07 2.2 3.03 5.78 3.03 10.47v.82c0 .28 0 .55-.14.83h-19.86a11.88 11.88 0 0 0 2.62 8c1.66 1.78 4.14 2.75 7.73 2.75 1.52 0 3.17-.14 4.55-.55.83-.28 1.65-.55 2.48-.97l.7 3.03c-.97.42-1.94.83-2.9 1.1-1.66.42-3.31.7-4.97.56-2.2 0-4.27-.28-6.34-1.1a12.05 12.05 0 0 1-4.28-3.04 11.82 11.82 0 0 1-2.48-4.68c-.55-1.8-.83-3.72-.83-5.79zm34.06 11.85a2.8 2.8 0 0 1-.82 2.07 3.36 3.36 0 0 1-4.42 0 3.04 3.04 0 0 1-.82-2.07c0-.83.27-1.52.82-2.2a3.36 3.36 0 0 1 4.42 0c.69.68.96 1.37.83 2.2",
-    mask: "url(#b)"
+    mask: "url(#b)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#F48047",
     d: "M82.89 35.55l14.2-8.27L51.03 0 5.1 27.28l14.2 8.27 31.73-18.33z",
-    mask: "url(#b)"
+    mask: "url(#b)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#F16423",
     d: "M51.17 59.93L0 30.45v63.24l14.2 8.27V55.1l36.97 22.05L87.98 55.1v46.84l14.07-8.26V30.45z",
-    mask: "url(#b)"
+    mask: "url(#b)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#F48047",
     d: "M82.61 88.6l-31.58 18.18-2.07-1.24-29.52-16.95v16.4l31.59 18.18 31.58-18.32z",
-    mask: "url(#b)"
+    mask: "url(#b)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
   })));
 });
 
@@ -918,21 +1315,47 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/logos/magesuite-white.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     viewBox: "0 0 306 90",
     xmlns: "http://www.w3.org/2000/svg",
-    className: props.className
+    className: props.className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
     fill: "#FFF",
-    fillRule: "nonzero"
+    fillRule: "nonzero",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M103 30.32c.48.87 1 2 1.66 3.24.66 1.24 1.27 2.68 1.95 4.18.68 1.5 1.35 3 2 4.6.65 1.6 1.29 3 1.87 4.42.59-1.39 1.21-2.86 1.88-4.42.67-1.56 1.33-3.1 2-4.6.67-1.5 1.33-2.89 2-4.18.67-1.29 1.18-2.37 1.65-3.24h5.66c.26 1.83.51 3.88.73 6.15.22 2.27.43 4.63.6 7.08.17 2.45.33 4.92.48 7.38.15 2.46.27 4.79.37 7h-6a734.6 734.6 0 0 0-.32-8.76 231.562 231.562 0 0 0-.6-9.55c-.48 1.11-1 2.35-1.6 3.7-.6 1.35-1.16 2.71-1.73 4.06-.57 1.35-1.13 2.65-1.66 3.88l-1.36 3.17h-4.34c-.37-.88-.82-1.94-1.35-3.17-.53-1.23-1.09-2.53-1.66-3.88-.57-1.35-1.15-2.7-1.74-4.06l-1.59-3.7c-.273 3.207-.473 6.39-.6 9.55-.127 3.16-.227 6.07-.3 8.73h-6c.11-2.18.23-4.5.38-7s.31-4.92.48-7.38c.17-2.46.37-4.82.59-7.08.22-2.26.48-4.32.74-6.15l5.81.03zM136.53 36.41a14 14 0 0 1 4.38.59 6.89 6.89 0 0 1 2.81 1.71 6.36 6.36 0 0 1 1.49 2.71 13.4 13.4 0 0 1 .44 3.54V57.3c-.85.19-2 .41-3.55.66a34.32 34.32 0 0 1-5.49.37 17.36 17.36 0 0 1-3.68-.35 7.84 7.84 0 0 1-2.84-1.18 5.35 5.35 0 0 1-1.84-2.13 7.39 7.39 0 0 1-.63-3.22 6.1 6.1 0 0 1 .73-3.1 5.72 5.72 0 0 1 2-2 9 9 0 0 1 2.83-1.1 16.2 16.2 0 0 1 3.3-.34c.685 0 1.369.032 2.05.1.492.053.98.14 1.46.26v-.55a3.29 3.29 0 0 0-.92-2.43 4.43 4.43 0 0 0-3.18-.92 21.15 21.15 0 0 0-3 .22 12.88 12.88 0 0 0-2.55.62l-.75-4.78c.34-.11.77-.22 1.29-.34.52-.12 1.08-.22 1.69-.31.61-.09 1.26-.18 1.93-.25.67-.07 1.34-.12 2.03-.12zm.47 17.35h1.67c.53 0 1-.07 1.28-.12V49.1c-.24-.05-.6-.1-1.08-.16A11.59 11.59 0 0 0 136 49a4.32 4.32 0 0 0-1.3.38 2.23 2.23 0 0 0-.87.76 2.43 2.43 0 0 0 .61 3.12 5.17 5.17 0 0 0 2.56.5zM167.1 55.27c0 3.42-.87 5.96-2.61 7.62-1.74 1.66-4.42 2.49-8.06 2.49a21.44 21.44 0 0 1-3.82-.34 23.17 23.17 0 0 1-3.54-.89l1-5c.95.374 1.93.668 2.93.88a17.38 17.38 0 0 0 3.48.31 4.82 4.82 0 0 0 3.6-1.11 4 4 0 0 0 1.06-2.86v-.76a10.14 10.14 0 0 1-2 .66 11 11 0 0 1-2.21.22 8.48 8.48 0 0 1-6.65-2.57 10.36 10.36 0 0 1-2.28-7.16 11.81 11.81 0 0 1 .72-4.21 9 9 0 0 1 2.09-3.24 9.26 9.26 0 0 1 3.36-2.09 13 13 0 0 1 4.5-.73c.71 0 1.45 0 2.21.09s1.5.16 2.25.26 1.45.24 2.12.38c.67.14 1.28.3 1.82.46l.03 17.59zm-13-8.51c0 3.333 1.333 5 4 5a5.89 5.89 0 0 0 1.71-.24 7 7 0 0 0 1.36-.56v-9.5c-.3-.05-.64-.1-1-.14-.36-.04-.86-.06-1.39-.06a4.11 4.11 0 0 0-3.51 1.55 6.51 6.51 0 0 0-1.19 3.95h.02zM169.69 47.59a12.85 12.85 0 0 1 .85-4.88 10.46 10.46 0 0 1 2.25-3.48 9.34 9.34 0 0 1 3.2-2.11 10 10 0 0 1 3.72-.71 9.29 9.29 0 0 1 7 2.72c1.72 1.82 2.58 4.487 2.58 8v1.14c0 .42-.06.77-.08 1.09h-13.44a4 4 0 0 0 1.72 2.91 6.89 6.89 0 0 0 4 1.07 17.12 17.12 0 0 0 3.21-.3 12.13 12.13 0 0 0 2.56-.73l.8 4.81a8.19 8.19 0 0 1-1.27.48 16.54 16.54 0 0 1-1.77.42c-.65.12-1.35.22-2.09.29a21 21 0 0 1-2.23.13 13.16 13.16 0 0 1-4.92-.84 9.65 9.65 0 0 1-3.46-2.29 9.24 9.24 0 0 1-2-3.44 13.59 13.59 0 0 1-.63-4.28zm13.92-2.27a6.11 6.11 0 0 0-.25-1.47 3.79 3.79 0 0 0-.68-1.27 3.53 3.53 0 0 0-1.16-.92 3.73 3.73 0 0 0-1.73-.36 4.07 4.07 0 0 0-1.71.34 3.47 3.47 0 0 0-1.19.9 3.92 3.92 0 0 0-.74 1.29 8.81 8.81 0 0 0-.38 1.49h7.84zM198.66 56.15a9 9 0 0 0 5-1.18 4.2 4.2 0 0 0 1.79-3.81 5.12 5.12 0 0 0-.57-2.53 5.51 5.51 0 0 0-1.54-1.72 9.9 9.9 0 0 0-2.19-1.19l-2.58-1a33.51 33.51 0 0 1-3.07-1.38 10.41 10.41 0 0 1-2.3-1.61 6.08 6.08 0 0 1-1.46-2 6.83 6.83 0 0 1-.49-2.71 6.4 6.4 0 0 1 2.34-5.37 10.41 10.41 0 0 1 6.53-1.83 14.48 14.48 0 0 1 2.19.16 17.75 17.75 0 0 1 2 .42c.582.155 1.153.35 1.71.58a6.41 6.41 0 0 1 1.29.67l-1 2.27a9.46 9.46 0 0 0-2.81-1.27 12.71 12.71 0 0 0-3.56-.48 10.6 10.6 0 0 0-2.41.26 5.25 5.25 0 0 0-1.89.83 4.15 4.15 0 0 0-1.25 1.45 4.47 4.47 0 0 0-.46 2.11 4.41 4.41 0 0 0 .48 2.15 4.69 4.69 0 0 0 1.33 1.52 10.6 10.6 0 0 0 2 1.15l2.51 1.08c1.09.45 2.12.9 3.08 1.35a11.12 11.12 0 0 1 2.53 1.59 6.62 6.62 0 0 1 1.71 2.23 7.25 7.25 0 0 1 .64 3.22 6.43 6.43 0 0 1-2.61 5.61 11.87 11.87 0 0 1-7.06 1.88 18.59 18.59 0 0 1-2.91-.21 17.7 17.7 0 0 1-2.34-.49 14 14 0 0 1-1.76-.62 11.18 11.18 0 0 1-1.11-.56l.87-2.34c.27.16.63.34 1.08.55.515.242 1.047.45 1.59.62.678.213 1.37.38 2.07.5a15.34 15.34 0 0 0 2.63.1zM227 57.18c-.76.21-1.8.45-3.1.72a24.83 24.83 0 0 1-4.78.39 9.75 9.75 0 0 1-3.86-.67 6.24 6.24 0 0 1-2.5-1.91 7.71 7.71 0 0 1-1.38-3 17.06 17.06 0 0 1-.41-3.86V37.32h2.58V48a18.45 18.45 0 0 0 .32 3.7 6 6 0 0 0 1 2.45 4 4 0 0 0 1.85 1.35 7.93 7.93 0 0 0 2.76.42 22.75 22.75 0 0 0 3.19-.2 8.09 8.09 0 0 0 1.71-.36V37.32H227v19.86zM235 31.11a1.85 1.85 0 0 1-1.91 2 1.9 1.9 0 0 1-1.35-.53 2 2 0 0 1-.56-1.46 1.93 1.93 0 0 1 .56-1.45 1.86 1.86 0 0 1 1.35-.54 1.87 1.87 0 0 1 1.91 2v-.02zm-.6 26.79h-2.59V37.32h2.59V57.9zM241.68 37.32h8.2v2.19h-8.2v11c-.023.956.078 1.91.3 2.84a4 4 0 0 0 .85 1.69 2.75 2.75 0 0 0 1.36.8 7.32 7.32 0 0 0 1.75.2 7.56 7.56 0 0 0 2.62-.38 11.69 11.69 0 0 0 1.56-.7l.63 2.15a9.45 9.45 0 0 1-1.95.82 9.75 9.75 0 0 1-3 .45 9.07 9.07 0 0 1-3.21-.49 4.61 4.61 0 0 1-2.06-1.51 6.16 6.16 0 0 1-1.1-2.53 17.74 17.74 0 0 1-.32-3.58v-19l2.59-.48-.02 6.53zM251.43 47.59a13 13 0 0 1 .78-4.72 10.15 10.15 0 0 1 2-3.36 8 8 0 0 1 2.86-2 8.71 8.71 0 0 1 3.33-.66 7.8 7.8 0 0 1 6 2.47c1.493 1.647 2.24 4.18 2.24 7.6v.64c-.01.2-.03.401-.06.6h-14.4a9.1 9.1 0 0 0 1.87 5.84c1.16 1.333 3.017 2 5.57 2a11.38 11.38 0 0 0 3.34-.4 13.37 13.37 0 0 0 1.79-.68l.48 2.23a10.73 10.73 0 0 1-2.09.76 13.25 13.25 0 0 1-3.6.43 12 12 0 0 1-4.62-.79 8.31 8.31 0 0 1-3.14-2.23 8.8 8.8 0 0 1-1.79-3.4 15.85 15.85 0 0 1-.56-4.33zM266 46a8.21 8.21 0 0 0-1.52-5 4.89 4.89 0 0 0-4-1.79 5.43 5.43 0 0 0-2.49.56 6.29 6.29 0 0 0-1.91 1.49 7 7 0 0 0-1.28 2.17 9 9 0 0 0-.53 2.59L266 46zM276.15 56.19a2.26 2.26 0 0 1-.58 1.55 2.39 2.39 0 0 1-3.23 0 2.25 2.25 0 0 1-.57-1.55 2.27 2.27 0 0 1 .57-1.56 2.39 2.39 0 0 1 3.23 0c.383.428.59.985.58 1.56zM283.47 31.11a2 2 0 0 1-.56 1.46 1.9 1.9 0 0 1-1.35.53 1.92 1.92 0 0 1-1.36-.53 2 2 0 0 1-.55-1.46 1.92 1.92 0 0 1 .55-1.45 1.89 1.89 0 0 1 1.36-.54 1.86 1.86 0 0 1 1.35.54c.382.383.585.91.56 1.45zm-.6 26.79h-2.59V37.32h2.59V57.9zM305.28 47.63a13.44 13.44 0 0 1-.7 4.42 9.68 9.68 0 0 1-1.95 3.38 8.87 8.87 0 0 1-3 2.17 9.66 9.66 0 0 1-7.56 0 8.83 8.83 0 0 1-3-2.17 9.68 9.68 0 0 1-1.95-3.38 14.3 14.3 0 0 1 0-8.84 9.87 9.87 0 0 1 1.95-3.4 8.76 8.76 0 0 1 3-2.19 9.55 9.55 0 0 1 7.56 0 8.79 8.79 0 0 1 3 2.19 9.87 9.87 0 0 1 1.95 3.4 13.44 13.44 0 0 1 .7 4.42zm-2.75 0a9.76 9.76 0 0 0-1.79-6.15 6.29 6.29 0 0 0-9.71 0 9.69 9.69 0 0 0-1.79 6.15 9.6 9.6 0 0 0 1.76 6.13 6.33 6.33 0 0 0 9.71 0 9.66 9.66 0 0 0 1.82-6.13zM60.08 25.77l10.28-5.94L36.97 0 3.72 19.84l10.27 5.93 22.97-13.3z"
+    d: "M103 30.32c.48.87 1 2 1.66 3.24.66 1.24 1.27 2.68 1.95 4.18.68 1.5 1.35 3 2 4.6.65 1.6 1.29 3 1.87 4.42.59-1.39 1.21-2.86 1.88-4.42.67-1.56 1.33-3.1 2-4.6.67-1.5 1.33-2.89 2-4.18.67-1.29 1.18-2.37 1.65-3.24h5.66c.26 1.83.51 3.88.73 6.15.22 2.27.43 4.63.6 7.08.17 2.45.33 4.92.48 7.38.15 2.46.27 4.79.37 7h-6a734.6 734.6 0 0 0-.32-8.76 231.562 231.562 0 0 0-.6-9.55c-.48 1.11-1 2.35-1.6 3.7-.6 1.35-1.16 2.71-1.73 4.06-.57 1.35-1.13 2.65-1.66 3.88l-1.36 3.17h-4.34c-.37-.88-.82-1.94-1.35-3.17-.53-1.23-1.09-2.53-1.66-3.88-.57-1.35-1.15-2.7-1.74-4.06l-1.59-3.7c-.273 3.207-.473 6.39-.6 9.55-.127 3.16-.227 6.07-.3 8.73h-6c.11-2.18.23-4.5.38-7s.31-4.92.48-7.38c.17-2.46.37-4.82.59-7.08.22-2.26.48-4.32.74-6.15l5.81.03zM136.53 36.41a14 14 0 0 1 4.38.59 6.89 6.89 0 0 1 2.81 1.71 6.36 6.36 0 0 1 1.49 2.71 13.4 13.4 0 0 1 .44 3.54V57.3c-.85.19-2 .41-3.55.66a34.32 34.32 0 0 1-5.49.37 17.36 17.36 0 0 1-3.68-.35 7.84 7.84 0 0 1-2.84-1.18 5.35 5.35 0 0 1-1.84-2.13 7.39 7.39 0 0 1-.63-3.22 6.1 6.1 0 0 1 .73-3.1 5.72 5.72 0 0 1 2-2 9 9 0 0 1 2.83-1.1 16.2 16.2 0 0 1 3.3-.34c.685 0 1.369.032 2.05.1.492.053.98.14 1.46.26v-.55a3.29 3.29 0 0 0-.92-2.43 4.43 4.43 0 0 0-3.18-.92 21.15 21.15 0 0 0-3 .22 12.88 12.88 0 0 0-2.55.62l-.75-4.78c.34-.11.77-.22 1.29-.34.52-.12 1.08-.22 1.69-.31.61-.09 1.26-.18 1.93-.25.67-.07 1.34-.12 2.03-.12zm.47 17.35h1.67c.53 0 1-.07 1.28-.12V49.1c-.24-.05-.6-.1-1.08-.16A11.59 11.59 0 0 0 136 49a4.32 4.32 0 0 0-1.3.38 2.23 2.23 0 0 0-.87.76 2.43 2.43 0 0 0 .61 3.12 5.17 5.17 0 0 0 2.56.5zM167.1 55.27c0 3.42-.87 5.96-2.61 7.62-1.74 1.66-4.42 2.49-8.06 2.49a21.44 21.44 0 0 1-3.82-.34 23.17 23.17 0 0 1-3.54-.89l1-5c.95.374 1.93.668 2.93.88a17.38 17.38 0 0 0 3.48.31 4.82 4.82 0 0 0 3.6-1.11 4 4 0 0 0 1.06-2.86v-.76a10.14 10.14 0 0 1-2 .66 11 11 0 0 1-2.21.22 8.48 8.48 0 0 1-6.65-2.57 10.36 10.36 0 0 1-2.28-7.16 11.81 11.81 0 0 1 .72-4.21 9 9 0 0 1 2.09-3.24 9.26 9.26 0 0 1 3.36-2.09 13 13 0 0 1 4.5-.73c.71 0 1.45 0 2.21.09s1.5.16 2.25.26 1.45.24 2.12.38c.67.14 1.28.3 1.82.46l.03 17.59zm-13-8.51c0 3.333 1.333 5 4 5a5.89 5.89 0 0 0 1.71-.24 7 7 0 0 0 1.36-.56v-9.5c-.3-.05-.64-.1-1-.14-.36-.04-.86-.06-1.39-.06a4.11 4.11 0 0 0-3.51 1.55 6.51 6.51 0 0 0-1.19 3.95h.02zM169.69 47.59a12.85 12.85 0 0 1 .85-4.88 10.46 10.46 0 0 1 2.25-3.48 9.34 9.34 0 0 1 3.2-2.11 10 10 0 0 1 3.72-.71 9.29 9.29 0 0 1 7 2.72c1.72 1.82 2.58 4.487 2.58 8v1.14c0 .42-.06.77-.08 1.09h-13.44a4 4 0 0 0 1.72 2.91 6.89 6.89 0 0 0 4 1.07 17.12 17.12 0 0 0 3.21-.3 12.13 12.13 0 0 0 2.56-.73l.8 4.81a8.19 8.19 0 0 1-1.27.48 16.54 16.54 0 0 1-1.77.42c-.65.12-1.35.22-2.09.29a21 21 0 0 1-2.23.13 13.16 13.16 0 0 1-4.92-.84 9.65 9.65 0 0 1-3.46-2.29 9.24 9.24 0 0 1-2-3.44 13.59 13.59 0 0 1-.63-4.28zm13.92-2.27a6.11 6.11 0 0 0-.25-1.47 3.79 3.79 0 0 0-.68-1.27 3.53 3.53 0 0 0-1.16-.92 3.73 3.73 0 0 0-1.73-.36 4.07 4.07 0 0 0-1.71.34 3.47 3.47 0 0 0-1.19.9 3.92 3.92 0 0 0-.74 1.29 8.81 8.81 0 0 0-.38 1.49h7.84zM198.66 56.15a9 9 0 0 0 5-1.18 4.2 4.2 0 0 0 1.79-3.81 5.12 5.12 0 0 0-.57-2.53 5.51 5.51 0 0 0-1.54-1.72 9.9 9.9 0 0 0-2.19-1.19l-2.58-1a33.51 33.51 0 0 1-3.07-1.38 10.41 10.41 0 0 1-2.3-1.61 6.08 6.08 0 0 1-1.46-2 6.83 6.83 0 0 1-.49-2.71 6.4 6.4 0 0 1 2.34-5.37 10.41 10.41 0 0 1 6.53-1.83 14.48 14.48 0 0 1 2.19.16 17.75 17.75 0 0 1 2 .42c.582.155 1.153.35 1.71.58a6.41 6.41 0 0 1 1.29.67l-1 2.27a9.46 9.46 0 0 0-2.81-1.27 12.71 12.71 0 0 0-3.56-.48 10.6 10.6 0 0 0-2.41.26 5.25 5.25 0 0 0-1.89.83 4.15 4.15 0 0 0-1.25 1.45 4.47 4.47 0 0 0-.46 2.11 4.41 4.41 0 0 0 .48 2.15 4.69 4.69 0 0 0 1.33 1.52 10.6 10.6 0 0 0 2 1.15l2.51 1.08c1.09.45 2.12.9 3.08 1.35a11.12 11.12 0 0 1 2.53 1.59 6.62 6.62 0 0 1 1.71 2.23 7.25 7.25 0 0 1 .64 3.22 6.43 6.43 0 0 1-2.61 5.61 11.87 11.87 0 0 1-7.06 1.88 18.59 18.59 0 0 1-2.91-.21 17.7 17.7 0 0 1-2.34-.49 14 14 0 0 1-1.76-.62 11.18 11.18 0 0 1-1.11-.56l.87-2.34c.27.16.63.34 1.08.55.515.242 1.047.45 1.59.62.678.213 1.37.38 2.07.5a15.34 15.34 0 0 0 2.63.1zM227 57.18c-.76.21-1.8.45-3.1.72a24.83 24.83 0 0 1-4.78.39 9.75 9.75 0 0 1-3.86-.67 6.24 6.24 0 0 1-2.5-1.91 7.71 7.71 0 0 1-1.38-3 17.06 17.06 0 0 1-.41-3.86V37.32h2.58V48a18.45 18.45 0 0 0 .32 3.7 6 6 0 0 0 1 2.45 4 4 0 0 0 1.85 1.35 7.93 7.93 0 0 0 2.76.42 22.75 22.75 0 0 0 3.19-.2 8.09 8.09 0 0 0 1.71-.36V37.32H227v19.86zM235 31.11a1.85 1.85 0 0 1-1.91 2 1.9 1.9 0 0 1-1.35-.53 2 2 0 0 1-.56-1.46 1.93 1.93 0 0 1 .56-1.45 1.86 1.86 0 0 1 1.35-.54 1.87 1.87 0 0 1 1.91 2v-.02zm-.6 26.79h-2.59V37.32h2.59V57.9zM241.68 37.32h8.2v2.19h-8.2v11c-.023.956.078 1.91.3 2.84a4 4 0 0 0 .85 1.69 2.75 2.75 0 0 0 1.36.8 7.32 7.32 0 0 0 1.75.2 7.56 7.56 0 0 0 2.62-.38 11.69 11.69 0 0 0 1.56-.7l.63 2.15a9.45 9.45 0 0 1-1.95.82 9.75 9.75 0 0 1-3 .45 9.07 9.07 0 0 1-3.21-.49 4.61 4.61 0 0 1-2.06-1.51 6.16 6.16 0 0 1-1.1-2.53 17.74 17.74 0 0 1-.32-3.58v-19l2.59-.48-.02 6.53zM251.43 47.59a13 13 0 0 1 .78-4.72 10.15 10.15 0 0 1 2-3.36 8 8 0 0 1 2.86-2 8.71 8.71 0 0 1 3.33-.66 7.8 7.8 0 0 1 6 2.47c1.493 1.647 2.24 4.18 2.24 7.6v.64c-.01.2-.03.401-.06.6h-14.4a9.1 9.1 0 0 0 1.87 5.84c1.16 1.333 3.017 2 5.57 2a11.38 11.38 0 0 0 3.34-.4 13.37 13.37 0 0 0 1.79-.68l.48 2.23a10.73 10.73 0 0 1-2.09.76 13.25 13.25 0 0 1-3.6.43 12 12 0 0 1-4.62-.79 8.31 8.31 0 0 1-3.14-2.23 8.8 8.8 0 0 1-1.79-3.4 15.85 15.85 0 0 1-.56-4.33zM266 46a8.21 8.21 0 0 0-1.52-5 4.89 4.89 0 0 0-4-1.79 5.43 5.43 0 0 0-2.49.56 6.29 6.29 0 0 0-1.91 1.49 7 7 0 0 0-1.28 2.17 9 9 0 0 0-.53 2.59L266 46zM276.15 56.19a2.26 2.26 0 0 1-.58 1.55 2.39 2.39 0 0 1-3.23 0 2.25 2.25 0 0 1-.57-1.55 2.27 2.27 0 0 1 .57-1.56 2.39 2.39 0 0 1 3.23 0c.383.428.59.985.58 1.56zM283.47 31.11a2 2 0 0 1-.56 1.46 1.9 1.9 0 0 1-1.35.53 1.92 1.92 0 0 1-1.36-.53 2 2 0 0 1-.55-1.46 1.92 1.92 0 0 1 .55-1.45 1.89 1.89 0 0 1 1.36-.54 1.86 1.86 0 0 1 1.35.54c.382.383.585.91.56 1.45zm-.6 26.79h-2.59V37.32h2.59V57.9zM305.28 47.63a13.44 13.44 0 0 1-.7 4.42 9.68 9.68 0 0 1-1.95 3.38 8.87 8.87 0 0 1-3 2.17 9.66 9.66 0 0 1-7.56 0 8.83 8.83 0 0 1-3-2.17 9.68 9.68 0 0 1-1.95-3.38 14.3 14.3 0 0 1 0-8.84 9.87 9.87 0 0 1 1.95-3.4 8.76 8.76 0 0 1 3-2.19 9.55 9.55 0 0 1 7.56 0 8.79 8.79 0 0 1 3 2.19 9.87 9.87 0 0 1 1.95 3.4 13.44 13.44 0 0 1 .7 4.42zm-2.75 0a9.76 9.76 0 0 0-1.79-6.15 6.29 6.29 0 0 0-9.71 0 9.69 9.69 0 0 0-1.79 6.15 9.6 9.6 0 0 0 1.76 6.13 6.33 6.33 0 0 0 9.71 0 9.66 9.66 0 0 0 1.82-6.13zM60.08 25.77l10.28-5.94L36.97 0 3.72 19.84l10.27 5.93 22.97-13.3z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M37.07 43.5L0 22.12V68.03l10.3 5.95V40.03l26.76 15.94 26.7-15.95v33.94l10.27-5.93V22.12z"
+    d: "M37.07 43.5L0 22.12V68.03l10.3 5.95V40.03l26.76 15.94 26.7-15.95v33.94l10.27-5.93V22.12z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-    d: "M59.93 64.26L37.02 77.5h-.01l-1.56-.9-21.32-12.29v11.86L37.01 89.4l22.92-13.25z"
+    d: "M59.93 64.26L37.02 77.5h-.01l-1.56-.9-21.32-12.29v11.86L37.01 89.4l22.92-13.25z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
   })));
 });
 
@@ -949,25 +1372,51 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/logos/magesuite.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var className = _ref.className;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 305.28 89.4",
-    className: className
+    className: className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#221f1f",
-    d: "M103 30.32c.48.87 1 2 1.66 3.24s1.27 2.68 1.95 4.18 1.35 3 2 4.6 1.29 3 1.87 4.42c.59-1.39 1.21-2.86 1.88-4.42s1.33-3.1 2-4.6 1.33-2.89 2-4.18 1.18-2.37 1.65-3.24h5.66c.26 1.83.51 3.88.73 6.15s.43 4.63.6 7.08.33 4.92.48 7.38.27 4.79.37 7h-6q-.12-4-.32-8.76t-.6-9.55c-.48 1.11-1 2.35-1.6 3.7s-1.16 2.71-1.73 4.06-1.13 2.65-1.66 3.88l-1.36 3.17h-4.34c-.37-.88-.82-1.94-1.35-3.17s-1.09-2.53-1.66-3.88-1.15-2.7-1.74-4.06l-1.59-3.7q-.41 4.81-.6 9.55t-.3 8.73h-6c.11-2.18.23-4.5.38-7s.31-4.92.48-7.38.37-4.82.59-7.08.48-4.32.74-6.15zM136.53 36.41a14 14 0 0 1 4.38.59 6.89 6.89 0 0 1 2.81 1.71 6.36 6.36 0 0 1 1.49 2.71 13.4 13.4 0 0 1 .44 3.54V57.3c-.85.19-2 .41-3.55.66a34.32 34.32 0 0 1-5.49.37 17.36 17.36 0 0 1-3.68-.35 7.84 7.84 0 0 1-2.84-1.18 5.35 5.35 0 0 1-1.84-2.13 7.39 7.39 0 0 1-.63-3.22 6.1 6.1 0 0 1 .73-3.1 5.72 5.72 0 0 1 2-2 9 9 0 0 1 2.83-1.1 16.2 16.2 0 0 1 3.3-.34 20.52 20.52 0 0 1 2.05.1 10.65 10.65 0 0 1 1.46.26v-.55a3.29 3.29 0 0 0-.92-2.43 4.43 4.43 0 0 0-3.18-.92 21.15 21.15 0 0 0-3 .22 12.88 12.88 0 0 0-2.55.62l-.75-4.78c.34-.11.77-.22 1.29-.34s1.08-.22 1.69-.31 1.26-.18 1.93-.25 1.34-.12 2.03-.12zm.47 17.35h1.67c.53 0 1-.07 1.28-.12V49.1c-.24-.05-.6-.1-1.08-.16A11.59 11.59 0 0 0 136 49a4.32 4.32 0 0 0-1.3.38 2.23 2.23 0 0 0-.87.76 2.43 2.43 0 0 0 .61 3.12 5.17 5.17 0 0 0 2.56.5zM167.1 55.27q0 5.13-2.61 7.62c-1.74 1.66-4.42 2.49-8.06 2.49a21.44 21.44 0 0 1-3.82-.34 23.17 23.17 0 0 1-3.54-.89l1-5a18.43 18.43 0 0 0 2.93.88 17.38 17.38 0 0 0 3.48.31 4.82 4.82 0 0 0 3.6-1.11 4 4 0 0 0 1.06-2.86v-.76a10.14 10.14 0 0 1-2 .66 11 11 0 0 1-2.21.22 8.48 8.48 0 0 1-6.65-2.57 10.36 10.36 0 0 1-2.28-7.16 11.81 11.81 0 0 1 .72-4.21 9 9 0 0 1 2.09-3.24 9.26 9.26 0 0 1 3.36-2.09 13 13 0 0 1 4.5-.73c.71 0 1.45 0 2.21.09s1.5.16 2.25.26 1.45.24 2.12.38 1.28.3 1.82.46zm-13-8.51q0 5 4 5a5.89 5.89 0 0 0 1.71-.24 7 7 0 0 0 1.36-.56v-9.5c-.3-.05-.64-.1-1-.14s-.86-.06-1.39-.06a4.11 4.11 0 0 0-3.51 1.55 6.51 6.51 0 0 0-1.19 3.95zM169.69 47.59a12.85 12.85 0 0 1 .85-4.88 10.46 10.46 0 0 1 2.25-3.48 9.34 9.34 0 0 1 3.2-2.11 10 10 0 0 1 3.72-.71 9.29 9.29 0 0 1 7 2.72q2.58 2.73 2.58 8v1.14c0 .42-.06.77-.08 1.09h-13.44a4 4 0 0 0 1.72 2.91 6.89 6.89 0 0 0 4 1.07 17.12 17.12 0 0 0 3.21-.3 12.13 12.13 0 0 0 2.56-.73l.8 4.81a8.19 8.19 0 0 1-1.27.48 16.54 16.54 0 0 1-1.77.42c-.65.12-1.35.22-2.09.29a21 21 0 0 1-2.23.13 13.16 13.16 0 0 1-4.92-.84 9.65 9.65 0 0 1-3.46-2.29 9.24 9.24 0 0 1-2-3.44 13.59 13.59 0 0 1-.63-4.28zm13.92-2.27a6.11 6.11 0 0 0-.25-1.47 3.79 3.79 0 0 0-.68-1.27 3.53 3.53 0 0 0-1.16-.92 3.73 3.73 0 0 0-1.73-.36 4.07 4.07 0 0 0-1.71.34 3.47 3.47 0 0 0-1.19.9 3.92 3.92 0 0 0-.74 1.29 8.81 8.81 0 0 0-.38 1.49zM198.66 56.15a9 9 0 0 0 5-1.18 4.2 4.2 0 0 0 1.79-3.81 5.12 5.12 0 0 0-.57-2.53 5.51 5.51 0 0 0-1.54-1.72 9.9 9.9 0 0 0-2.19-1.19l-2.58-1a33.51 33.51 0 0 1-3.07-1.38 10.41 10.41 0 0 1-2.3-1.61 6.08 6.08 0 0 1-1.46-2 6.83 6.83 0 0 1-.49-2.71 6.4 6.4 0 0 1 2.34-5.37 10.41 10.41 0 0 1 6.53-1.83 14.48 14.48 0 0 1 2.19.16 17.75 17.75 0 0 1 2 .42 13.68 13.68 0 0 1 1.71.58 6.41 6.41 0 0 1 1.29.67l-1 2.27a9.46 9.46 0 0 0-2.81-1.27 12.71 12.71 0 0 0-3.56-.48 10.6 10.6 0 0 0-2.41.26 5.25 5.25 0 0 0-1.89.83 4.15 4.15 0 0 0-1.25 1.45 4.47 4.47 0 0 0-.46 2.11 4.41 4.41 0 0 0 .48 2.15 4.69 4.69 0 0 0 1.33 1.52 10.6 10.6 0 0 0 2 1.15l2.51 1.08c1.09.45 2.12.9 3.08 1.35a11.12 11.12 0 0 1 2.53 1.59 6.62 6.62 0 0 1 1.71 2.23 7.25 7.25 0 0 1 .64 3.22 6.43 6.43 0 0 1-2.61 5.61 11.87 11.87 0 0 1-7.06 1.88 18.59 18.59 0 0 1-2.91-.21 17.7 17.7 0 0 1-2.34-.49 14 14 0 0 1-1.76-.62 11.18 11.18 0 0 1-1.11-.56l.87-2.34c.27.16.63.34 1.08.55a12.61 12.61 0 0 0 1.59.62 15.74 15.74 0 0 0 2.07.5 15.34 15.34 0 0 0 2.63.1zM227 57.18c-.76.21-1.8.45-3.1.72a24.83 24.83 0 0 1-4.78.39 9.75 9.75 0 0 1-3.86-.67 6.24 6.24 0 0 1-2.5-1.91 7.71 7.71 0 0 1-1.38-3 17.06 17.06 0 0 1-.41-3.86V37.32h2.58V48a18.45 18.45 0 0 0 .32 3.7 6 6 0 0 0 1 2.45 4 4 0 0 0 1.85 1.35 7.93 7.93 0 0 0 2.76.42 22.75 22.75 0 0 0 3.19-.2 8.09 8.09 0 0 0 1.71-.36V37.32H227zM235 31.11a1.85 1.85 0 0 1-1.91 2 1.9 1.9 0 0 1-1.35-.53 2 2 0 0 1-.56-1.46 1.93 1.93 0 0 1 .56-1.45 1.86 1.86 0 0 1 1.35-.54 1.87 1.87 0 0 1 1.91 2zm-.6 26.79h-2.59V37.32h2.59zM241.68 37.32h8.2v2.19h-8.2v11a11.06 11.06 0 0 0 .3 2.84 4 4 0 0 0 .85 1.69 2.75 2.75 0 0 0 1.36.8 7.32 7.32 0 0 0 1.75.2 7.56 7.56 0 0 0 2.62-.38 11.69 11.69 0 0 0 1.56-.7l.63 2.15a9.45 9.45 0 0 1-1.95.82 9.75 9.75 0 0 1-3 .45 9.07 9.07 0 0 1-3.21-.49 4.61 4.61 0 0 1-2.06-1.51 6.16 6.16 0 0 1-1.1-2.53 17.74 17.74 0 0 1-.32-3.58v-19l2.59-.48zM251.43 47.59a13 13 0 0 1 .78-4.72 10.15 10.15 0 0 1 2-3.36 8 8 0 0 1 2.86-2 8.71 8.71 0 0 1 3.33-.66 7.8 7.8 0 0 1 6 2.47q2.24 2.47 2.24 7.6v.64a5.54 5.54 0 0 1-.06.6h-14.4a9.1 9.1 0 0 0 1.87 5.84q1.74 2 5.57 2a11.38 11.38 0 0 0 3.34-.4 13.37 13.37 0 0 0 1.79-.68l.48 2.23a10.73 10.73 0 0 1-2.09.76 13.25 13.25 0 0 1-3.6.43 12 12 0 0 1-4.62-.79 8.31 8.31 0 0 1-3.14-2.23 8.8 8.8 0 0 1-1.79-3.4 15.85 15.85 0 0 1-.56-4.33zM266 46a8.21 8.21 0 0 0-1.52-5 4.89 4.89 0 0 0-4-1.79 5.43 5.43 0 0 0-2.49.56 6.29 6.29 0 0 0-1.91 1.49 7 7 0 0 0-1.28 2.17 9 9 0 0 0-.53 2.59zM276.15 56.19a2.26 2.26 0 0 1-.58 1.55 2.39 2.39 0 0 1-3.23 0 2.25 2.25 0 0 1-.57-1.55 2.27 2.27 0 0 1 .57-1.56 2.39 2.39 0 0 1 3.23 0 2.28 2.28 0 0 1 .58 1.56zM283.47 31.11a2 2 0 0 1-.56 1.46 1.9 1.9 0 0 1-1.35.53 1.92 1.92 0 0 1-1.36-.53 2 2 0 0 1-.55-1.46 1.92 1.92 0 0 1 .55-1.45 1.89 1.89 0 0 1 1.36-.54 1.86 1.86 0 0 1 1.35.54 1.93 1.93 0 0 1 .56 1.45zm-.6 26.79h-2.59V37.32h2.59zM305.28 47.63a13.44 13.44 0 0 1-.7 4.42 9.68 9.68 0 0 1-1.95 3.38 8.87 8.87 0 0 1-3 2.17 9.66 9.66 0 0 1-7.56 0 8.83 8.83 0 0 1-3-2.17 9.68 9.68 0 0 1-1.95-3.38 14.3 14.3 0 0 1 0-8.84 9.87 9.87 0 0 1 1.95-3.4 8.76 8.76 0 0 1 3-2.19 9.55 9.55 0 0 1 7.56 0 8.79 8.79 0 0 1 3 2.19 9.87 9.87 0 0 1 1.95 3.4 13.44 13.44 0 0 1 .7 4.42zm-2.75 0a9.76 9.76 0 0 0-1.79-6.15 6.29 6.29 0 0 0-9.71 0 9.69 9.69 0 0 0-1.79 6.15 9.6 9.6 0 0 0 1.76 6.13 6.33 6.33 0 0 0 9.71 0 9.66 9.66 0 0 0 1.82-6.13z"
+    d: "M103 30.32c.48.87 1 2 1.66 3.24s1.27 2.68 1.95 4.18 1.35 3 2 4.6 1.29 3 1.87 4.42c.59-1.39 1.21-2.86 1.88-4.42s1.33-3.1 2-4.6 1.33-2.89 2-4.18 1.18-2.37 1.65-3.24h5.66c.26 1.83.51 3.88.73 6.15s.43 4.63.6 7.08.33 4.92.48 7.38.27 4.79.37 7h-6q-.12-4-.32-8.76t-.6-9.55c-.48 1.11-1 2.35-1.6 3.7s-1.16 2.71-1.73 4.06-1.13 2.65-1.66 3.88l-1.36 3.17h-4.34c-.37-.88-.82-1.94-1.35-3.17s-1.09-2.53-1.66-3.88-1.15-2.7-1.74-4.06l-1.59-3.7q-.41 4.81-.6 9.55t-.3 8.73h-6c.11-2.18.23-4.5.38-7s.31-4.92.48-7.38.37-4.82.59-7.08.48-4.32.74-6.15zM136.53 36.41a14 14 0 0 1 4.38.59 6.89 6.89 0 0 1 2.81 1.71 6.36 6.36 0 0 1 1.49 2.71 13.4 13.4 0 0 1 .44 3.54V57.3c-.85.19-2 .41-3.55.66a34.32 34.32 0 0 1-5.49.37 17.36 17.36 0 0 1-3.68-.35 7.84 7.84 0 0 1-2.84-1.18 5.35 5.35 0 0 1-1.84-2.13 7.39 7.39 0 0 1-.63-3.22 6.1 6.1 0 0 1 .73-3.1 5.72 5.72 0 0 1 2-2 9 9 0 0 1 2.83-1.1 16.2 16.2 0 0 1 3.3-.34 20.52 20.52 0 0 1 2.05.1 10.65 10.65 0 0 1 1.46.26v-.55a3.29 3.29 0 0 0-.92-2.43 4.43 4.43 0 0 0-3.18-.92 21.15 21.15 0 0 0-3 .22 12.88 12.88 0 0 0-2.55.62l-.75-4.78c.34-.11.77-.22 1.29-.34s1.08-.22 1.69-.31 1.26-.18 1.93-.25 1.34-.12 2.03-.12zm.47 17.35h1.67c.53 0 1-.07 1.28-.12V49.1c-.24-.05-.6-.1-1.08-.16A11.59 11.59 0 0 0 136 49a4.32 4.32 0 0 0-1.3.38 2.23 2.23 0 0 0-.87.76 2.43 2.43 0 0 0 .61 3.12 5.17 5.17 0 0 0 2.56.5zM167.1 55.27q0 5.13-2.61 7.62c-1.74 1.66-4.42 2.49-8.06 2.49a21.44 21.44 0 0 1-3.82-.34 23.17 23.17 0 0 1-3.54-.89l1-5a18.43 18.43 0 0 0 2.93.88 17.38 17.38 0 0 0 3.48.31 4.82 4.82 0 0 0 3.6-1.11 4 4 0 0 0 1.06-2.86v-.76a10.14 10.14 0 0 1-2 .66 11 11 0 0 1-2.21.22 8.48 8.48 0 0 1-6.65-2.57 10.36 10.36 0 0 1-2.28-7.16 11.81 11.81 0 0 1 .72-4.21 9 9 0 0 1 2.09-3.24 9.26 9.26 0 0 1 3.36-2.09 13 13 0 0 1 4.5-.73c.71 0 1.45 0 2.21.09s1.5.16 2.25.26 1.45.24 2.12.38 1.28.3 1.82.46zm-13-8.51q0 5 4 5a5.89 5.89 0 0 0 1.71-.24 7 7 0 0 0 1.36-.56v-9.5c-.3-.05-.64-.1-1-.14s-.86-.06-1.39-.06a4.11 4.11 0 0 0-3.51 1.55 6.51 6.51 0 0 0-1.19 3.95zM169.69 47.59a12.85 12.85 0 0 1 .85-4.88 10.46 10.46 0 0 1 2.25-3.48 9.34 9.34 0 0 1 3.2-2.11 10 10 0 0 1 3.72-.71 9.29 9.29 0 0 1 7 2.72q2.58 2.73 2.58 8v1.14c0 .42-.06.77-.08 1.09h-13.44a4 4 0 0 0 1.72 2.91 6.89 6.89 0 0 0 4 1.07 17.12 17.12 0 0 0 3.21-.3 12.13 12.13 0 0 0 2.56-.73l.8 4.81a8.19 8.19 0 0 1-1.27.48 16.54 16.54 0 0 1-1.77.42c-.65.12-1.35.22-2.09.29a21 21 0 0 1-2.23.13 13.16 13.16 0 0 1-4.92-.84 9.65 9.65 0 0 1-3.46-2.29 9.24 9.24 0 0 1-2-3.44 13.59 13.59 0 0 1-.63-4.28zm13.92-2.27a6.11 6.11 0 0 0-.25-1.47 3.79 3.79 0 0 0-.68-1.27 3.53 3.53 0 0 0-1.16-.92 3.73 3.73 0 0 0-1.73-.36 4.07 4.07 0 0 0-1.71.34 3.47 3.47 0 0 0-1.19.9 3.92 3.92 0 0 0-.74 1.29 8.81 8.81 0 0 0-.38 1.49zM198.66 56.15a9 9 0 0 0 5-1.18 4.2 4.2 0 0 0 1.79-3.81 5.12 5.12 0 0 0-.57-2.53 5.51 5.51 0 0 0-1.54-1.72 9.9 9.9 0 0 0-2.19-1.19l-2.58-1a33.51 33.51 0 0 1-3.07-1.38 10.41 10.41 0 0 1-2.3-1.61 6.08 6.08 0 0 1-1.46-2 6.83 6.83 0 0 1-.49-2.71 6.4 6.4 0 0 1 2.34-5.37 10.41 10.41 0 0 1 6.53-1.83 14.48 14.48 0 0 1 2.19.16 17.75 17.75 0 0 1 2 .42 13.68 13.68 0 0 1 1.71.58 6.41 6.41 0 0 1 1.29.67l-1 2.27a9.46 9.46 0 0 0-2.81-1.27 12.71 12.71 0 0 0-3.56-.48 10.6 10.6 0 0 0-2.41.26 5.25 5.25 0 0 0-1.89.83 4.15 4.15 0 0 0-1.25 1.45 4.47 4.47 0 0 0-.46 2.11 4.41 4.41 0 0 0 .48 2.15 4.69 4.69 0 0 0 1.33 1.52 10.6 10.6 0 0 0 2 1.15l2.51 1.08c1.09.45 2.12.9 3.08 1.35a11.12 11.12 0 0 1 2.53 1.59 6.62 6.62 0 0 1 1.71 2.23 7.25 7.25 0 0 1 .64 3.22 6.43 6.43 0 0 1-2.61 5.61 11.87 11.87 0 0 1-7.06 1.88 18.59 18.59 0 0 1-2.91-.21 17.7 17.7 0 0 1-2.34-.49 14 14 0 0 1-1.76-.62 11.18 11.18 0 0 1-1.11-.56l.87-2.34c.27.16.63.34 1.08.55a12.61 12.61 0 0 0 1.59.62 15.74 15.74 0 0 0 2.07.5 15.34 15.34 0 0 0 2.63.1zM227 57.18c-.76.21-1.8.45-3.1.72a24.83 24.83 0 0 1-4.78.39 9.75 9.75 0 0 1-3.86-.67 6.24 6.24 0 0 1-2.5-1.91 7.71 7.71 0 0 1-1.38-3 17.06 17.06 0 0 1-.41-3.86V37.32h2.58V48a18.45 18.45 0 0 0 .32 3.7 6 6 0 0 0 1 2.45 4 4 0 0 0 1.85 1.35 7.93 7.93 0 0 0 2.76.42 22.75 22.75 0 0 0 3.19-.2 8.09 8.09 0 0 0 1.71-.36V37.32H227zM235 31.11a1.85 1.85 0 0 1-1.91 2 1.9 1.9 0 0 1-1.35-.53 2 2 0 0 1-.56-1.46 1.93 1.93 0 0 1 .56-1.45 1.86 1.86 0 0 1 1.35-.54 1.87 1.87 0 0 1 1.91 2zm-.6 26.79h-2.59V37.32h2.59zM241.68 37.32h8.2v2.19h-8.2v11a11.06 11.06 0 0 0 .3 2.84 4 4 0 0 0 .85 1.69 2.75 2.75 0 0 0 1.36.8 7.32 7.32 0 0 0 1.75.2 7.56 7.56 0 0 0 2.62-.38 11.69 11.69 0 0 0 1.56-.7l.63 2.15a9.45 9.45 0 0 1-1.95.82 9.75 9.75 0 0 1-3 .45 9.07 9.07 0 0 1-3.21-.49 4.61 4.61 0 0 1-2.06-1.51 6.16 6.16 0 0 1-1.1-2.53 17.74 17.74 0 0 1-.32-3.58v-19l2.59-.48zM251.43 47.59a13 13 0 0 1 .78-4.72 10.15 10.15 0 0 1 2-3.36 8 8 0 0 1 2.86-2 8.71 8.71 0 0 1 3.33-.66 7.8 7.8 0 0 1 6 2.47q2.24 2.47 2.24 7.6v.64a5.54 5.54 0 0 1-.06.6h-14.4a9.1 9.1 0 0 0 1.87 5.84q1.74 2 5.57 2a11.38 11.38 0 0 0 3.34-.4 13.37 13.37 0 0 0 1.79-.68l.48 2.23a10.73 10.73 0 0 1-2.09.76 13.25 13.25 0 0 1-3.6.43 12 12 0 0 1-4.62-.79 8.31 8.31 0 0 1-3.14-2.23 8.8 8.8 0 0 1-1.79-3.4 15.85 15.85 0 0 1-.56-4.33zM266 46a8.21 8.21 0 0 0-1.52-5 4.89 4.89 0 0 0-4-1.79 5.43 5.43 0 0 0-2.49.56 6.29 6.29 0 0 0-1.91 1.49 7 7 0 0 0-1.28 2.17 9 9 0 0 0-.53 2.59zM276.15 56.19a2.26 2.26 0 0 1-.58 1.55 2.39 2.39 0 0 1-3.23 0 2.25 2.25 0 0 1-.57-1.55 2.27 2.27 0 0 1 .57-1.56 2.39 2.39 0 0 1 3.23 0 2.28 2.28 0 0 1 .58 1.56zM283.47 31.11a2 2 0 0 1-.56 1.46 1.9 1.9 0 0 1-1.35.53 1.92 1.92 0 0 1-1.36-.53 2 2 0 0 1-.55-1.46 1.92 1.92 0 0 1 .55-1.45 1.89 1.89 0 0 1 1.36-.54 1.86 1.86 0 0 1 1.35.54 1.93 1.93 0 0 1 .56 1.45zm-.6 26.79h-2.59V37.32h2.59zM305.28 47.63a13.44 13.44 0 0 1-.7 4.42 9.68 9.68 0 0 1-1.95 3.38 8.87 8.87 0 0 1-3 2.17 9.66 9.66 0 0 1-7.56 0 8.83 8.83 0 0 1-3-2.17 9.68 9.68 0 0 1-1.95-3.38 14.3 14.3 0 0 1 0-8.84 9.87 9.87 0 0 1 1.95-3.4 8.76 8.76 0 0 1 3-2.19 9.55 9.55 0 0 1 7.56 0 8.79 8.79 0 0 1 3 2.19 9.87 9.87 0 0 1 1.95 3.4 13.44 13.44 0 0 1 .7 4.42zm-2.75 0a9.76 9.76 0 0 0-1.79-6.15 6.29 6.29 0 0 0-9.71 0 9.69 9.69 0 0 0-1.79 6.15 9.6 9.6 0 0 0 1.76 6.13 6.33 6.33 0 0 0 9.71 0 9.66 9.66 0 0 0 1.82-6.13z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#f48047",
-    d: "M60.08 25.77l10.28-5.94L36.97 0 3.72 19.84l10.27 5.93 22.97-13.3 23.12 13.3z"
+    d: "M60.08 25.77l10.28-5.94L36.97 0 3.72 19.84l10.27 5.93 22.97-13.3 23.12 13.3z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#f16423",
-    d: "M37.07 43.5L0 22.12V68.03l10.3 5.95V40.03l26.76 15.94 26.7-15.95v33.94l10.27-5.93V22.12L37.07 43.5z"
+    d: "M37.07 43.5L0 22.12V68.03l10.3 5.95V40.03l26.76 15.94 26.7-15.95v33.94l10.27-5.93V22.12L37.07 43.5z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fill: "#f48047",
-    d: "M59.93 64.26L37.02 77.5h-.01l-1.56-.9-21.32-12.29v11.86L37.01 89.4l22.92-13.25V64.26z"
+    d: "M59.93 64.26L37.02 77.5h-.01l-1.56-.9-21.32-12.29v11.86L37.01 89.4l22.92-13.25V64.26z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
   }));
 });
 
@@ -1031,6 +1480,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/picture-text.jsx";
 
 
 function _templateObject3() {
@@ -1073,8 +1523,25 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
       _ref$hide = _ref.hide,
       hide = _ref$hide === void 0 ? false : _ref$hide;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
-    hide: hide
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Figure, null, picture), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, null, children));
+    hide: hide,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Figure, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, picture), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, children));
 });
 var Section = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject(), function (p) {
   return p.hide ? "none" : "flex";
@@ -1097,6 +1564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/picture-vectorpng.jsx";
 
 
 function _templateObject2() {
@@ -1137,20 +1605,45 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Picture, {
     widthDesktop: widthDesktop,
     marginDesktop: marginDesktop,
-    className: className
+    className: className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
     type: "image/webp",
     srcSet: "/static/pictures/".concat(image, "-large.webp"),
-    media: "(min-width: 600px)"
+    media: "(min-width: 600px)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
     type: "image/webp",
-    srcSet: "/static/pictures/".concat(image, "-small.webp")
+    srcSet: "/static/pictures/".concat(image, "-small.webp"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
-    srcSet: "/static/pictures/".concat(image, ".png")
+    srcSet: "/static/pictures/".concat(image, ".png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
     src: "/static/pictures/".concat(image, ".png"),
     alt: alt,
-    title: title
+    title: title,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }));
 });
 var Picture = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].picture(_templateObject(), _styles__WEBPACK_IMPORTED_MODULE_2__["mediaQueries"].tabletUp, function (p) {
@@ -1210,6 +1703,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/text-picture.jsx";
 
 
 function _templateObject3() {
@@ -1254,8 +1748,25 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
       hide = _ref$hide === void 0 ? false : _ref$hide;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
     hide: hide,
-    className: className
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, null, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Figure, null, picture));
+    className: className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Content, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Figure, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, picture));
 });
 var Section = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section(_templateObject(), function (p) {
   return p.hide ? "none" : "flex";
@@ -1282,6 +1793,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_player_lib_players_Vimeo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_player_lib_players_Vimeo__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/components/video-player.jsx";
 
 
 function _templateObject3() {
@@ -1361,16 +1873,44 @@ function (_Component) {
         return '';
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Background, {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Background, {
         onClick: function onClick() {
           return _this.props.dispatch(Object(_data_store__WEBPACK_IMPORTED_MODULE_2__["stopVideo"])());
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AspectRatio, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_player_lib_players_Vimeo__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AspectRatio, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_player_lib_players_Vimeo__WEBPACK_IMPORTED_MODULE_3___default.a, {
         url: this.props.video,
         width: "100%",
         height: "100%",
         className: "player-inner",
-        playing: true
+        playing: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
       }))));
     }
   }]);
@@ -8813,207 +9353,24 @@ module.exports = __webpack_require__(/*! ./dist/lib/link */ "./node_modules/next
 /***/ }),
 
 /***/ "./node_modules/next/node_modules/object-assign/index.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/next/node_modules/object-assign/index.js ***!
-  \***************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/object-assign/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
-
-/* eslint-disable no-unused-vars */
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-var propIsEnumerable = Object.prototype.propertyIsEnumerable;
-
-function toObject(val) {
-	if (val === null || val === undefined) {
-		throw new TypeError('Object.assign cannot be called with null or undefined');
-	}
-
-	return Object(val);
-}
-
-function shouldUseNative() {
-	try {
-		if (!Object.assign) {
-			return false;
-		}
-
-		// Detect buggy property enumeration order in older V8 versions.
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
-		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
-		test1[5] = 'de';
-		if (Object.getOwnPropertyNames(test1)[0] === '5') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test2 = {};
-		for (var i = 0; i < 10; i++) {
-			test2['_' + String.fromCharCode(i)] = i;
-		}
-		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
-			return test2[n];
-		});
-		if (order2.join('') !== '0123456789') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test3 = {};
-		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
-			test3[letter] = letter;
-		});
-		if (Object.keys(Object.assign({}, test3)).join('') !==
-				'abcdefghijklmnopqrst') {
-			return false;
-		}
-
-		return true;
-	} catch (err) {
-		// We don't expect any of the above to throw, but better to be safe.
-		return false;
-	}
-}
-
-module.exports = shouldUseNative() ? Object.assign : function (target, source) {
-	var from;
-	var to = toObject(target);
-	var symbols;
-
-	for (var s = 1; s < arguments.length; s++) {
-		from = Object(arguments[s]);
-
-		for (var key in from) {
-			if (hasOwnProperty.call(from, key)) {
-				to[key] = from[key];
-			}
-		}
-
-		if (getOwnPropertySymbols) {
-			symbols = getOwnPropertySymbols(from);
-			for (var i = 0; i < symbols.length; i++) {
-				if (propIsEnumerable.call(from, symbols[i])) {
-					to[symbols[i]] = from[symbols[i]];
-				}
-			}
-		}
-	}
-
-	return to;
-};
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/object-assign/index.js");
 
 /***/ }),
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/next/node_modules/prop-types/checkPropTypes.js ***!
-  \*********************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-var printWarning = function() {};
-
-if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
-  var loggedTypeFailures = {};
-
-  printWarning = function(text) {
-    var message = 'Warning: ' + text;
-    if (typeof console !== 'undefined') {
-      console.error(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-}
-
-/**
- * Assert that the values match with the type specs.
- * Error messages are memorized and will only be shown once.
- *
- * @param {object} typeSpecs Map of name to a ReactPropType
- * @param {object} values Runtime values that need to be type-checked
- * @param {string} location e.g. "prop", "context", "child context"
- * @param {string} componentName Name of the component for error messages.
- * @param {?Function} getStack Returns the component stack.
- * @private
- */
-function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
-  if (true) {
-    for (var typeSpecName in typeSpecs) {
-      if (typeSpecs.hasOwnProperty(typeSpecName)) {
-        var error;
-        // Prop type validation may throw. In case they do, we don't want to
-        // fail the render phase where it didn't fail before. So we log it.
-        // After these have been cleaned up, we'll let them throw.
-        try {
-          // This is intentionally an invariant that gets caught. It's the same
-          // behavior as without this statement except with a better message.
-          if (typeof typeSpecs[typeSpecName] !== 'function') {
-            var err = Error(
-              (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
-              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
-            );
-            err.name = 'Invariant Violation';
-            throw err;
-          }
-          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
-        } catch (ex) {
-          error = ex;
-        }
-        if (error && !(error instanceof Error)) {
-          printWarning(
-            (componentName || 'React class') + ': type specification of ' +
-            location + ' `' + typeSpecName + '` is invalid; the type checker ' +
-            'function must return `null` or an `Error` but returned a ' + typeof error + '. ' +
-            'You may have forgotten to pass an argument to the type checker ' +
-            'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' +
-            'shape all require an argument).'
-          )
-
-        }
-        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
-          // Only monitor this failure once because there tends to be a lot of the
-          // same error.
-          loggedTypeFailures[error.message] = true;
-
-          var stack = getStack ? getStack() : '';
-
-          printWarning(
-            'Failed ' + location + ' type: ' + error.message + (stack != null ? stack : '')
-          );
-        }
-      }
-    }
-  }
-}
-
-module.exports = checkPropTypes;
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9620,26 +9977,13 @@ if (true) {
 /***/ }),
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \*******************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
-
-module.exports = ReactPropTypesSecret;
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -11022,12 +11366,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -13796,12 +14140,12 @@ module.exports = hoistNonReactStatics;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_eb02e7dfbeacbb2663f4 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_eb02e7dfbeacbb2663f4 */ "dll-reference dll_eb02e7dfbeacbb2663f4"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -18734,33 +19078,13 @@ module.exports = {
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
+/*!******************************************************************************************************!*\
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_a4b62e1832b1a74d3177 ***!
+  \******************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1, eval)("this");
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
+module.exports = (__webpack_require__(/*! dll-reference dll_a4b62e1832b1a74d3177 */ "dll-reference dll_a4b62e1832b1a74d3177"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -18849,6 +19173,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_github__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/github */ "./sections/github.jsx");
 /* harmony import */ var _sections_manual__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sections/manual */ "./sections/manual.jsx");
 /* harmony import */ var _sections_cloud__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sections/cloud */ "./sections/cloud.jsx");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/pages/index.jsx";
 
 
 
@@ -18858,8 +19183,43 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Open Source CMS Suite for Magento 2 | MageSuite.io"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_hero__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_why__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_github__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_manual__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_cloud__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+    title: "Open Source CMS Suite for Magento 2 | MageSuite.io",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_hero__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_why__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_github__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_manual__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections_cloud__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }));
 });
     (function (Component, route) {
       if(!Component) return
@@ -18902,6 +19262,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/button */ "./components/button.jsx");
 /* harmony import */ var _components_logos_magesuite_cloud__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/logos/magesuite-cloud */ "./components/logos/magesuite-cloud.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/cloud.jsx";
 
 
 function _templateObject2() {
@@ -18936,15 +19297,42 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Article, {
-    className: "limited-width"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CloudLogo, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_logos_magesuite_cloud__WEBPACK_IMPORTED_MODULE_7__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "limited-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CloudLogo, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_logos_magesuite_cloud__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_5__["default"], {
     size: 10,
     distance: true,
     light: true,
-    centered: true
+    centered: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
   }, "Our Magento SLA keeps your Magento Commerce and Magento Open Source always up to date. We do this in the cloud with all your customizations and connections."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     as: "a",
-    href: "https://www.creativestyle.de/magento-cloud/"
+    href: "https://www.creativestyle.de/magento-cloud/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
   }, "Learn more"));
 });
 var Article = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].article(_templateObject(), _components_styles__WEBPACK_IMPORTED_MODULE_2__["colors"].bl, Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(80), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(100), _components_styles__WEBPACK_IMPORTED_MODULE_2__["mediaQueries"].mobile, Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(40), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(20));
@@ -18966,6 +19354,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/styles */ "./components/styles.jsx");
 /* harmony import */ var _components_logos_magesuite_white__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/logos/magesuite-white */ "./components/logos/magesuite-white.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/footer.jsx";
 
 
 function _templateObject8() {
@@ -19055,12 +19444,69 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Footer, {
-    className: props.className
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Area1, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LinksList, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListItem, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
-    href: "https://demo.magesuite.io/"
-  }, "Visit demo store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListItem, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
-    href: "https://github.com/magesuite/"
-  }, "MageSuite on GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Area2, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLogo, null))));
+    className: props.className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Area1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LinksList, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListItem, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
+    href: "https://demo.magesuite.io/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Visit demo store")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListItem, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
+    href: "https://github.com/magesuite/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "MageSuite on GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Area2, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLogo, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }))));
 });
 var Footer = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].footer(_templateObject(), _components_styles__WEBPACK_IMPORTED_MODULE_1__["colors"].d);
 var Inner = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject2(), _components_styles__WEBPACK_IMPORTED_MODULE_1__["mediaQueries"].mobile, Object(_components_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(20), _components_styles__WEBPACK_IMPORTED_MODULE_1__["mediaQueries"].tabletUp, Object(_components_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(40), Object(_components_styles__WEBPACK_IMPORTED_MODULE_1__["rem"])(100));
@@ -19090,6 +19536,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/button */ "./components/button.jsx");
 /* harmony import */ var _components_styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/styles */ "./components/styles.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/github.jsx";
 
 
 function _templateObject6() {
@@ -19162,28 +19609,87 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_banner_box__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    image: "bg-1"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BannerBoxInner, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col0, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GithubLogo, {
+    image: "bg-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BannerBoxInner, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col0, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GithubLogo, {
     viewBox: "0 0 1024 1024",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z",
     transform: "scale(64)",
-    fill: "#1B1F23"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col1, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    fill: "#1B1F23",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col1, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_3__["default"], {
     as: "h2",
-    size: 20
-  }, "MageSuite on GitHub"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    size: 20
-  }, "This project is maintained and updated permanently. Checkout the newest version on GitHub. Contributors are welcome.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col2, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
     size: 20,
-    distance: true
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "MageSuite on GitHub"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    size: 20,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "This project is maintained and updated permanently. Checkout the newest version on GitHub. Contributors are welcome.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Col2, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    size: 20,
+    distance: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
   }, "MageSuite is released under the Open Source License v. 3.0 (OSL-3.0). You can download it for free on GitHub."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_4__["default"], {
     as: "a",
-    href: "https://github.com/magesuite/magesuite"
+    href: "https://github.com/magesuite/magesuite",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
   }, "Download"))));
 });
 var BannerBoxInner = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].div(_templateObject(), _components_styles__WEBPACK_IMPORTED_MODULE_5__["colors"].w, _components_styles__WEBPACK_IMPORTED_MODULE_5__["mediaQueries"].mobile);
@@ -19214,6 +19720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_icons_icon_play__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/icons/icon-play */ "./components/icons/icon-play.jsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _data_store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/store */ "./data/store.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/hero.jsx";
 
 
 function _templateObject4() {
@@ -19227,7 +19734,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    position: relative;\n    background-color: ", ";\n    @media ", " {\n        height: calc(100vh - ", ");\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    position: relative;\n    background-color: ", ";\n    @media ", " {\n        min-height: calc(100vh - ", ");\n        padding: 2rem;\n    }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -19247,7 +19754,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n"]);
+  var data = _taggedTemplateLiteral(["\n    @media ", " {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -19303,25 +19810,61 @@ function (_Component) {
       var _this = this;
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
-        as: "section"
+        as: "section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Video, {
         loop: true,
         muted: true,
-        ref: "video"
+        ref: "video",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
         src: "/static/video/hero-video.mp4",
-        type: "video/mp4"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Slogan, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        type: "video/mp4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Slogan, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_1__["default"], {
         as: "p",
         light: true,
-        centered: true
+        centered: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
       }, "Open Source CMS for Magento 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
         centered: true,
-        light: true
+        light: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
       }, "Content Constructor is a CMS module within MageSuite and a free and Open Source alternative to Magento PageBuilder. Check out the demo video."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PlayButton, {
         onClick: function onClick(e) {
           return _this.playVideo();
-        }
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
       })));
     }
   }, {
@@ -19344,7 +19887,7 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_7__["connect"])()(Hero));
-var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject());
+var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject(), _components_styles__WEBPACK_IMPORTED_MODULE_4__["mediaQueries"].tabletUp);
 var Video = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].video(_templateObject2(), _components_styles__WEBPACK_IMPORTED_MODULE_4__["mediaQueries"].mobile);
 var Section = Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["default"])(_components_layout__WEBPACK_IMPORTED_MODULE_5__["MaxWidth"])(_templateObject3(), _components_styles__WEBPACK_IMPORTED_MODULE_4__["colors"].bl, _components_styles__WEBPACK_IMPORTED_MODULE_4__["mediaQueries"].mobile, Object(_components_styles__WEBPACK_IMPORTED_MODULE_4__["rem"])(96));
 var PlayButton = Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["default"])(_components_icons_icon_play__WEBPACK_IMPORTED_MODULE_6__["default"])(_templateObject4(), _components_styles__WEBPACK_IMPORTED_MODULE_4__["mediaQueries"].mobile);
@@ -19369,6 +19912,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_paragraph__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/paragraph */ "./components/paragraph.jsx");
 /* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/button */ "./components/button.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/manual.jsx";
 
 
 function _templateObject2() {
@@ -19402,20 +19946,56 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Article, {
-    className: "limited-width"
+    className: "limited-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_text__WEBPACK_IMPORTED_MODULE_1__["default"], {
     picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Picture, {
-      image: "g-manual"
-    })
+      image: "g-manual",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_4__["default"], {
     as: "h3",
-    size: "20"
+    size: "20",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
   }, "User Manual"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_5__["default"], {
     size: "20",
-    distance: true
-  }, "The user manual explains all current features of the MageSuite. It includes the functionalities of the MageSuite CMS \"Content Constructor\" and its components as well as numerous marketing and UX extensions for Magento 2.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Download the user manual for free and learn how you can now use Magento 2 for content commerce."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    distance: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "The user manual explains all current features of the MageSuite. It includes the functionalities of the MageSuite CMS \"Content Constructor\" and its components as well as numerous marketing and UX extensions for Magento 2.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), "Download the user manual for free and learn how you can now use Magento 2 for content commerce."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "http://bit.ly/2RY1pu0",
-    as: "a"
+    as: "a",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
   }, "Download")));
 });
 var Article = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].article(_templateObject(), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(100), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(80), _components_styles__WEBPACK_IMPORTED_MODULE_2__["mediaQueries"].mobile, Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(40), Object(_components_styles__WEBPACK_IMPORTED_MODULE_2__["rem"])(20));
@@ -19441,6 +20021,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _data_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/store */ "./data/store.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/nav.jsx";
 
 
 function _templateObject8() {
@@ -19570,14 +20151,76 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Bar, {
-        as: this.props.as
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BarInner, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLogo, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavContainer, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavItem, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/#why"
+        as: this.props.as,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BarInner, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledLogo, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavContainer, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavItem, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/#why",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavLink, {
-        href: ""
-      }, "Why MageSuite?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavItem, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavLink, {
-        href: "https://github.com/magesuite/"
-      }, "GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DemoContainer, null)));
+        href: "",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Why MageSuite?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavItem, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavLink, {
+        href: "https://github.com/magesuite/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(DemoContainer, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      })));
     }
   }]);
 
@@ -19616,6 +20259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_paragraph__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/paragraph */ "./components/paragraph.jsx");
 /* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/button */ "./components/button.jsx");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/krzysztof/www/magesuite-web/sections/why.jsx";
 
 
 function _templateObject2() {
@@ -19690,94 +20334,234 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Article, {
         className: "limited-width",
-        id: "why"
+        id: "why",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h2",
-        centered: true
+        centered: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
       }, "What is MageSuite?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         centered: true,
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
       }, "MageSuite is a collection of OpenSource modules adding valuable features and enhancements that are missing in your native Magento 2 Open Source shop."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_features_tabs__WEBPACK_IMPORTED_MODULE_2__["default"], {
         tabClicked: this.tabClicked.bind(this),
-        activeTab: this.state.tab
+        activeTab: this.state.tab,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-cms",
           widthDesktop: "60%",
-          marginDesktop: "2rem 9rem 0 0"
+          marginDesktop: "2rem 9rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'cms'
+        hide: this.state.tab != 'cms',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
       }, "Content Constructor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
       }, "The MageSuite Content Constructor is an enhancement of the Magento CMS giving you the possibility to build up any CMS page by combining numerous types of components within a few clicks and with no need to develop separate templates. In addition to that, it allows you to use these components also on your category page and product detail page. The Content Constructor is a free and Open Source alternative to the Magento 2 PageBuilder.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-performance",
           widthDesktop: "80%",
-          marginDesktop: "2rem 1rem 0 0"
+          marginDesktop: "2rem 1rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 39
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'perf'
+        hide: this.state.tab != 'perf',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
       }, "High Performance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
       }, "To boost loading and rendering times of your Magento webshop, MageSuite provides a couple of performance improvements in the frontend and backend. Furthermore, the Cache Warmer rebuilds your Varnish cache for the most important Magento pages after having flushed the cache. The MageSuite Cloud makes your Magento Open Source even ready for AWS. It increases the availability of your webshop in traffic peaks by providing features like horizontal auto-scaling.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-security",
           widthDesktop: "50%",
-          marginDesktop: "2rem 11rem 0 0"
+          marginDesktop: "2rem 11rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 47
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'security'
+        hide: this.state.tab != 'security',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
       }, "Security & GDPR"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
       }, "To maximize the security of personal data, MageSuite provides a module, which helps you to meet the requirements of the General Data Protection Regulation (GDPR / DSGVO). It restricts access to customer data and anonymizes personal information in your Magento admin panel so that users without suitable rights for processing data cannot see it.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-search",
           widthDesktop: "60%",
-          marginDesktop: "2rem 9rem 0 0"
+          marginDesktop: "2rem 9rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 56
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'search'
+        hide: this.state.tab != 'search',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
       }, "Search Engine"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
       }, "MageSuite integrates the elasticsearch engine by using the OpenSource elasticsuite extension and providing you with a comprehensive feature set for your Magento search such as advanced auto-suggest, improved category filters, optimizing the search result relevance and many more. In addition to that MageSuite enhances the search UX, allows also horizontal layered navigation filters and integrates elasticsuite with the Content Constructor components.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-marketing",
           widthDesktop: "60%",
-          marginDesktop: "2rem 9rem 0 0"
+          marginDesktop: "2rem 9rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'marketing'
+        hide: this.state.tab != 'marketing',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
       }, "Marketing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
       }, "To increase your sales and conversion rate, MageSuite provides you with many marketing features such as Daily Deals, Positive Indicators, Image Teasers inside the product grid, a simple blog functionality, product gifts, brand management, SEO improvements, identification and display of bestsellers and many more. Many of those have been integrated with the Content Constructor, and that allows you to create various marketing campaign landing pages.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextPicture, {
         picture: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_picture_vectorpng__WEBPACK_IMPORTED_MODULE_4__["default"], {
           image: "g-feature-ux",
           widthDesktop: "80%",
-          marginDesktop: "2rem 2rem 0 0"
+          marginDesktop: "2rem 2rem 0 0",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 74
+          },
+          __self: this
         }),
-        hide: this.state.tab != 'ux'
+        hide: this.state.tab != 'ux',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headline__WEBPACK_IMPORTED_MODULE_5__["default"], {
         as: "h3",
-        size: "20"
+        size: "20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
       }, "User Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_paragraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
         size: "20",
-        distance: true
+        distance: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
       }, "MageSuite improves the user experience for customers and administrators.   Beside smaller UX enhancements in the search, layered navigation filters, checkout, content management and mobile optimizations there are also brand new features such a the Product Finder. It allows you to define a product questionnaire within the Content Constructor. By that, you can consult your customers at any place of your Magento webshop which product fits best according to their requirements.")));
     }
   }, {
@@ -19812,14 +20596,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_eb02e7dfbeacbb2663f4":
+/***/ "dll-reference dll_a4b62e1832b1a74d3177":
 /*!*******************************************!*\
-  !*** external "dll_eb02e7dfbeacbb2663f4" ***!
+  !*** external "dll_a4b62e1832b1a74d3177" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_eb02e7dfbeacbb2663f4;
+module.exports = dll_a4b62e1832b1a74d3177;
 
 /***/ })
 
